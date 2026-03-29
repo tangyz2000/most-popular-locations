@@ -48,4 +48,15 @@ EXCLUDED_TYPES = {
     "drugstore",
     "hospital",
     "medical_center",
+    # Lodging
+    "hotel",
+    "motel",
+    "extended_stay_hotel",
+    "budget_japanese_inn",
+    "japanese_inn",
+    "lodging",
+    # Automotive
+    "car_dealer",
+    "car_rental",
+    "used_car_dealer",
 }

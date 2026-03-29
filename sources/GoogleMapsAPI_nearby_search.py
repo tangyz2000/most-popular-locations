@@ -1,4 +1,5 @@
 import math
+import time
 
 import h3
 import httpx
@@ -42,7 +43,12 @@ def _search_nearby(lat: float, lng: float, radius_meters: float) -> list[dict]:
         "X-Goog-Api-Key": API_KEY,
         "X-Goog-FieldMask": PLACE_FIELD_MASK,
     }
-    response = httpx.post(NEARBY_SEARCH_URL, json=payload, headers=headers)
+    for attempt in range(3):
+        response = httpx.post(NEARBY_SEARCH_URL, json=payload, headers=headers)
+        if response.status_code < 500:
+            break
+        print(f"[NearbySearch] {response.status_code} error (attempt {attempt + 1}): {response.text}")
+        time.sleep(2 ** attempt)
     response.raise_for_status()
     return [_normalize(p) for p in response.json().get("places", [])]
 
