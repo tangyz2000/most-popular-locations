@@ -58,5 +58,4 @@ EXCLUDED_TYPES = {
     # Automotive
     "car_dealer",
     "car_rental",
-    "used_car_dealer",
 }

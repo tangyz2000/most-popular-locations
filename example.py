@@ -60,7 +60,7 @@ def get_popular_places(city: str, radius_meters: float) -> list[dict]:
 
 
 def main():
-    city = "Hong Kong"
+    city = "Macao"
     radius_meters = 8000
     output_file = "results.txt"
 
