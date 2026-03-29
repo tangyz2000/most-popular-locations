@@ -1,3 +1,6 @@
+import shutil
+from pathlib import Path
+
 import httpx
 
 from constants import API_KEY, GEOCODING_URL, MAX_RADIUS_METERS
@@ -57,7 +60,7 @@ def get_popular_places(city: str, radius_meters: float) -> list[dict]:
 
 
 def main():
-    city = "San Francisco, CA"
+    city = "New Orleans, LA"
     radius_meters = 8000
     output_file = "results.txt"
 
@@ -83,7 +86,10 @@ def main():
 
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(output)
-    print(f"Done. {len(places)} places written to {output_file}.")
+
+    cached = Path("cached_cities") / f"{city}.txt"
+    shutil.copy(output_file, cached)
+    print(f"Done. {len(places)} places written to {output_file} and cached to {cached}.")
 
 
 if __name__ == "__main__":
