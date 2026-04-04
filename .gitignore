@@ -211,3 +211,6 @@ __marimo__/
 
 # Output
 results.txt
+
+# Logs — search_quality.log is intentionally committed to track search quality over time
+!logs/search_quality.log

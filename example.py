@@ -4,6 +4,7 @@ from pathlib import Path
 import httpx
 
 import api_stats
+import search_log
 from constants import API_KEY, GEOCODING_URL, MAX_RADIUS_METERS
 from sources import GoogleMapsAPI_nearby_search, GoogleMapsAPI_text_search
 
@@ -92,6 +93,7 @@ def main():
     cached = Path("cached_cities") / f"{city}.txt"
     shutil.copy(output_file, cached)
     print(f"Done. {len(places)} places written to {output_file} and cached to {cached}.")
+    search_log.record(city, radius_meters, places)
     api_stats.print_stats()
 
 
