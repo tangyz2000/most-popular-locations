@@ -3,6 +3,7 @@ from pathlib import Path
 
 import httpx
 
+import api_stats
 from constants import API_KEY, GEOCODING_URL, MAX_RADIUS_METERS
 from sources import GoogleMapsAPI_nearby_search, GoogleMapsAPI_text_search
 
@@ -12,6 +13,7 @@ SOURCES = [
 ]
 
 
+@api_stats.track
 def get_coordinates(city: str) -> tuple[float, float]:
     """Get latitude and longitude for a city name using the Geocoding API."""
     response = httpx.get(GEOCODING_URL, params={"address": city, "key": API_KEY})
@@ -60,7 +62,7 @@ def get_popular_places(city: str, radius_meters: float) -> list[dict]:
 
 
 def main():
-    city = "Macao"
+    city = "San Francisco"
     radius_meters = 8000
     output_file = "results.txt"
 
@@ -90,6 +92,7 @@ def main():
     cached = Path("cached_cities") / f"{city}.txt"
     shutil.copy(output_file, cached)
     print(f"Done. {len(places)} places written to {output_file} and cached to {cached}.")
+    api_stats.print_stats()
 
 
 if __name__ == "__main__":

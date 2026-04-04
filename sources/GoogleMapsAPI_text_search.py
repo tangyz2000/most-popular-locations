@@ -1,5 +1,6 @@
 import httpx
 
+import api_stats
 from constants import (
     API_KEY,
     EXCLUDED_TYPES,
@@ -24,6 +25,7 @@ def fetch(lat: float, lng: float, radius_meters: float) -> list[dict]:
     return places
 
 
+@api_stats.track
 def _get_nearby_cities(lat: float, lng: float, radius_meters: float = 40000) -> list[dict]:
     payload = {
         "locationRestriction": {
@@ -56,6 +58,7 @@ def _get_nearby_cities(lat: float, lng: float, radius_meters: float = 40000) -> 
     return unique
 
 
+@api_stats.track
 def _search_text(lat: float, lng: float, radius_meters: float) -> list[dict]:
     headers = {
         "Content-Type": "application/json",
