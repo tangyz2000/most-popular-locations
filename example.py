@@ -1,3 +1,4 @@
+import json
 import shutil
 from pathlib import Path
 
@@ -28,17 +29,14 @@ def get_coordinates(city: str) -> tuple[float, float]:
     return location["lat"], location["lng"]
 
 
-def get_popular_places(city: str, radius_meters: float) -> list[dict]:
-    """Return places in a city by merging results from all sources.
+def get_popular_places(lat: float, lng: float, radius_meters: float) -> list[dict]:
+    """Return places near (lat, lng) by merging results from all sources.
 
     Each source owns its search strategy. Results are deduplicated by place ID,
     tagged with which sources returned them, and ranked by rating_count descending.
     """
     if radius_meters > MAX_RADIUS_METERS:
         raise ValueError(f"Radius must be {MAX_RADIUS_METERS} meters or less.")
-
-    lat, lng = get_coordinates(city)
-    print(f"[Geocode] {city} -> ({lat:.4f}, {lng:.4f})")
 
     seen_ids: dict[str, int] = {}
     all_places: list[dict] = []
@@ -63,11 +61,14 @@ def get_popular_places(city: str, radius_meters: float) -> list[dict]:
 
 
 def main():
-    city = "San Francisco"
-    radius_meters = 8000
+    city = "Sunnyvale"
+    radius_meters = 4000
     output_file = "results.txt"
 
-    places = get_popular_places(city, radius_meters)
+    center_lat, center_lng = get_coordinates(city)
+    print(f"[Geocode] {city} -> ({center_lat:.4f}, {center_lng:.4f})")
+
+    places = get_popular_places(center_lat, center_lng, radius_meters)
     header = f"Found {len(places)} places in {city} within {radius_meters} meters:\n"
 
     lines = [header]
@@ -92,7 +93,17 @@ def main():
 
     cached = Path("cached_cities") / f"{city}.txt"
     shutil.copy(output_file, cached)
-    print(f"Done. {len(places)} places written to {output_file} and cached to {cached}.")
+
+    cached_json = Path("cached_cities") / f"{city}.json"
+    json_places = [
+        {k: v for k, v in p.items() if k != "id" and k != "_sources"}
+        | {"sources": p.get("_sources", [])}
+        for p in places
+    ]
+    with open(cached_json, "w", encoding="utf-8") as f:
+        json.dump({"city": city, "radius_meters": radius_meters, "center_lat": center_lat, "center_lng": center_lng, "places": json_places}, f, ensure_ascii=False, indent=2)
+
+    print(f"Done. {len(places)} places written to {output_file}, cached to {cached} and {cached_json}.")
     search_log.record(city, radius_meters, places)
     api_stats.print_stats()
 

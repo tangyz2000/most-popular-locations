@@ -22,7 +22,8 @@ TRACKED_APIS: dict[str, str] = {
 # Fixed query for Text Search — kept constant so results are reproducible across runs.
 TEXT_SEARCH_QUERY = "landmarks and tourist attractions"
 
-MAX_RADIUS_METERS = 50000  # Nearby Search hard cap
+MAX_RADIUS_METERS = 50000       # Nearby Search hard cap
+CITY_DISCOVERY_RADIUS_M = 40000  # radius for finding nearby city centers (text search)
 
 # H3 resolution 6 has an average edge length of ~3.2 km.
 # Use a finer resolution for denser cities (res 7 ≈ 1.2 km, res 8 ≈ 0.46 km).
@@ -45,7 +46,57 @@ DENSE_AREA_MIN_RATING_COUNT = 500  # minimum review count at that rank
 MAX_SUBDIVISION_DEPTH = 2
 
 # Shared field mask for place results returned by both sources.
-PLACE_FIELD_MASK = "places.id,places.displayName,places.formattedAddress,places.rating,places.userRatingCount,places.types"
+PLACE_FIELD_MASK = "places.id,places.displayName,places.formattedAddress,places.rating,places.userRatingCount,places.types,places.location"
+
+# Type-specific sweep groups run at base H3 resolution alongside the generic search.
+# Splitting into cohesive groups keeps the popularity ranking meaningful within
+# each group (avoids mixing tiny sculptures with major stadiums in one bucket).
+#
+# Food sweep uses includedTypes (broad match) so all cuisine subtypes are captured:
+# e.g. peruvian_restaurant, seafood_restaurant all include "restaurant" in their
+# types list, so a single broad filter catches every cuisine without enumerating
+# all 200+ food subtypes.
+FOOD_AND_DRINK_INCLUDED_TYPES = ["restaurant", "bar", "cafe"]
+
+CULTURE_AND_LANDMARK_TYPES = frozenset({
+    # Museums & galleries
+    "art_gallery", "art_museum", "history_museum", "museum",
+    # Monuments & landmarks
+    "castle", "cultural_landmark", "historical_landmark", "monument",
+    "observation_deck", "tourist_attraction",
+    # Performing arts & entertainment venues
+    "amphitheatre", "auditorium", "comedy_club", "concert_hall",
+    "live_music_venue", "movie_theater", "opera_house", "philharmonic_hall",
+    "planetarium", "performing_arts_theater",
+    # Iconic structures
+    "ferris_wheel", "fountain", "sculpture",
+    # Visitor-oriented
+    "visitor_center",
+    # Education (tourist-relevant)
+    "library", "university",
+    # Places of worship
+    "buddhist_temple", "church", "hindu_temple", "mosque", "shinto_shrine", "synagogue",
+    # Civic landmarks
+    "city_hall",
+})
+
+OUTDOOR_AND_RECREATION_TYPES = frozenset({
+    # Parks & green spaces
+    "botanical_garden", "city_park", "dog_park", "garden", "national_park",
+    "park", "picnic_ground", "state_park", "wildlife_park", "wildlife_refuge",
+    # Nature & scenery
+    "beach", "hiking_area", "lake", "mountain_peak", "nature_preserve",
+    "scenic_spot", "woods",
+    # Zoos & wildlife
+    "aquarium", "zoo",
+    # Amusement & recreation
+    "amusement_center", "amusement_park", "bowling_alley", "casino",
+    "event_venue", "golf_course", "ice_skating_rink", "marina",
+    "night_club", "plaza", "race_course", "ski_resort", "vineyard",
+    "water_park",
+    # Sports venues
+    "arena", "sports_complex", "stadium",
+})
 
 # Places that have any of these types will be excluded from results.
 EXCLUDED_TYPES = {

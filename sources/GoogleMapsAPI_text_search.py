@@ -3,6 +3,7 @@ import httpx
 import api_stats
 from constants import (
     API_KEY,
+    CITY_DISCOVERY_RADIUS_M,
     EXCLUDED_TYPES,
     MAX_RADIUS_METERS,
     NEARBY_SEARCH_URL,
@@ -26,7 +27,7 @@ def fetch(lat: float, lng: float, radius_meters: float) -> list[dict]:
 
 
 @api_stats.track
-def _get_nearby_cities(lat: float, lng: float, radius_meters: float = 40000) -> list[dict]:
+def _get_nearby_cities(lat: float, lng: float, radius_meters: float = CITY_DISCOVERY_RADIUS_M) -> list[dict]:
     payload = {
         "locationRestriction": {
             "circle": {
@@ -95,6 +96,7 @@ def _search_text(lat: float, lng: float, radius_meters: float) -> list[dict]:
 
 
 def _normalize(place: dict) -> dict:
+    location = place.get("location", {})
     return {
         "id": place.get("id", ""),
         "name": place.get("displayName", {}).get("text", ""),
@@ -102,4 +104,6 @@ def _normalize(place: dict) -> dict:
         "rating": place.get("rating"),
         "rating_count": place.get("userRatingCount"),
         "types": place.get("types", []),
+        "lat": location.get("latitude"),
+        "lng": location.get("longitude"),
     }

@@ -7,15 +7,26 @@ import httpx
 import api_stats
 from constants import (
     API_KEY,
+    CULTURE_AND_LANDMARK_TYPES,
     DENSE_AREA_MIN_RATING_COUNT,
     DENSE_AREA_RANK_CUTOFF,
     EXCLUDED_TYPES,
+    FOOD_AND_DRINK_INCLUDED_TYPES,
     H3_RESOLUTION,
     MAX_RADIUS_METERS,
     MAX_SUBDIVISION_DEPTH,
     NEARBY_SEARCH_URL,
+    OUTDOOR_AND_RECREATION_TYPES,
     PLACE_FIELD_MASK,
 )
+
+
+# Type-specific sweeps run at every leaf cell alongside the generic search.
+_TYPE_SWEEPS: list[dict] = [
+    {"includedPrimaryTypes": list(CULTURE_AND_LANDMARK_TYPES)},
+    {"includedPrimaryTypes": list(OUTDOOR_AND_RECREATION_TYPES)},
+    {"includedTypes": FOOD_AND_DRINK_INCLUDED_TYPES},
+]
 
 
 def fetch(lat: float, lng: float, radius_meters: float) -> list[dict]:
@@ -45,8 +56,15 @@ def _search_cell(cell: str, resolution: int, places: dict[str, dict], depth: int
     for place in results:
         places.setdefault(place["id"], place)
 
+    # Decide subdivision first so we know whether this is a leaf node.
     dense_count = 0
-    if depth < MAX_SUBDIVISION_DEPTH and _is_dense(results):
+    will_subdivide = depth < MAX_SUBDIVISION_DEPTH and _is_dense(results)
+
+    if will_subdivide:
+        # Dense cell: subdivide into children. Type sweeps are skipped here and
+        # delegated to each child so every sub-area is swept exactly once at the
+        # finest available resolution — no duplicate calls from parent + children
+        # covering the same area.
         kth_place = _kth_by_rating_count(results, DENSE_AREA_RANK_CUTOFF)
         child_resolution = resolution + 1
         print(
@@ -57,6 +75,16 @@ def _search_cell(cell: str, resolution: int, places: dict[str, dict], depth: int
         dense_count = 1
         for child_cell in h3.cell_to_children(cell, child_resolution):
             dense_count += _search_cell(child_cell, child_resolution, places, depth + 1)
+    else:
+        # Leaf node: run type-specific sweeps to capture popular places that get
+        # crowded out by the dominant category in the generic ranking.
+        before = len(places)
+        for type_filter in _TYPE_SWEEPS:
+            for place in _search_nearby(cell_lat, cell_lng, cell_search_radius_m, type_filter):
+                places.setdefault(place["id"], place)
+        new_found = len(places) - before
+        if new_found:
+            print(f"[NearbySearch]{indent}   type sweeps added {new_found} new places")
 
     return dense_count
 
@@ -87,7 +115,7 @@ def _get_hex_cells(lat: float, lng: float, radius_meters: float) -> list[str]:
 
 
 @api_stats.track
-def _search_nearby(lat: float, lng: float, radius_meters: float) -> list[dict]:
+def _search_nearby(lat: float, lng: float, radius_meters: float, type_filter: dict | None = None) -> list[dict]:
     payload = {
         "locationRestriction": {
             "circle": {
@@ -99,6 +127,8 @@ def _search_nearby(lat: float, lng: float, radius_meters: float) -> list[dict]:
         "rankPreference": "POPULARITY",
         "maxResultCount": 20,
     }
+    if type_filter:
+        payload.update(type_filter)
     headers = {
         "Content-Type": "application/json",
         "X-Goog-Api-Key": API_KEY,
@@ -115,6 +145,7 @@ def _search_nearby(lat: float, lng: float, radius_meters: float) -> list[dict]:
 
 
 def _normalize(place: dict) -> dict:
+    location = place.get("location", {})
     return {
         "id": place.get("id", ""),
         "name": place.get("displayName", {}).get("text", ""),
@@ -122,4 +153,6 @@ def _normalize(place: dict) -> dict:
         "rating": place.get("rating"),
         "rating_count": place.get("userRatingCount"),
         "types": place.get("types", []),
+        "lat": location.get("latitude"),
+        "lng": location.get("longitude"),
     }
