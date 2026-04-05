@@ -113,9 +113,7 @@ EXCLUDED_TYPES = {
     "furniture_store",
     "home_goods_store",
     "home_improvement_store",
-    "clothing_store",
     "discount_store",
-    "shopping_mall",
     # Transportation
     "airport",
     "international_airport",
