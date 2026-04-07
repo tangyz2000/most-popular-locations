@@ -100,8 +100,6 @@ OUTDOOR_AND_RECREATION_TYPES = frozenset({
 
 # Places that have any of these types will be excluded from results.
 EXCLUDED_TYPES = {
-    # Fast food & casual chains
-    "fast_food_restaurant",
     # Big-box & general retail
     "supermarket",
     "warehouse_store",

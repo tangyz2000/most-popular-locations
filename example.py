@@ -61,7 +61,7 @@ def get_popular_places(lat: float, lng: float, radius_meters: float) -> list[dic
 
 
 def main():
-    city = "New Orleans"
+    city = "Palo Alto"
     radius_meters = 4000
     output_file = "results.txt"
 
