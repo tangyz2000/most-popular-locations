@@ -48,6 +48,7 @@
         var VIEWPORT_RATIO = 0.55;
         var PLACE_RADIUS = 3;
         var PLACE_OPACITY = 0.85;
+        var PLACE_HIT_RADIUS = 12;
         var HIGHLIGHT_RADIUS = 12;
         var BOUNDARY_WIDTH = 2;
         var POPUP_OFFSET = 10;
@@ -166,6 +167,15 @@
                     "circle-opacity": PLACE_OPACITY,
                 },
             });
+            /* Invisible larger hit-area layer for easier hover/click */
+            map.addLayer({
+                id: "places-hitarea", type: "circle", source: "places",
+                paint: {
+                    "circle-radius": PLACE_HIT_RADIUS,
+                    "circle-color": "rgba(0,0,0,0)",
+                    "circle-opacity": 0,
+                },
+            });
 
             /* Boundary */
             map.addSource("boundary", { type: "geojson", data: boundaryData });
@@ -191,17 +201,17 @@
             var hoverPopup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: POPUP_OFFSET });
             var clickPopup = new maplibregl.Popup({ closeButton: true, closeOnClick: true, offset: POPUP_OFFSET });
 
-            map.on("mouseenter", "places-circles", function (e) {
+            map.on("mouseenter", "places-hitarea", function (e) {
                 if (clickPopup.isOpen()) return;
                 map.getCanvas().style.cursor = "pointer";
                 var properties = e.features[0].properties;
                 hoverPopup.setLngLat(e.lngLat).setHTML(buildPopupHTML(properties)).addTo(map);
             });
-            map.on("mouseleave", "places-circles", function () {
+            map.on("mouseleave", "places-hitarea", function () {
                 map.getCanvas().style.cursor = "";
                 if (!isTouchDevice) hoverPopup.remove();
             });
-            map.on("click", "places-circles", function (e) {
+            map.on("click", "places-hitarea", function (e) {
                 hoverPopup.remove();
                 var properties = e.features[0].properties;
                 clickPopup.setLngLat(e.lngLat).setHTML(buildPopupHTML(properties)).addTo(map);

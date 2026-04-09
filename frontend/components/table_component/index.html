@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --bg: #0e1117;
+            --table-bg: #1a1c24;
+            --header-bg: #1c1e26;
+            --row-hover: rgba(255, 255, 255, 0.05);
+            --row-selected: rgba(55, 130, 220, 0.18);
+            --row-selected-hover: rgba(55, 130, 220, 0.28);
+            --text: #e6e6e6;
+            --text-muted: #888;
+            --border: #2a2d3a;
+            --indicator: #4da6ff;
+        }
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        html, body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 14px;
+            overflow: hidden;
+        }
+
+        .table-wrap {
+            overflow-y: auto;
+            overflow-x: hidden;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            background: var(--table-bg);
+        }
+
+        table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+
+        thead { position: sticky; top: 0; z-index: 2; }
+
+        th {
+            background: var(--header-bg);
+            padding: 8px 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border);
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
+        }
+        th:hover { color: var(--text); }
+        th .arrow { font-size: 10px; margin-left: 3px; opacity: 0.6; }
+
+        td {
+            padding: 6px 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        tbody tr {
+            cursor: pointer;
+            transition: background-color 0.1s ease;
+        }
+        tbody tr:hover { background: var(--row-hover); }
+        tbody tr.sel { background: var(--row-selected); }
+        tbody tr.sel:hover { background: var(--row-selected-hover); }
+        tbody tr.sel td:first-child::before {
+            content: "● ";
+            color: var(--indicator);
+        }
+
+        /* Column widths — Rank narrow, Reviews right-aligned, Types muted */
+        col.c-rank    { width: 55px; }
+        col.c-name    { width: auto; }
+        col.c-rating  { width: 72px; }
+        col.c-reviews { width: 100px; }
+        col.c-types   { width: auto; }
+        th:nth-child(1), td:nth-child(1) { text-align: center; }
+        th:nth-child(4), td:nth-child(4) { text-align: right; }
+        td:nth-child(5) { color: var(--text-muted); font-size: 13px; }
+
+        /* Empty state */
+        .empty { padding: 32px 16px; text-align: center; color: var(--text-muted); }
+
+        /* Scrollbar */
+        .table-wrap::-webkit-scrollbar { width: 6px; }
+        .table-wrap::-webkit-scrollbar-track { background: transparent; }
+        .table-wrap::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
+        .table-wrap::-webkit-scrollbar-thumb:hover { background: #666; }
+    </style>
+</head>
+<body>
+    <div class="table-wrap" id="wrap"></div>
+    <script>
+        /* ================================================================
+         * Selectable Table — Custom Streamlit Component
+         *
+         * Renders a dark-themed data table with click-anywhere row
+         * selection (multi-toggle).  Communicates selected place names
+         * back to Python via setComponentValue.
+         *
+         * Props from Python:
+         *   rows           — array of objects (each has __name key + display columns)
+         *   columns        — ordered column names to display
+         *   selected_names — current selection set (Python is source of truth on data change)
+         *   height         — max table height in px
+         *   data_key       — changes when underlying data changes (filter/city); sort resets
+         * ================================================================ */
+
+        /* ---- Streamlit protocol ---- */
+        function sendMsg(type, data) {
+            window.parent.postMessage(
+                Object.assign({ isStreamlitMessage: true, type: type }, data || {}), "*"
+            );
+        }
+        function setHeight(h) { sendMsg("streamlit:setFrameHeight", { height: h }); }
+        function setValue(v)  { sendMsg("streamlit:setComponentValue", { value: v }); }
+
+        /* ---- State ---- */
+        var columns = [];
+        var rows = [];
+        var selectedSet = {};          /* name → true */
+        var sortCol = -1;
+        var sortAsc = true;
+        var tableHeight = 400;
+        var lastDataKey = "";
+
+        /* ---- Helpers ---- */
+        function esc(s) {
+            var d = document.createElement("div");
+            d.textContent = s;
+            return d.innerHTML;
+        }
+
+        function selectedArray() {
+            return Object.keys(selectedSet);
+        }
+
+        /* ---- Render ---- */
+        function render() {
+            var wrap = document.getElementById("wrap");
+            wrap.style.maxHeight = tableHeight + "px";
+            var scrollTop = wrap.scrollTop;
+
+            if (!rows.length) {
+                wrap.innerHTML = '<div class="empty">No places match the current filters.</div>';
+                setHeight(80);
+                return;
+            }
+
+            /* Sort a shallow copy */
+            var sorted = rows.slice();
+            if (sortCol >= 0 && sortCol < columns.length) {
+                var col = columns[sortCol];
+                sorted.sort(function (a, b) {
+                    var va = a[col], vb = b[col];
+                    var na = parseFloat(String(va).replace(/[^0-9.\-]/g, ""));
+                    var nb = parseFloat(String(vb).replace(/[^0-9.\-]/g, ""));
+                    if (!isNaN(na) && !isNaN(nb)) return sortAsc ? na - nb : nb - na;
+                    return sortAsc ? String(va).localeCompare(String(vb))
+                                   : String(vb).localeCompare(String(va));
+                });
+            }
+
+            /* Build HTML */
+            var h = "<colgroup>"
+                  + '<col class="c-rank"><col class="c-name"><col class="c-rating">'
+                  + '<col class="c-reviews"><col class="c-types">'
+                  + "</colgroup><thead><tr>";
+
+            for (var ci = 0; ci < columns.length; ci++) {
+                var arrow = sortCol === ci ? (sortAsc ? " ▲" : " ▼") : "";
+                h += "<th data-ci='" + ci + "'>" + esc(columns[ci])
+                   + "<span class='arrow'>" + arrow + "</span></th>";
+            }
+            h += "</tr></thead><tbody>";
+
+            for (var ri = 0; ri < sorted.length; ri++) {
+                var row = sorted[ri];
+                var name = row.__name || "";
+                var cls = selectedSet[name] ? "sel" : "";
+                h += "<tr class='" + cls + "' data-n='" + esc(name) + "'>";
+                for (var ci = 0; ci < columns.length; ci++) {
+                    var v = row[columns[ci]];
+                    h += "<td>" + esc(v != null ? String(v) : "") + "</td>";
+                }
+                h += "</tr>";
+            }
+            h += "</tbody>";
+
+            wrap.innerHTML = "<table>" + h + "</table>";
+            wrap.scrollTop = scrollTop;
+
+            /* ---- Event listeners (delegated) ---- */
+            var tbody = wrap.querySelector("tbody");
+            if (tbody) {
+                tbody.addEventListener("click", function (e) {
+                    var tr = e.target.closest("tr");
+                    if (!tr) return;
+                    var n = tr.getAttribute("data-n");
+                    if (!n) return;
+                    if (selectedSet[n]) {
+                        delete selectedSet[n];
+                        tr.classList.remove("sel");
+                    } else {
+                        selectedSet[n] = true;
+                        tr.classList.add("sel");
+                    }
+                    setValue(selectedArray());
+                });
+            }
+
+            var thead = wrap.querySelector("thead");
+            if (thead) {
+                thead.addEventListener("click", function (e) {
+                    var th = e.target.closest("th");
+                    if (!th) return;
+                    var ci = parseInt(th.getAttribute("data-ci"));
+                    if (isNaN(ci)) return;
+                    if (sortCol === ci) { sortAsc = !sortAsc; }
+                    else { sortCol = ci; sortAsc = true; }
+                    render();
+                });
+            }
+
+            setHeight(Math.min(wrap.scrollHeight + 2, tableHeight + 2));
+        }
+
+        /* ---- Streamlit render callback ---- */
+        function onRender(args) {
+            if (args.columns) columns = args.columns;
+            if (args.rows)    rows = args.rows;
+            if (args.height)  tableHeight = args.height;
+
+            /* Sync selection from Python (source of truth after data/filter change) */
+            if (args.selected_names !== undefined) {
+                selectedSet = {};
+                var names = args.selected_names || [];
+                for (var i = 0; i < names.length; i++) selectedSet[names[i]] = true;
+            }
+
+            /* Reset sort when underlying data changes */
+            var dk = args.data_key || "";
+            if (dk !== lastDataKey) {
+                sortCol = -1;
+                sortAsc = true;
+                lastDataKey = dk;
+            }
+
+            render();
+        }
+
+        /* ---- Bootstrap ---- */
+        window.addEventListener("message", function (e) {
+            if (e.data.type === "streamlit:render") onRender(e.data.args);
+        });
+        sendMsg("streamlit:componentReady", { apiVersion: 1 });
+        setHeight(tableHeight);
+    </script>
+</body>
+</html>

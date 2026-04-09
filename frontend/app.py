@@ -108,6 +108,9 @@ def h3_grid_boundary(center_lat: float, center_lng: float, radius_m: int) -> Pol
 _MAP_DIR = Path(__file__).parent / "components" / "map_component"
 _map_component = components.declare_component("map_component", path=str(_MAP_DIR))
 
+_TABLE_DIR = Path(__file__).parent / "components" / "table_component"
+_table_component = components.declare_component("table_component", path=str(_TABLE_DIR))
+
 
 def render_map(*, places_geojson, boundary_geojson, selected_names,
                center_lat, center_lng, zoom, view_revision, height=DEFAULT_MAP_HEIGHT, key=None):
@@ -201,18 +204,38 @@ def calculate_zoom(latitudes: list[float], longitudes: list[float]) -> int:
     return 12      # neighborhood
 
 
-def _get_table_selection(table_key: str, filtered: list[dict]) -> list[str]:
-    """Read selected place names from Streamlit widget state."""
-    table_state = st.session_state.get(table_key)
-    try:
-        sel_rows = table_state.selection.rows if table_state else []
-    except AttributeError:
-        sel_rows = []
-    return [
-        filtered[i].get("name", "")
-        for i in sel_rows
-        if i < len(filtered)
-    ]
+def render_selectable_table(*, rows, columns, selected_names,
+                            height=DATAFRAME_HEIGHT, data_key="", key=None):
+    """Render the custom clickable table. Returns list of selected place names."""
+    return _table_component(
+        rows=rows, columns=columns, selected_names=selected_names,
+        height=height, data_key=data_key,
+        key=key, default=None,
+    )
+
+
+def _sync_table_selection(table_key: str, filtered: list[dict]) -> list[str]:
+    """
+    Read the custom table component's selection from session state.
+
+    The table component calls ``setComponentValue(names)`` on every click,
+    which Streamlit stores under *table_key* before the next rerun starts.
+    We read that stored value here—*before* the map renders—so the map
+    highlight is always in sync with the table.
+    """
+    if "selected_place_names" not in st.session_state:
+        st.session_state.selected_place_names = set()
+
+    # The component stores its value under the key in session state.
+    component_value = st.session_state.get(table_key)
+    if isinstance(component_value, list):
+        st.session_state.selected_place_names = set(component_value)
+
+    # Prune names that disappeared after a filter change.
+    current_names = {p.get("name", "") for p in filtered}
+    st.session_state.selected_place_names &= current_names
+
+    return list(st.session_state.selected_place_names)
 
 
 def _render_rating_chart(filtered: list[dict]) -> None:
@@ -355,7 +378,13 @@ view_revision = ",".join(sorted(selected_cities))
 
 # Full-page rerun (city change, page load) → clear cached data key so the
 # component receives the full GeoJSON on the first fragment render.
-st.session_state.pop("_map_filter_key", None)
+# Only clear when city selection *actually changes* — custom component
+# setComponentValue triggers full reruns, and we must not resend ~1.4 MB
+# of GeoJSON on every table row click.
+_city_sig = ",".join(sorted(selected_cities))
+if st.session_state.get("_city_sig") != _city_sig:
+    st.session_state._city_sig = _city_sig
+    st.session_state.pop("_map_filter_key", None)
 
 # ---------------------------------------------------------------------------
 # Map + Explorer
@@ -447,9 +476,9 @@ def render_explorer():
     center_lat, center_lng = calculate_map_center(city_metas)
     zoom = calculate_zoom(meta_lats, meta_lngs)
 
-    # Read selection before map render for single-pass highlight; key auto-clears stale indices on filter change.
+    # Read table-component selection *before* the map so highlights are in sync.
     table_key = f"explorer_{hash(filter_key)}"
-    selected_names = _get_table_selection(table_key, filtered)
+    selected_names = _sync_table_selection(table_key, filtered)
 
     render_map(
         places_geojson=st.session_state.get("_cached_places_gj") if data_changed else None,
@@ -465,20 +494,36 @@ def render_explorer():
     if not filtered:
         st.info("No places match the current filters.")
     else:
+        # Selection feedback — show which places are highlighted.
+        sel_set = st.session_state.get("selected_place_names", set())
+        if sel_set:
+            col_info, col_clear = st.columns([5, 1])
+            names_preview = ", ".join(sorted(sel_set)[:5])
+            more = f" +{len(sel_set) - 5} more" if len(sel_set) > 5 else ""
+            col_info.caption(f"📍 **{len(sel_set)}** highlighted: {names_preview}{more}")
+            if col_clear.button("Clear", type="secondary", key="clear_sel"):
+                st.session_state.selected_place_names.clear()
+                st.rerun(scope="fragment")
+        else:
+            st.caption("_Click any row to highlight it on the map_")
+
         rows = []
         for rank, p in enumerate(filtered, 1):
             rc = p.get("rating_count") or 0
             rows.append({
+                "__name": p.get("name", "—"),
                 "Rank": rank,
                 "Name": p.get("name", "—"),
                 "Rating": star_rating(p.get("rating")),
                 "Reviews": f"{rc:,}" if rc else "—",
                 "Types": ", ".join((p.get("types") or [])[:MAX_TYPES_SHOWN]),
             })
-        df = pd.DataFrame(rows)
-        st.dataframe(
-            df, use_container_width=True, hide_index=True,
-            height=DATAFRAME_HEIGHT, on_select="rerun", selection_mode="multi-row",
+        render_selectable_table(
+            rows=rows,
+            columns=["Rank", "Name", "Rating", "Reviews", "Types"],
+            selected_names=selected_names,
+            height=DATAFRAME_HEIGHT,
+            data_key=str(filter_key),
             key=table_key,
         )
 
