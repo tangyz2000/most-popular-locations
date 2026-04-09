@@ -17,6 +17,9 @@ import streamlit.components.v1 as components
 import h3
 from shapely.geometry import Point, Polygon, mapping
 from shapely.ops import unary_union
+import sys
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from constants import H3_RESOLUTION
 
 # ---------------------------------------------------------------------------
 # Config
@@ -42,7 +45,6 @@ MIN_CHART_HEIGHT = 350
 CHART_PX_PER_BAR = 20
 RATING_BENCHMARK = 4.5
 DATAFRAME_HEIGHT = 400
-H3_RESOLUTION = 7  # must match constants.py
 
 # (min_reviews, label, [r, g, b], color_name)
 TIERS = [

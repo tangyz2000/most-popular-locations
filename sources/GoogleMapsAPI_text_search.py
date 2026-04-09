@@ -1,6 +1,7 @@
 import httpx
 
 import api_stats
+from sources.utils import normalize
 from constants import (
     API_KEY,
     CITY_DISCOVERY_RADIUS_M,
@@ -92,18 +93,4 @@ def _search_text(lat: float, lng: float, radius_meters: float) -> list[dict]:
         if not page_token:
             break
 
-    return [_normalize(p) for p in raw_places]
-
-
-def _normalize(place: dict) -> dict:
-    location = place.get("location", {})
-    return {
-        "id": place.get("id", ""),
-        "name": place.get("displayName", {}).get("text", ""),
-        "address": place.get("formattedAddress", ""),
-        "rating": place.get("rating"),
-        "rating_count": place.get("userRatingCount"),
-        "types": place.get("types", []),
-        "lat": location.get("latitude"),
-        "lng": location.get("longitude"),
-    }
+    return [normalize(p) for p in raw_places]

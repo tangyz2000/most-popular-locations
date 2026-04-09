@@ -5,6 +5,7 @@ import h3
 import httpx
 
 import api_stats
+from sources.utils import normalize
 from constants import (
     API_KEY,
     CULTURE_AND_LANDMARK_TYPES,
@@ -141,18 +142,4 @@ def _search_nearby(lat: float, lng: float, radius_meters: float, type_filter: di
         print(f"[NearbySearch] {response.status_code} error (attempt {attempt + 1}): {response.text}")
         time.sleep(2 ** attempt)
     response.raise_for_status()
-    return [_normalize(p) for p in response.json().get("places", [])]
-
-
-def _normalize(place: dict) -> dict:
-    location = place.get("location", {})
-    return {
-        "id": place.get("id", ""),
-        "name": place.get("displayName", {}).get("text", ""),
-        "address": place.get("formattedAddress", ""),
-        "rating": place.get("rating"),
-        "rating_count": place.get("userRatingCount"),
-        "types": place.get("types", []),
-        "lat": location.get("latitude"),
-        "lng": location.get("longitude"),
-    }
+    return [normalize(p) for p in response.json().get("places", [])]
