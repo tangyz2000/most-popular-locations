@@ -5,6 +5,8 @@ This project discovers and ranks popular places in any city using the Google Pla
 ## Quick Start
 
 ```bash
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -34,7 +36,7 @@ Results are written to `results.txt` and cached in `cached_cities/`.
 A Streamlit dashboard for exploring results:
 
 ```bash
-python -m streamlit run frontend/app.py --server.headless true
+streamlit run frontend/app.py --server.headless true
 ```
 
 - **Map tab** — places plotted on a dark map, colored by review-count tier, with search radius overlay

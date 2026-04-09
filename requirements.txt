@@ -1,6 +1,8 @@
 httpx
 python-dotenv
 h3
+numpy
+pandas
 streamlit
 plotly
 pydeck

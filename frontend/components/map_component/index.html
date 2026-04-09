@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+    <style>
+        html, body { margin: 0; padding: 0; overflow: hidden; background: #0e1117; }
+        #map { width: 100%; height: 620px; }
+        .maplibregl-popup-content {
+            background: #1e1e2e; color: white; font-size: 13px;
+            padding: 8px 12px; border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.5); line-height: 1.5;
+        }
+        .maplibregl-popup-anchor-bottom .maplibregl-popup-tip { border-top-color: #1e1e2e; }
+        .maplibregl-popup-anchor-top .maplibregl-popup-tip { border-bottom-color: #1e1e2e; }
+        .maplibregl-popup-anchor-left .maplibregl-popup-tip { border-right-color: #1e1e2e; }
+        .maplibregl-popup-anchor-right .maplibregl-popup-tip { border-left-color: #1e1e2e; }
+        .maplibregl-popup-close-button { display: none; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        var map = null;
+        var mapLoaded = false;
+        var pendingArgs = null;
+        var lastViewRevision = null;
+        var cachedPlaces = null;
+
+        var EMPTY_FC = { type: "FeatureCollection", features: [] };
+
+        /* --- Streamlit component protocol --- */
+        function sendToStreamlit(type, data) {
+            window.parent.postMessage(
+                Object.assign({ isStreamlitMessage: true, type: type }, data), "*"
+            );
+        }
+        function setFrameHeight(h) {
+            sendToStreamlit("streamlit:setFrameHeight", { height: h });
+        }
+
+        /* --- HTML-escape for popup --- */
+        function esc(s) {
+            if (!s) return "";
+            var el = document.createElement("span");
+            el.textContent = s;
+            return el.innerHTML;
+        }
+
+        /* --- Highlight: computed client-side from selected place names --- */
+        function updateHighlight(names) {
+            var hs = map.getSource("highlight");
+            if (!hs) return;
+            if (!names || names.length === 0 || !cachedPlaces) {
+                hs.setData(EMPTY_FC);
+                return;
+            }
+            var nameSet = {};
+            for (var i = 0; i < names.length; i++) nameSet[names[i]] = true;
+            var features = [];
+            var src = cachedPlaces.features;
+            for (var i = 0; i < src.length; i++) {
+                if (nameSet[src[i].properties.name]) {
+                    features.push({ type: "Feature", geometry: src[i].geometry, properties: {} });
+                }
+            }
+            hs.setData({ type: "FeatureCollection", features: features });
+        }
+
+        /* --- Map lifecycle --- */
+        function initMap(args) {
+            var el = document.getElementById("map");
+            el.style.height = (args.height || 620) + "px";
+
+            map = new maplibregl.Map({
+                container: "map",
+                style: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
+                center: [args.center_lng, args.center_lat],
+                zoom: args.zoom,
+                attributionControl: false,
+            });
+            map.addControl(new maplibregl.NavigationControl(), "top-right");
+
+            map.on("load", function () {
+                mapLoaded = true;
+                cachedPlaces = args.places_geojson || EMPTY_FC;
+
+                /* Places */
+                map.addSource("places", { type: "geojson", data: cachedPlaces });
+                map.addLayer({
+                    id: "places-circles", type: "circle", source: "places",
+                    layout: { "circle-sort-key": ["get", "sort_key"] },
+                    paint: {
+                        "circle-radius": 3,
+                        "circle-color": ["get", "color"],
+                        "circle-opacity": 0.85,
+                    },
+                });
+
+                /* Boundary */
+                map.addSource("boundary", { type: "geojson", data: args.boundary_geojson || EMPTY_FC });
+                map.addLayer({
+                    id: "boundary-line", type: "line", source: "boundary",
+                    paint: { "line-color": "rgba(255,255,255,0.7)", "line-width": 2 },
+                });
+
+                /* Highlight (initially empty — computed from selected_names) */
+                map.addSource("highlight", { type: "geojson", data: EMPTY_FC });
+                map.addLayer({
+                    id: "highlight-circles", type: "circle", source: "highlight",
+                    paint: { "circle-radius": 12, "circle-color": "rgba(255,0,255,0.45)" },
+                });
+
+                /* Hover popup */
+                var popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 10 });
+                map.on("mouseenter", "places-circles", function (e) {
+                    map.getCanvas().style.cursor = "pointer";
+                    var p = e.features[0].properties;
+                    popup.setLngLat(e.lngLat)
+                        .setHTML(
+                            "<b>" + esc(p.name) + "</b><br>" +
+                            "Rating: " + esc(p.rating_fmt) + "<br>" +
+                            "Reviews: " + esc(p.reviews_fmt) + "<br>" +
+                            "Types: " + esc(p.types_short)
+                        )
+                        .addTo(map);
+                });
+                map.on("mouseleave", "places-circles", function () {
+                    map.getCanvas().style.cursor = "";
+                    popup.remove();
+                });
+
+                updateHighlight(args.selected_names || []);
+                if (pendingArgs) { updateSources(pendingArgs); pendingArgs = null; }
+            });
+
+            lastViewRevision = args.view_revision;
+        }
+
+        function updateSources(args) {
+            /* Only touch heavy sources when Python actually sent new data */
+            if (args.places_geojson) {
+                cachedPlaces = args.places_geojson;
+                var ps = map.getSource("places");
+                if (ps) ps.setData(cachedPlaces);
+            }
+            if (args.boundary_geojson) {
+                var bs = map.getSource("boundary");
+                if (bs) bs.setData(args.boundary_geojson);
+            }
+            /* Highlight is always recomputed from the tiny selected_names list */
+            updateHighlight(args.selected_names || []);
+        }
+
+        /* --- Called by Streamlit on every Python rerun --- */
+        function onRender(args) {
+            var h = args.height || 620;
+
+            if (!map) {
+                initMap(args);
+            } else if (!mapLoaded) {
+                pendingArgs = args;
+            } else {
+                updateSources(args);
+                var el = document.getElementById("map");
+                if (parseInt(el.style.height) !== h) { el.style.height = h + "px"; map.resize(); }
+            }
+
+            /* Fly to new center when city selection changes */
+            if (map && mapLoaded && args.view_revision !== lastViewRevision) {
+                map.flyTo({ center: [args.center_lng, args.center_lat], zoom: args.zoom, duration: 800 });
+                lastViewRevision = args.view_revision;
+            }
+
+            setFrameHeight(h);
+        }
+
+        /* --- Wire up Streamlit messages --- */
+        window.addEventListener("message", function (event) {
+            if (event.data.type !== "streamlit:render") return;
+            onRender(event.data.args);
+        });
+
+        sendToStreamlit("streamlit:componentReady", { apiVersion: 1 });
+        setFrameHeight(620);
+    </script>
+</body>
+</html>
