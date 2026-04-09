@@ -30,6 +30,21 @@ st.set_page_config(
 
 CACHED_DIR = Path(__file__).parent.parent / "cached_cities"
 
+# ── Named constants ──
+US_CENTER_LAT = 39.8283   # geographic center of contiguous US
+US_CENTER_LNG = -98.5795  # geographic center of contiguous US
+DEFAULT_MAP_HEIGHT = 500
+MAX_MAP_PLACES = 10_000
+MAX_TYPES_SHOWN = 3
+MAX_CHART_PLACES = 30
+MAX_CHART_NAME_LEN = 45
+MIN_CHART_HEIGHT = 350
+CHART_PX_PER_BAR = 20
+RATING_BENCHMARK = 4.5
+DATAFRAME_HEIGHT = 400
+H3_RESOLUTION = 7  # must match constants.py
+
+# (min_reviews, label, [r, g, b], color_name)
 TIERS = [
     (50_000, "50K+",       [255,  20,  20], "Red"),
     (20_000, "20K–50K",    [255,  90,   0], "Orange-Red"),
@@ -44,29 +59,28 @@ TIERS = [
 
 
 def tier_color_css(review_count: int | None) -> str:
-    rc = review_count or 0
+    """Return an rgb() CSS string for the tier color matching review_count."""
+    review_count = review_count or 0
     for threshold, _, color, _ in TIERS:
-        if rc >= threshold:
+        if review_count >= threshold:
             return f"rgb({color[0]},{color[1]},{color[2]})"
     return "rgb(180,180,180)"
 
 
 def tier_label(review_count: int | None) -> str:
-    rc = review_count or 0
+    """Return the human-readable tier label for a review count."""
+    review_count = review_count or 0
     for threshold, label, _, _ in TIERS:
-        if rc >= threshold:
+        if review_count >= threshold:
             return label
-    return "< 500"
+    return "< 200"
 
 
 def star_rating(r: float | None) -> str:
+    """Format a numeric rating as '★ X.X', or '—' if None."""
     if r is None:
         return "—"
     return f"★ {r:.1f}"
-
-
-MAX_MAP_PLACES = 10_000
-H3_RESOLUTION = 7  # must match constants.py
 
 
 def h3_grid_boundary(center_lat: float, center_lng: float, radius_m: int) -> Polygon:
@@ -96,7 +110,8 @@ _map_component = components.declare_component("map_component", path=str(_MAP_DIR
 
 
 def render_map(*, places_geojson, boundary_geojson, selected_names,
-               center_lat, center_lng, zoom, view_revision, height=620, key=None):
+               center_lat, center_lng, zoom, view_revision, height=DEFAULT_MAP_HEIGHT, key=None):
+    """Render the custom MapLibre component with the given GeoJSON and view state."""
     return _map_component(
         places_geojson=places_geojson,
         boundary_geojson=boundary_geojson,
@@ -119,6 +134,7 @@ _EMPTY_FC: dict = {"type": "FeatureCollection", "features": []}
 
 
 def _places_to_geojson(places_list: list[dict]) -> dict:
+    """Convert a list of place dicts to a GeoJSON FeatureCollection."""
     features = []
     for p in places_list:
         if not (p.get("lat") and p.get("lng")):
@@ -132,14 +148,15 @@ def _places_to_geojson(places_list: list[dict]) -> dict:
                 "color": tier_color_css(rc),
                 "rating_fmt": star_rating(p.get("rating")),
                 "reviews_fmt": f"{rc:,}",
-                "types_short": ", ".join((p.get("types") or [])[:3]),
+                "types_short": ", ".join((p.get("types") or [])[:MAX_TYPES_SHOWN]),
                 "sort_key": rc,
             },
         })
     return {"type": "FeatureCollection", "features": features}
 
 
-def _boundary_to_geojson(poly) -> dict:
+def _boundary_to_geojson(poly: Polygon | None) -> dict:
+    """Convert a Shapely polygon to a GeoJSON FeatureCollection, or return empty."""
     if poly is None:
         return _EMPTY_FC
     return {
@@ -149,16 +166,107 @@ def _boundary_to_geojson(poly) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# Helper utilities
+# ---------------------------------------------------------------------------
+
+def rgb_to_hex(rgb: list[int]) -> str:
+    """Convert [r, g, b] to '#rrggbb'."""
+    return "#{:02x}{:02x}{:02x}".format(*rgb)
+
+
+def calculate_map_center(city_metas: list[dict]) -> tuple[float, float]:
+    """Return the average center of all cities, or the geographic center of the US."""
+    lats = [m["center_lat"] for m in city_metas if m["center_lat"] is not None]
+    lngs = [m["center_lng"] for m in city_metas if m["center_lng"] is not None]
+    if lats:
+        return sum(lats) / len(lats), sum(lngs) / len(lngs)
+    return US_CENTER_LAT, US_CENTER_LNG
+
+
+def calculate_zoom(latitudes: list[float], longitudes: list[float]) -> int:
+    """Return an appropriate map zoom level based on the geographic spread of city centers."""
+    if len(latitudes) <= 1:
+        return 12  # neighborhood
+    span = max(max(latitudes) - min(latitudes), max(longitudes) - min(longitudes))
+    if span > 5:
+        return 4   # continental
+    if span > 2:
+        return 5   # multi-state
+    if span > 1:
+        return 7   # state
+    if span > 0.5:
+        return 8   # metro
+    if span > 0.1:
+        return 10  # city
+    return 12      # neighborhood
+
+
+def _get_table_selection(table_key: str, filtered: list[dict]) -> list[str]:
+    """Read selected place names from Streamlit widget state."""
+    table_state = st.session_state.get(table_key)
+    try:
+        sel_rows = table_state.selection.rows if table_state else []
+    except AttributeError:
+        sel_rows = []
+    return [
+        filtered[i].get("name", "")
+        for i in sel_rows
+        if i < len(filtered)
+    ]
+
+
+def _render_rating_chart(filtered: list[dict]) -> None:
+    """Render a Plotly horizontal bar chart of top places by rating and review count."""
+    chart_places = [p for p in filtered if p.get("rating_count") and p.get("rating")]
+    if not chart_places:
+        return
+    top_n = sorted(chart_places, key=lambda p: p.get("rating_count") or 0, reverse=True)[:MAX_CHART_PLACES]
+    top_n = list(reversed(top_n))
+    chart_df = pd.DataFrame([{
+        "Name": p["name"][:MAX_CHART_NAME_LEN],
+        "Reviews": int(p["rating_count"]),
+        "Rating": float(p["rating"]),
+        "Tier": tier_label(p["rating_count"]),
+        "Reviews_fmt": f"{int(p['rating_count']):,}",
+    } for p in top_n])
+
+    tier_order = [t[1] for t in TIERS]
+    tier_colors = {t[1]: "rgb({},{},{})".format(*t[2]) for t in TIERS}
+
+    fig = px.bar(
+        chart_df, x="Rating", y="Name", orientation="h",
+        color="Tier", category_orders={"Tier": tier_order},
+        color_discrete_map=tier_colors, hover_name="Name",
+        hover_data={"Rating": ":.2f", "Reviews_fmt": True, "Tier": True, "Name": False},
+        title=f"Top {len(top_n)} Places — Rating (color = popularity tier)",
+    )
+    fig.update_layout(
+        height=max(MIN_CHART_HEIGHT, len(top_n) * CHART_PX_PER_BAR),
+        margin={"l": 20, "r": 20, "t": 50, "b": 40},
+        paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
+        font_color="#ccc", legend_title_text="Review tier",
+        xaxis_title="Rating", yaxis_title=None,
+        xaxis=dict(range=[3.0, 5.1], gridcolor="#333", dtick=0.5),
+        yaxis=dict(gridcolor="#333"), bargap=0.25,
+    )
+    fig.add_vline(x=RATING_BENCHMARK, line_dash="dot", line_color="#555",
+                  annotation_text="4.5", annotation_font_color="#777")
+    st.plotly_chart(fig, use_container_width=True)
+
+
+# ---------------------------------------------------------------------------
 # Data loading
 # ---------------------------------------------------------------------------
 
 @st.cache_data
 def load_city(path: Path) -> dict:
+    """Load and return a cached city JSON file."""
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
 def available_cities() -> dict[str, Path]:
+    """Return a mapping of city name → JSON path for all cached cities."""
     return {p.stem: p for p in sorted(CACHED_DIR.glob("*.json"))}
 
 
@@ -202,8 +310,8 @@ for city_name in selected_cities:
 
 if selected_cities:
     for meta in city_metas:
-        r = meta["radius_meters"]
-        label = f"{r:,} m" if isinstance(r, int) else str(r)
+        radius = meta["radius_meters"]
+        label = f"{radius:,} m" if isinstance(radius, int) else str(radius)
         st.sidebar.markdown(f"**{meta['name']}:** search radius {label}")
     st.sidebar.markdown(f"**Total places:** {len(places):,}")
     with_coords = [p for p in places if p.get("lat") and p.get("lng")]
@@ -217,7 +325,7 @@ else:
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Map colour tiers**")
 for _, label, color, _ in TIERS:
-    hex_color = "#{:02x}{:02x}{:02x}".format(*color)
+    hex_color = rgb_to_hex(color)
     st.sidebar.markdown(
         f'<span style="display:inline-block;width:12px;height:12px;border-radius:50%;'
         f'background:{hex_color};margin-right:6px;"></span>{label}',
@@ -232,18 +340,18 @@ cities_label = ", ".join(selected_cities) if selected_cities else "No city selec
 st.subheader(f"Popular Places — {cities_label}")
 
 # Pre-compute H3 boundary
-_h3_boundary_poly = None
+h3_boundary_poly = None
 if city_metas:
     parts = []
     for meta in city_metas:
-        r = meta["radius_meters"]
-        if isinstance(r, int) and meta["center_lat"] is not None:
-            parts.append(h3_grid_boundary(meta["center_lat"], meta["center_lng"], r))
+        radius = meta["radius_meters"]
+        if isinstance(radius, int) and meta["center_lat"] is not None:
+            parts.append(h3_grid_boundary(meta["center_lat"], meta["center_lng"], radius))
     if parts:
-        _h3_boundary_poly = unary_union(parts)
+        h3_boundary_poly = unary_union(parts)
 
 # view_revision changes only when city selection changes → map flies to new center
-_view_revision = ",".join(sorted(selected_cities))
+view_revision = ",".join(sorted(selected_cities))
 
 # Full-page rerun (city change, page load) → clear cached data key so the
 # component receives the full GeoJSON on the first fragment render.
@@ -264,14 +372,13 @@ st.session_state.pop("_map_filter_key", None)
 
 @st.fragment
 def render_explorer():
-    # ------------------------------------------------------------------
-    # Empty-data fallback
-    # ------------------------------------------------------------------
+    """Render the interactive map, filter controls, data table, and rating chart."""
+    # ── Empty-data fallback ──
     if not with_coords:
         render_map(
             places_geojson=_EMPTY_FC, boundary_geojson=_EMPTY_FC,
-            selected_names=[], center_lat=39.8283, center_lng=-98.5795,
-            zoom=3, view_revision="empty", height=620, key="main_map",
+            selected_names=[], center_lat=US_CENTER_LAT, center_lng=US_CENTER_LNG,
+            zoom=3, view_revision="empty", height=DEFAULT_MAP_HEIGHT, key="main_map",
         )
         if not selected_cities:
             st.info("Select one or more cities from the sidebar to see places on the map.")
@@ -279,16 +386,14 @@ def render_explorer():
             st.warning("No coordinate data found. Run `example.py` to collect lat/lng.")
         return
 
-    # ------------------------------------------------------------------
-    # Filters
-    # ------------------------------------------------------------------
+    # ── Filters ──
     all_review_counts = sorted(int(p.get("rating_count") or 0) for p in places)
     all_review_max = all_review_counts[-1] if all_review_counts else 1000
     median_reviews = all_review_counts[len(all_review_counts) // 2] if all_review_counts else 0
     all_types = sorted({t for p in places for t in (p.get("types") or [])})
 
-    col_search, col_min, col_types = st.columns([2, 1, 3])
-    search_query = col_search.text_input("Search by name", placeholder="e.g. park, museum, cafe...")
+    search_query = st.text_input("Search by name", placeholder="e.g. park, museum, cafe...")
+    col_min, col_types = st.columns([1, 2])
     with col_min:
         log_options = [0] + sorted(set(int(v) for v in np.geomspace(1, all_review_max, num=300)))
         default_min = min(log_options, key=lambda x: abs(x - median_reviews))
@@ -302,28 +407,25 @@ def render_explorer():
     # Apply filters
     filtered = list(places)
     if search_query:
-        q = search_query.lower()
-        filtered = [p for p in filtered if q in (p.get("name") or "").lower()]
+        query_lower = search_query.lower()
+        filtered = [p for p in filtered if query_lower in (p.get("name") or "").lower()]
     if selected_types:
-        selected_set = set(selected_types)
-        filtered = [p for p in filtered if selected_set.intersection(p.get("types") or [])]
+        type_set = set(selected_types)
+        filtered = [p for p in filtered if type_set.intersection(p.get("types") or [])]
     filtered = [p for p in filtered if (p.get("rating_count") or 0) >= min_reviews]
-    if only_in_boundary and _h3_boundary_poly is not None:
+    if only_in_boundary and h3_boundary_poly is not None:
         filtered = [
             p for p in filtered
             if p.get("lat") and p.get("lng")
-            and _h3_boundary_poly.contains(Point(p["lng"], p["lat"]))
+            and h3_boundary_poly.contains(Point(p["lng"], p["lat"]))
         ]
 
     # Sort once — shared by the table and the index→name mapping below.
     filtered = sorted(filtered, key=lambda p: p.get("rating_count") or 0, reverse=True)
 
-    # ------------------------------------------------------------------
-    # Determine whether the *data* changed (filter tweak / city switch)
-    # vs. only the table selection changed.
-    # ------------------------------------------------------------------
-    _filter_key = (min_reviews, tuple(sorted(selected_types)), search_query, only_in_boundary)
-    _data_changed = st.session_state.get("_map_filter_key") != _filter_key
+    # ── Data-change detection ──
+    filter_key = (min_reviews, tuple(sorted(selected_types)), search_query, only_in_boundary)
+    data_changed = st.session_state.get("_map_filter_key") != filter_key
 
     filtered_with_coords = [p for p in filtered if p.get("lat") and p.get("lng")]
     capped = filtered_with_coords
@@ -332,59 +434,32 @@ def render_explorer():
             f"Showing top {MAX_MAP_PLACES:,} of {len(capped):,} places. "
             f"Raise **Min reviews** to narrow further."
         )
-        capped = sorted(capped, key=lambda p: p.get("rating_count") or 0, reverse=True)[:MAX_MAP_PLACES]
+        capped = capped[:MAX_MAP_PLACES]
 
-    if _data_changed:
-        st.session_state._map_filter_key = _filter_key
+    if data_changed:
+        st.session_state._map_filter_key = filter_key
         st.session_state._cached_places_gj = _places_to_geojson(capped)
-        st.session_state._cached_boundary_gj = _boundary_to_geojson(_h3_boundary_poly)
+        st.session_state._cached_boundary_gj = _boundary_to_geojson(h3_boundary_poly)
 
-    # ------------------------------------------------------------------
-    # Read table selection from widget state *before* rendering the map
-    # so we can show the correct highlight in a single pass (no double
-    # rerun).  The key changes when filters change, which auto-clears
-    # stale row indices that would otherwise point to wrong rows.
-    # ------------------------------------------------------------------
-    _table_key = f"explorer_{hash(_filter_key)}"
-    _table_state = st.session_state.get(_table_key)
-    try:
-        _sel_rows = _table_state.selection.rows if _table_state else []
-    except AttributeError:
-        _sel_rows = []
-    selected_names = [
-        filtered[i].get("name", "")
-        for i in _sel_rows
-        if i < len(filtered)
-    ]
-
-    # ------------------------------------------------------------------
-    # Map
-    # ------------------------------------------------------------------
+    # ── Map ──
     meta_lats = [m["center_lat"] for m in city_metas if m["center_lat"] is not None]
     meta_lngs = [m["center_lng"] for m in city_metas if m["center_lng"] is not None]
-    if meta_lats:
-        center_lat = sum(meta_lats) / len(meta_lats)
-        center_lng = sum(meta_lngs) / len(meta_lngs)
-    else:
-        center_lat, center_lng = 39.8283, -98.5795
+    center_lat, center_lng = calculate_map_center(city_metas)
+    zoom = calculate_zoom(meta_lats, meta_lngs)
 
-    if len(meta_lats) > 1:
-        span = max(max(meta_lats) - min(meta_lats), max(meta_lngs) - min(meta_lngs))
-        zoom = 4 if span > 5 else 5 if span > 2 else 7 if span > 1 else 8 if span > 0.5 else 10 if span > 0.1 else 12
-    else:
-        zoom = 12
+    # Read selection before map render for single-pass highlight; key auto-clears stale indices on filter change.
+    table_key = f"explorer_{hash(filter_key)}"
+    selected_names = _get_table_selection(table_key, filtered)
 
     render_map(
-        places_geojson=st.session_state.get("_cached_places_gj") if _data_changed else None,
-        boundary_geojson=st.session_state.get("_cached_boundary_gj") if _data_changed else None,
+        places_geojson=st.session_state.get("_cached_places_gj") if data_changed else None,
+        boundary_geojson=st.session_state.get("_cached_boundary_gj") if data_changed else None,
         selected_names=selected_names,
         center_lat=center_lat, center_lng=center_lng, zoom=zoom,
-        view_revision=_view_revision, height=620, key="main_map",
+        view_revision=view_revision, height=DEFAULT_MAP_HEIGHT, key="main_map",
     )
 
-    # ------------------------------------------------------------------
-    # Explorer table
-    # ------------------------------------------------------------------
+    # ── Explorer table ──
     st.markdown("---")
 
     if not filtered:
@@ -398,51 +473,18 @@ def render_explorer():
                 "Name": p.get("name", "—"),
                 "Rating": star_rating(p.get("rating")),
                 "Reviews": f"{rc:,}" if rc else "—",
-                "Types": ", ".join((p.get("types") or [])[:3]),
+                "Types": ", ".join((p.get("types") or [])[:MAX_TYPES_SHOWN]),
             })
         df = pd.DataFrame(rows)
         st.dataframe(
             df, use_container_width=True, hide_index=True,
-            height=500, on_select="rerun", selection_mode="multi-row",
-            key=_table_key,
+            height=DATAFRAME_HEIGHT, on_select="rerun", selection_mode="multi-row",
+            key=table_key,
         )
 
-        # Rating bar chart
+        # ── Rating chart ──
         st.markdown("---")
-        chart_places = [p for p in filtered if p.get("rating_count") and p.get("rating")]
-        if chart_places:
-            top_n = sorted(chart_places, key=lambda p: p.get("rating_count") or 0, reverse=True)[:40]
-            top_n = list(reversed(top_n))
-            chart_df = pd.DataFrame([{
-                "Name": p["name"][:45],
-                "Reviews": int(p["rating_count"]),
-                "Rating": float(p["rating"]),
-                "Tier": tier_label(p["rating_count"]),
-                "Reviews_fmt": f"{int(p['rating_count']):,}",
-            } for p in top_n])
-
-            tier_order = [t[1] for t in TIERS]
-            tier_colors = {t[1]: "rgb({},{},{})".format(*t[2]) for t in TIERS}
-
-            fig = px.bar(
-                chart_df, x="Rating", y="Name", orientation="h",
-                color="Tier", category_orders={"Tier": tier_order},
-                color_discrete_map=tier_colors, hover_name="Name",
-                hover_data={"Rating": ":.2f", "Reviews_fmt": True, "Tier": True, "Name": False},
-                title=f"Top {len(top_n)} Places — Rating (color = popularity tier)",
-            )
-            fig.update_layout(
-                height=max(400, len(top_n) * 22),
-                margin={"l": 20, "r": 20, "t": 50, "b": 40},
-                paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
-                font_color="#ccc", legend_title_text="Review tier",
-                xaxis_title="Rating", yaxis_title=None,
-                xaxis=dict(range=[3.0, 5.1], gridcolor="#333", dtick=0.5),
-                yaxis=dict(gridcolor="#333"), bargap=0.25,
-            )
-            fig.add_vline(x=4.5, line_dash="dot", line_color="#555",
-                          annotation_text="4.5", annotation_font_color="#777")
-            st.plotly_chart(fig, use_container_width=True)
+        _render_rating_chart(filtered)
 
 
 render_explorer()

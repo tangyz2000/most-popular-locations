@@ -2,80 +2,245 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
     <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
     <style>
-        html, body { margin: 0; padding: 0; overflow: hidden; background: #0e1117; }
-        #map { width: 100%; height: 620px; }
+        :root {
+            --popup-bg: #1e1e2e;
+            --popup-text: #fff;
+            --popup-close: #999;
+            --page-bg: #0e1117;
+        }
+        html, body { margin: 0; padding: 0; overflow: hidden; background: var(--page-bg); }
+        #map { width: 100%; height: 500px; }
         .maplibregl-popup-content {
-            background: #1e1e2e; color: white; font-size: 13px;
+            background: var(--popup-bg); color: var(--popup-text); font-size: 14px;
             padding: 8px 12px; border-radius: 6px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.5); line-height: 1.5;
+            max-width: 280px;
         }
-        .maplibregl-popup-anchor-bottom .maplibregl-popup-tip { border-top-color: #1e1e2e; }
-        .maplibregl-popup-anchor-top .maplibregl-popup-tip { border-bottom-color: #1e1e2e; }
-        .maplibregl-popup-anchor-left .maplibregl-popup-tip { border-right-color: #1e1e2e; }
-        .maplibregl-popup-anchor-right .maplibregl-popup-tip { border-left-color: #1e1e2e; }
-        .maplibregl-popup-close-button { display: none; }
+        .maplibregl-popup-close-button {
+            color: var(--popup-close); font-size: 20px; padding: 2px 8px;
+        }
+        .maplibregl-popup-anchor-bottom .maplibregl-popup-tip { border-top-color: var(--popup-bg); }
+        .maplibregl-popup-anchor-top .maplibregl-popup-tip { border-bottom-color: var(--popup-bg); }
+        .maplibregl-popup-anchor-left .maplibregl-popup-tip { border-right-color: var(--popup-bg); }
+        .maplibregl-popup-anchor-right .maplibregl-popup-tip { border-left-color: var(--popup-bg); }
     </style>
 </head>
 <body>
     <div id="map"></div>
     <script>
+        /* ================================================================
+         * MapLibre GL JS — Custom Streamlit Component
+         *
+         * The map initialises ONCE and updates GeoJSON sources in-place
+         * via the Streamlit component postMessage protocol.
+         *
+         * Highlights are computed client-side from a tiny list of
+         * selected place names, avoiding re-sending ~1.4 MB of GeoJSON.
+         * ================================================================ */
+
+        /* ---- Constants ---- */
+        var DEFAULT_HEIGHT = 500;
+        var MIN_HEIGHT = 250;
+        var VIEWPORT_RATIO = 0.55;
+        var PLACE_RADIUS = 3;
+        var PLACE_OPACITY = 0.85;
+        var HIGHLIGHT_RADIUS = 12;
+        var BOUNDARY_WIDTH = 2;
+        var POPUP_OFFSET = 10;
+        var FLY_DURATION_MS = 800;
+        var MAP_STYLE = "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json";
+
+        /* ---- State ---- */
         var map = null;
         var mapLoaded = false;
+        /* pendingArgs: queue for args received before map.load fires;
+           replayed immediately once the map is ready */
         var pendingArgs = null;
         var lastViewRevision = null;
+        /* cachedPlaces: cached GeoJSON for client-side highlight filtering,
+           avoiding re-sending the full dataset on every selection change */
         var cachedPlaces = null;
+        var lastRequestedHeight = DEFAULT_HEIGHT;
+        /* isTouchDevice: prevents mouseleave from dismissing click-pinned popups
+           on touch screens where hover and tap events overlap */
+        var isTouchDevice = ("ontouchstart" in window) || (navigator.maxTouchPoints > 0);
 
+        /* EMPTY_FC: empty GeoJSON FeatureCollection used to clear layers
+           without removing and re-adding sources */
         var EMPTY_FC = { type: "FeatureCollection", features: [] };
 
-        /* --- Streamlit component protocol --- */
+        /* ---- Streamlit Protocol ---- */
         function sendToStreamlit(type, data) {
             window.parent.postMessage(
                 Object.assign({ isStreamlitMessage: true, type: type }, data), "*"
             );
         }
-        function setFrameHeight(h) {
-            sendToStreamlit("streamlit:setFrameHeight", { height: h });
+        function setFrameHeight(height) {
+            sendToStreamlit("streamlit:setFrameHeight", { height: height });
         }
 
-        /* --- HTML-escape for popup --- */
-        function esc(s) {
-            if (!s) return "";
+        /* ---- Responsive Height ---- */
+        /**
+         * Cap the requested height at VIEWPORT_RATIO of the parent viewport,
+         * with a minimum of MIN_HEIGHT px.
+         * @param {number} requested - Height requested by Python component.
+         * @returns {number} Clamped pixel height.
+         */
+        function responsiveHeight(requested) {
+            try {
+                var viewportHeight = window.parent.innerHeight;
+                if (viewportHeight) return Math.max(MIN_HEIGHT, Math.min(requested, Math.round(viewportHeight * VIEWPORT_RATIO)));
+            } catch (e) {}
+            return requested;
+        }
+
+        /* ---- HTML Helpers ---- */
+        /**
+         * Escape a string for safe HTML insertion, preventing XSS.
+         * @param {string} text - Raw string to escape.
+         * @returns {string} HTML-escaped string.
+         */
+        function escapeHTML(text) {
+            if (!text) return "";
             var el = document.createElement("span");
-            el.textContent = s;
+            el.textContent = text;
             return el.innerHTML;
         }
 
-        /* --- Highlight: computed client-side from selected place names --- */
+        /**
+         * Build the tooltip HTML for a place popup.
+         * @param {Object} properties - Feature properties from GeoJSON.
+         * @returns {string} HTML string for the popup content.
+         */
+        function buildPopupHTML(properties) {
+            return "<b>" + escapeHTML(properties.name) + "</b><br>" +
+                "Rating: " + escapeHTML(properties.rating_fmt) + "<br>" +
+                "Reviews: " + escapeHTML(properties.reviews_fmt) + "<br>" +
+                "Types: " + escapeHTML(properties.types_short);
+        }
+
+        /* ---- Highlight ---- */
+        /**
+         * Update the highlight layer client-side from cached place data.
+         * Avoids re-sending the full GeoJSON on every selection change.
+         * @param {string[]} names - Array of place names to highlight.
+         */
         function updateHighlight(names) {
-            var hs = map.getSource("highlight");
-            if (!hs) return;
+            var highlightSource = map.getSource("highlight");
+            if (!highlightSource) return;
             if (!names || names.length === 0 || !cachedPlaces) {
-                hs.setData(EMPTY_FC);
+                highlightSource.setData(EMPTY_FC);
                 return;
             }
             var nameSet = {};
             for (var i = 0; i < names.length; i++) nameSet[names[i]] = true;
             var features = [];
-            var src = cachedPlaces.features;
-            for (var i = 0; i < src.length; i++) {
-                if (nameSet[src[i].properties.name]) {
-                    features.push({ type: "Feature", geometry: src[i].geometry, properties: {} });
+            var sourceFeatures = cachedPlaces.features;
+            for (var i = 0; i < sourceFeatures.length; i++) {
+                if (nameSet[sourceFeatures[i].properties.name]) {
+                    features.push({ type: "Feature", geometry: sourceFeatures[i].geometry, properties: {} });
                 }
             }
-            hs.setData({ type: "FeatureCollection", features: features });
+            highlightSource.setData({ type: "FeatureCollection", features: features });
         }
 
-        /* --- Map lifecycle --- */
+        /* ---- Map Initialization ---- */
+        /**
+         * Add all GeoJSON sources and their corresponding layers to the map.
+         * @param {Object} placesData - GeoJSON FeatureCollection for places.
+         * @param {Object} boundaryData - GeoJSON FeatureCollection for boundary.
+         */
+        function addMapLayers(placesData, boundaryData) {
+            /* Places */
+            map.addSource("places", { type: "geojson", data: placesData });
+            map.addLayer({
+                id: "places-circles", type: "circle", source: "places",
+                layout: { "circle-sort-key": ["get", "sort_key"] },
+                paint: {
+                    "circle-radius": PLACE_RADIUS,
+                    "circle-color": ["get", "color"],
+                    "circle-opacity": PLACE_OPACITY,
+                },
+            });
+
+            /* Boundary */
+            map.addSource("boundary", { type: "geojson", data: boundaryData });
+            map.addLayer({
+                id: "boundary-line", type: "line", source: "boundary",
+                paint: { "line-color": "rgba(255,255,255,0.7)", "line-width": BOUNDARY_WIDTH },
+            });
+
+            /* Highlight (initially empty — computed from selected_names) */
+            map.addSource("highlight", { type: "geojson", data: EMPTY_FC });
+            map.addLayer({
+                id: "highlight-circles", type: "circle", source: "highlight",
+                paint: { "circle-radius": HIGHLIGHT_RADIUS, "circle-color": "rgba(255,0,255,0.45)" },
+            });
+        }
+
+        /**
+         * Create hover and click/tap popups and wire all mouse/touch event handlers.
+         * Hover popup appears on mouseenter (desktop); click popup is pinned on tap/click.
+         */
+        function setupPopupHandlers() {
+            /* Popups: hover (desktop) + click/tap (all devices) */
+            var hoverPopup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: POPUP_OFFSET });
+            var clickPopup = new maplibregl.Popup({ closeButton: true, closeOnClick: true, offset: POPUP_OFFSET });
+
+            map.on("mouseenter", "places-circles", function (e) {
+                if (clickPopup.isOpen()) return;
+                map.getCanvas().style.cursor = "pointer";
+                var properties = e.features[0].properties;
+                hoverPopup.setLngLat(e.lngLat).setHTML(buildPopupHTML(properties)).addTo(map);
+            });
+            map.on("mouseleave", "places-circles", function () {
+                map.getCanvas().style.cursor = "";
+                if (!isTouchDevice) hoverPopup.remove();
+            });
+            map.on("click", "places-circles", function (e) {
+                hoverPopup.remove();
+                var properties = e.features[0].properties;
+                clickPopup.setLngLat(e.lngLat).setHTML(buildPopupHTML(properties)).addTo(map);
+            });
+        }
+
+        /**
+         * Attach a resize listener on the parent window to adapt map height on
+         * orientation or viewport changes. Wrapped in try/catch for cross-origin safety.
+         */
+        function setupResizeHandler() {
+            try {
+                window.parent.addEventListener("resize", function () {
+                    if (!map || !mapLoaded) return;
+                    var newH = responsiveHeight(lastRequestedHeight);
+                    var mapElement = document.getElementById("map");
+                    if (parseInt(mapElement.style.height) !== newH) {
+                        mapElement.style.height = newH + "px";
+                        map.resize();
+                        setFrameHeight(newH);
+                    }
+                });
+            } catch (e) {}
+        }
+
+        /**
+         * One-time map initialization: creates the MapLibre instance, adds layers,
+         * wires event handlers, and replays any args that arrived before load.
+         * @param {Object} args - Component args from Streamlit.
+         */
         function initMap(args) {
-            var el = document.getElementById("map");
-            el.style.height = (args.height || 620) + "px";
+            lastRequestedHeight = args.height || DEFAULT_HEIGHT;
+            var height = responsiveHeight(lastRequestedHeight);
+            var mapElement = document.getElementById("map");
+            mapElement.style.height = height + "px";
 
             map = new maplibregl.Map({
                 container: "map",
-                style: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
+                style: MAP_STYLE,
                 center: [args.center_lng, args.center_lat],
                 zoom: args.zoom,
                 attributionControl: false,
@@ -86,76 +251,54 @@
                 mapLoaded = true;
                 cachedPlaces = args.places_geojson || EMPTY_FC;
 
-                /* Places */
-                map.addSource("places", { type: "geojson", data: cachedPlaces });
-                map.addLayer({
-                    id: "places-circles", type: "circle", source: "places",
-                    layout: { "circle-sort-key": ["get", "sort_key"] },
-                    paint: {
-                        "circle-radius": 3,
-                        "circle-color": ["get", "color"],
-                        "circle-opacity": 0.85,
-                    },
-                });
-
-                /* Boundary */
-                map.addSource("boundary", { type: "geojson", data: args.boundary_geojson || EMPTY_FC });
-                map.addLayer({
-                    id: "boundary-line", type: "line", source: "boundary",
-                    paint: { "line-color": "rgba(255,255,255,0.7)", "line-width": 2 },
-                });
-
-                /* Highlight (initially empty — computed from selected_names) */
-                map.addSource("highlight", { type: "geojson", data: EMPTY_FC });
-                map.addLayer({
-                    id: "highlight-circles", type: "circle", source: "highlight",
-                    paint: { "circle-radius": 12, "circle-color": "rgba(255,0,255,0.45)" },
-                });
-
-                /* Hover popup */
-                var popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 10 });
-                map.on("mouseenter", "places-circles", function (e) {
-                    map.getCanvas().style.cursor = "pointer";
-                    var p = e.features[0].properties;
-                    popup.setLngLat(e.lngLat)
-                        .setHTML(
-                            "<b>" + esc(p.name) + "</b><br>" +
-                            "Rating: " + esc(p.rating_fmt) + "<br>" +
-                            "Reviews: " + esc(p.reviews_fmt) + "<br>" +
-                            "Types: " + esc(p.types_short)
-                        )
-                        .addTo(map);
-                });
-                map.on("mouseleave", "places-circles", function () {
-                    map.getCanvas().style.cursor = "";
-                    popup.remove();
-                });
+                addMapLayers(cachedPlaces, args.boundary_geojson || EMPTY_FC);
+                setupPopupHandlers();
 
                 updateHighlight(args.selected_names || []);
                 if (pendingArgs) { updateSources(pendingArgs); pendingArgs = null; }
             });
 
             lastViewRevision = args.view_revision;
+            setFrameHeight(height);
+
+            setupResizeHandler();
         }
 
+        /* ---- Data Updates ---- */
+        /**
+         * Conditionally update a named GeoJSON source on the map.
+         * No-op if geojson is falsy or the source does not yet exist.
+         * @param {string} sourceName - MapLibre source ID.
+         * @param {Object|null} geojson - New GeoJSON data, or null to skip.
+         */
+        function updateMapSource(sourceName, geojson) {
+            if (!geojson) return;
+            var source = map.getSource(sourceName);
+            if (source) source.setData(geojson);
+        }
+
+        /**
+         * Update all GeoJSON sources from the latest component args.
+         * @param {Object} args - Component args from Streamlit.
+         */
         function updateSources(args) {
-            /* Only touch heavy sources when Python actually sent new data */
             if (args.places_geojson) {
                 cachedPlaces = args.places_geojson;
-                var ps = map.getSource("places");
-                if (ps) ps.setData(cachedPlaces);
+                updateMapSource("places", cachedPlaces);
             }
-            if (args.boundary_geojson) {
-                var bs = map.getSource("boundary");
-                if (bs) bs.setData(args.boundary_geojson);
-            }
-            /* Highlight is always recomputed from the tiny selected_names list */
+            updateMapSource("boundary", args.boundary_geojson);
             updateHighlight(args.selected_names || []);
         }
 
-        /* --- Called by Streamlit on every Python rerun --- */
+        /* ---- Render Handler ---- */
+        /**
+         * Called by Streamlit on every Python rerun. Initialises the map on first
+         * call, queues args if the map is loading, or updates sources in-place.
+         * @param {Object} args - Component args from Streamlit.
+         */
         function onRender(args) {
-            var h = args.height || 620;
+            lastRequestedHeight = args.height || DEFAULT_HEIGHT;
+            var height = responsiveHeight(lastRequestedHeight);
 
             if (!map) {
                 initMap(args);
@@ -163,27 +306,27 @@
                 pendingArgs = args;
             } else {
                 updateSources(args);
-                var el = document.getElementById("map");
-                if (parseInt(el.style.height) !== h) { el.style.height = h + "px"; map.resize(); }
+                var mapElement = document.getElementById("map");
+                if (parseInt(mapElement.style.height) !== height) { mapElement.style.height = height + "px"; map.resize(); }
             }
 
-            /* Fly to new center when city selection changes */
             if (map && mapLoaded && args.view_revision !== lastViewRevision) {
-                map.flyTo({ center: [args.center_lng, args.center_lat], zoom: args.zoom, duration: 800 });
+                map.flyTo({ center: [args.center_lng, args.center_lat], zoom: args.zoom, duration: FLY_DURATION_MS });
                 lastViewRevision = args.view_revision;
             }
 
-            setFrameHeight(h);
+            setFrameHeight(height);
         }
 
-        /* --- Wire up Streamlit messages --- */
+        /* ---- Bootstrap ---- */
+        /* Wire up Streamlit messages */
         window.addEventListener("message", function (event) {
             if (event.data.type !== "streamlit:render") return;
             onRender(event.data.args);
         });
 
         sendToStreamlit("streamlit:componentReady", { apiVersion: 1 });
-        setFrameHeight(620);
+        setFrameHeight(DEFAULT_HEIGHT);
     </script>
 </body>
 </html>
