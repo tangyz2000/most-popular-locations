@@ -139,6 +139,14 @@
             return d.innerHTML;
         }
 
+        /** Escape a string for safe use inside an HTML attribute value. */
+        function escAttr(s) {
+            if (!s) return "";
+            return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;")
+                            .replace(/'/g, "&#39;").replace(/</g, "&lt;")
+                            .replace(/>/g, "&gt;");
+        }
+
         function selectedArray() {
             return Object.keys(selectedSet);
         }
@@ -186,7 +194,7 @@
                 var row = sorted[ri];
                 var name = row.__name || "";
                 var cls = selectedSet[name] ? "sel" : "";
-                h += "<tr class='" + cls + "' data-n='" + esc(name) + "'>";
+                h += '<tr class="' + cls + '" data-n="' + escAttr(name) + '">';
                 for (var ci = 0; ci < columns.length; ci++) {
                     var v = row[columns[ci]];
                     h += "<td>" + esc(v != null ? String(v) : "") + "</td>";
