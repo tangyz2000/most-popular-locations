@@ -432,11 +432,23 @@ def render_explorer():
             "Min reviews", options=log_options, value=default_min,
             format_func=lambda x: f"{x:,}",
         )
+<<<<<<< HEAD
     selected_types = col_types.multiselect("Filter by type", all_types, placeholder="All types")
     only_in_boundary = st.checkbox("Within boundary only", value=False)
 
     # Apply filters
     filtered = list(places)
+=======
+
+    selected_types = col_types.multiselect(
+        "Filter by type",
+        all_types,
+        placeholder="All types",
+    )
+
+    # Apply filters once — used by both map and table
+    filtered = places
+>>>>>>> 0a4d6cc (Add more places)
     if search_query:
         query_lower = search_query.lower()
         filtered = [p for p in filtered if query_lower in (p.get("name") or "").lower()]
@@ -444,13 +456,35 @@ def render_explorer():
         type_set = set(selected_types)
         filtered = [p for p in filtered if type_set.intersection(p.get("types") or [])]
     filtered = [p for p in filtered if (p.get("rating_count") or 0) >= min_reviews]
+<<<<<<< HEAD
     if only_in_boundary and h3_boundary_poly is not None:
         filtered = [
             p for p in filtered
+=======
+
+# ---------------------------------------------------------------------------
+# Map + Explorer — wrapped in @st.fragment so that toggling the boundary
+# checkbox or clicking a table row only re-renders this section, not the
+# full page (avoids the map flash).
+# ---------------------------------------------------------------------------
+
+
+@st.fragment
+def _render_map_and_table():
+    only_in_boundary = st.checkbox("Within boundary only", value=False)
+
+    # Apply boundary filter (search / type / min-review already applied above)
+    filt = filtered
+    if only_in_boundary and _h3_boundary_poly is not None:
+        from shapely.geometry import Point
+        filt = [
+            p for p in filt
+>>>>>>> 0a4d6cc (Add more places)
             if p.get("lat") and p.get("lng")
             and h3_boundary_poly.contains(Point(p["lng"], p["lat"]))
         ]
 
+<<<<<<< HEAD
     # Sort once — shared by the table and the index→name mapping below.
     filtered = sorted(filtered, key=lambda p: p.get("rating_count") or 0, reverse=True)
 
@@ -494,6 +528,180 @@ def render_explorer():
     st.markdown("---")
 
     if not filtered:
+=======
+    filtered_with_coords = [p for p in filt if p.get("lat") and p.get("lng")]
+    df_map = pd.DataFrame(filtered_with_coords) if filtered_with_coords else pd.DataFrame()
+
+    if not df_map.empty:
+        df_map["rating_count"] = pd.to_numeric(df_map["rating_count"], errors="coerce").fillna(0).astype(int)
+
+        # Sort ascending so popular places are drawn last (on top)
+        df_map = df_map.sort_values("rating_count", ascending=True).reset_index(drop=True)
+
+        df_map["color"]       = df_map["rating_count"].apply(tier_color)
+        df_map["tier"]        = df_map["rating_count"].apply(tier_label)
+        df_map["reviews_fmt"] = df_map["rating_count"].apply(
+            lambda rc: f"{rc:,}" if rc else "—"
+        )
+        df_map["types_short"] = df_map["types"].apply(
+            lambda ts: ", ".join(ts[:3]) if ts else "—"
+        )
+        df_map["rating_fmt"]  = df_map["rating"].apply(star_rating)
+
+    # Compute map center from all selected cities
+    meta_lats = [m["center_lat"] for m in city_metas if m["center_lat"] is not None]
+    meta_lngs = [m["center_lng"] for m in city_metas if m["center_lng"] is not None]
+    if meta_lats:
+        center_lat = sum(meta_lats) / len(meta_lats)
+        center_lng = sum(meta_lngs) / len(meta_lngs)
+    else:
+        center_lat = df_map["lat"].median() if not df_map.empty else 39.8283
+        center_lng = df_map["lng"].median() if not df_map.empty else -98.5795
+
+    # Performance cap — keep map responsive
+    if not df_map.empty and len(df_map) > MAX_MAP_PLACES:
+        st.warning(
+            f"Showing top {MAX_MAP_PLACES:,} places by reviews "
+            f"(out of {len(df_map):,}). Raise the **Min reviews** "
+            f"slider or filter by type to narrow further."
+        )
+        df_map = df_map.nlargest(MAX_MAP_PLACES, "rating_count")
+
+    layers = []
+
+    if not df_map.empty:
+        layers.append(pdk.Layer(
+            "ScatterplotLayer",
+            data=df_map,
+            get_position="[lng, lat]",
+            get_fill_color="color",
+            get_radius=50,
+            radius_min_pixels=2.5,
+            radius_max_pixels=2.5,
+            pickable=True,
+            opacity=0.85,
+        ))
+
+    # Render pre-computed H3 boundary
+    if _h3_boundary_poly is not None:
+        polys = _h3_boundary_poly.geoms if _h3_boundary_poly.geom_type == "MultiPolygon" else [_h3_boundary_poly]
+        boundary_data = [
+            {"polygon": [list(coord) for coord in poly.exterior.coords]}
+            for poly in polys
+        ]
+        layers.append(pdk.Layer(
+            "PolygonLayer",
+            data=boundary_data,
+            get_polygon="polygon",
+            get_line_color=[255, 255, 255, 180],
+            get_fill_color=[0, 0, 0, 0],
+            stroked=True,
+            filled=False,
+            line_width_min_pixels=2,
+        ))
+
+    # Auto-zoom to fit all selected cities
+    if len(city_metas) > 1 and len(meta_lats) > 1:
+        lat_range = max(meta_lats) - min(meta_lats)
+        lng_range = max(meta_lngs) - min(meta_lngs)
+        span = max(lat_range, lng_range)
+        if span > 5:
+            zoom = 4
+        elif span > 2:
+            zoom = 5
+        elif span > 1:
+            zoom = 7
+        elif span > 0.5:
+            zoom = 8
+        elif span > 0.1:
+            zoom = 10
+        else:
+            zoom = 12
+    else:
+        zoom = 12
+
+    view = pdk.ViewState(
+        latitude=center_lat,
+        longitude=center_lng,
+        zoom=zoom,
+        pitch=0,
+    )
+
+    tooltip = {
+        "html": (
+            "<b>{name}</b><br/>"
+            "Rating: {rating_fmt}<br/>"
+            "Reviews: {reviews_fmt}<br/>"
+            "Types: {types_short}"
+        ),
+        "style": {
+            "backgroundColor": "#1e1e2e",
+            "color": "white",
+            "fontSize": "13px",
+            "padding": "8px 12px",
+            "borderRadius": "6px",
+        },
+    }
+
+    # -------------------------------------------------------------------
+    # Highlight layer for selected places (read from session_state)
+    # -------------------------------------------------------------------
+
+    selected_names: set[str] = st.session_state.get("_map_selected_names", set())
+    if selected_names:
+        highlight_places = [
+            p for p in filt
+            if p.get("name") in selected_names and p.get("lat") and p.get("lng")
+        ]
+        if highlight_places:
+            hl_df = pd.DataFrame(highlight_places)
+            hl_df["rating_count"] = pd.to_numeric(hl_df["rating_count"], errors="coerce").fillna(0).astype(int)
+            hl_df["reviews_fmt"] = hl_df["rating_count"].apply(lambda rc: f"{rc:,}" if rc else "—")
+            hl_df["types_short"] = hl_df["types"].apply(lambda ts: ", ".join(ts[:3]) if ts else "—")
+            hl_df["rating_fmt"]  = hl_df["rating"].apply(star_rating)
+            layers.append(pdk.Layer(
+                "ScatterplotLayer",
+                data=hl_df,
+                get_position="[lng, lat]",
+                get_fill_color=[0, 0, 0, 0],
+                get_line_color=[255, 0, 255, 230],
+                get_radius=150,
+                radius_min_pixels=16,
+                radius_max_pixels=50,
+                stroked=True,
+                filled=False,
+                line_width_min_pixels=3,
+                pickable=True,
+                opacity=1.0,
+            ))
+
+    # -------------------------------------------------------------------
+    # Render map with stable key — deck.gl updates props in-place instead
+    # of tearing down / recreating the WebGL canvas on each fragment rerun.
+    # -------------------------------------------------------------------
+
+    st.pydeck_chart(
+        pdk.Deck(
+            layers=layers,
+            initial_view_state=view,
+            tooltip=tooltip,
+            map_style="https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
+        ),
+        use_container_width=True,
+        height=620,
+        key="main_map",
+    )
+
+    # -------------------------------------------------------------------
+    # Explorer table
+    # -------------------------------------------------------------------
+
+    st.markdown("---")
+
+    filt = sorted(filt, key=lambda p: p.get("rating_count") or 0, reverse=True)
+
+    if not filt:
+>>>>>>> 0a4d6cc (Add more places)
         st.info("No places match the current filters.")
     else:
         # Selection feedback — show which places are highlighted.
@@ -510,7 +718,7 @@ def render_explorer():
             st.caption("_Click any row to highlight it on the map_")
 
         rows = []
-        for rank, p in enumerate(filtered, 1):
+        for rank, p in enumerate(filt, 1):
             rc = p.get("rating_count") or 0
             rows.append({
                 "__name": p.get("name", "—"),
@@ -529,9 +737,88 @@ def render_explorer():
             key=table_key,
         )
 
+<<<<<<< HEAD
         # ── Rating chart ──
         st.markdown("---")
         _render_rating_chart(filtered)
+=======
+        # Update highlight selection in session_state; rerun fragment if changed
+        new_selected: set[str] = set()
+        for idx in event.selection.rows:
+            if idx < len(filt):
+                new_selected.add(filt[idx].get("name", ""))
+        if new_selected != selected_names:
+            st.session_state._map_selected_names = new_selected
+            st.rerun()
+
+        # Rating bar chart
+        st.markdown("---")
+        chart_places = [
+            p for p in filt
+            if p.get("rating_count") and p.get("rating")
+        ]
+        if chart_places:
+            top_n = sorted(chart_places, key=lambda p: p.get("rating_count") or 0, reverse=True)[:40]
+            top_n = list(reversed(top_n))
+            chart_df = pd.DataFrame([{
+                "Name":        p["name"][:45],
+                "Reviews":     int(p["rating_count"]),
+                "Rating":      float(p["rating"]),
+                "Tier":        tier_label(p["rating_count"]),
+                "Reviews_fmt": f"{int(p['rating_count']):,}",
+            } for p in top_n])
+>>>>>>> 0a4d6cc (Add more places)
 
 
+<<<<<<< HEAD
 render_explorer()
+=======
+            fig = px.bar(
+                chart_df,
+                x="Rating",
+                y="Name",
+                orientation="h",
+                color="Tier",
+                category_orders={"Tier": tier_order},
+                color_discrete_map=tier_colors,
+                hover_name="Name",
+                hover_data={"Rating": ":.2f", "Reviews_fmt": True, "Tier": True, "Name": False},
+                title=f"Top {len(top_n)} Places — Rating (color = popularity tier)",
+            )
+            fig.update_layout(
+                height=max(400, len(top_n) * 22),
+                margin={"l": 20, "r": 20, "t": 50, "b": 40},
+                paper_bgcolor="rgba(0,0,0,0)",
+                plot_bgcolor="rgba(0,0,0,0)",
+                font_color="#ccc",
+                legend_title_text="Review tier",
+                xaxis_title="Rating",
+                yaxis_title=None,
+                xaxis=dict(range=[3.0, 5.1], gridcolor="#333", dtick=0.5),
+                yaxis=dict(gridcolor="#333"),
+                bargap=0.25,
+            )
+            fig.add_vline(x=4.5, line_dash="dot", line_color="#555",
+                          annotation_text="4.5", annotation_font_color="#777")
+            st.plotly_chart(fig, use_container_width=True)
+
+
+
+if not with_coords:
+    view = pdk.ViewState(latitude=39.8283, longitude=-98.5795, zoom=3, pitch=0)
+    st.pydeck_chart(
+        pdk.Deck(
+            layers=[],
+            initial_view_state=view,
+            map_style="https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
+        ),
+        use_container_width=True,
+        height=620,
+    )
+    if not selected_cities:
+        st.info("Select one or more cities from the sidebar to see places on the map.")
+    else:
+        st.warning("No coordinate data found. Run `example.py` to collect lat/lng.")
+else:
+    _render_map_and_table()
+>>>>>>> 0a4d6cc (Add more places)
