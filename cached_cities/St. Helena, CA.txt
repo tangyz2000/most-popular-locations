@@ -1,0 +1,3835 @@
+Found 639 places in St. Helena, CA within 4000 meters:
+
+1. PIER 39
+   Address:  The Embarcadero, San Francisco, CA 94133, USA
+   Rating:   4.6 (136841 reviews)
+   Types:    tourist_attraction, fishing_pier, historical_landmark, marina, historical_place, shopping_mall, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+2. Golden Gate Bridge
+   Address:  Golden Gate Brg, San Francisco, CA, USA
+   Rating:   4.8 (85454 reviews)
+   Types:    bridge, tourist_attraction, historical_landmark, historical_place, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+3. Golden Gate Park
+   Address:  San Francisco, CA, USA
+   Rating:   4.8 (44393 reviews)
+   Types:    park, tourist_attraction, garden, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+4. Old Sacramento Waterfront
+   Address:  1014 2nd St #200, Sacramento, CA 95814, USA
+   Rating:   4.6 (28971 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, shopping_mall, museum, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+5. The Painted Ladies
+   Address:  San Francisco, CA 94117, USA
+   Rating:   4.4 (27795 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+6. Coit Tower
+   Address:  1 Telegraph Hill Blvd, San Francisco, CA 94133, USA
+   Rating:   4.6 (15754 reviews)
+   Types:    historical_landmark, tourist_attraction, landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+7. Twin Peaks
+   Address:  501 Twin Peaks Blvd, San Francisco, CA 94114, USA
+   Rating:   4.7 (13700 reviews)
+   Types:    park, scenic_spot, landmark, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+8. The Mystery Spot
+   Address:  465 Mystery Spot Rd, Santa Cruz, CA 95065, USA
+   Rating:   4.5 (8607 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+9. William Land Regional Park
+   Address:  3800 W Land Park Dr, Sacramento, CA 95822, USA
+   Rating:   4.6 (6751 reviews)
+   Types:    park, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+10. Pioneer Park
+   Address:  1 Telegraph Hill Blvd, San Francisco, CA 94133, USA
+   Rating:   4.6 (6191 reviews)
+   Types:    city_park, tourist_attraction, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+11. California State Capitol Museum
+   Address:  1315 10th St, Sacramento, CA 95814, USA
+   Rating:   4.7 (5984 reviews)
+   Types:    history_museum, botanical_garden, museum, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+12. Gott's St. Helena
+   Address:  933 Main St #29, St Helena, CA 94574, USA
+   Rating:   4.6 (5351 reviews)
+   Types:    american_restaurant, hamburger_restaurant, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+13. San Francisco Maritime National Historical Park
+   Address:  San Francisco, CA 94109, USA
+   Rating:   4.6 (5022 reviews)
+   Types:    historical_place, tourist_attraction, museum, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+14. Yerba Buena Gardens
+   Address:  750 Howard St, San Francisco, CA 94103, USA
+   Rating:   4.6 (4462 reviews)
+   Types:    city_park, tourist_attraction, garden, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+15. Sonoma Plaza
+   Address:  453 1st St E, Sonoma, CA 95476, USA
+   Rating:   4.7 (4424 reviews)
+   Types:    plaza, tourist_attraction, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+16. Rutherford Grill
+   Address:  1180 Rutherford Rd, Rutherford, CA 94573, USA
+   Rating:   4.6 (3212 reviews)
+   Types:    american_restaurant, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+17. V. Sattui Winery
+   Address:  1111 White Ln, St Helena, CA 94574, USA
+   Rating:   4.3 (2948 reviews)
+   Types:    winery, vineyard, picnic_ground, bar_and_grill, wedding_venue, wine_bar, farm, event_venue, bar, association_or_organization, restaurant, deli, food_store, food, store, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+18. Rosie the Riveter WWII Home Front National Historical Park
+   Address:  1414 Harbour Way S #3000, Richmond, CA 94804, USA
+   Rating:   4.7 (2727 reviews)
+   Types:    historical_place, tourist_attraction, historical_landmark, national_park, park, museum, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+19. Sutter's Fort State Historic Park
+   Address:  2701 L St, Sacramento, CA 95816, USA
+   Rating:   4.5 (2233 reviews)
+   Types:    state_park, tourist_attraction, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+20. Farmstead at Long Meadow Ranch
+   Address:  738 Main St, St Helena, CA 94574, USA
+   Rating:   4.6 (1789 reviews)
+   Types:    american_restaurant, winery, catering_service, meal_takeaway, cafe, food_delivery, event_venue, bar, farm, manufacturer, service, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+21. Healdsburg Plaza
+   Address:  Healdsburg Ave & Matheson St, Healdsburg, CA 95448, USA
+   Rating:   4.7 (1586 reviews)
+   Types:    park, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+22. Tower Bridge
+   Address:  Sacramento, CA 95814, USA
+   Rating:   4.6 (1580 reviews)
+   Types:    bridge, tourist_attraction, historical_landmark, historical_place, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+23. The Charter Oak Restaurant
+   Address:  1050 Charter Oak Ave, St Helena, CA 94574, USA
+   Rating:   4.4 (1579 reviews)
+   Types:    californian_restaurant, family_restaurant, fine_dining_restaurant, american_restaurant, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+24. Pizzeria Tra Vigne
+   Address:  1016 Main St, St Helena, CA 94574, USA
+   Rating:   4.5 (1508 reviews)
+   Types:    pizza_restaurant, italian_restaurant, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+25. Jack London State Historic Park
+   Address:  2400 London Ranch Rd, Glen Ellen, CA 95442, USA
+   Rating:   4.8 (1327 reviews)
+   Types:    historical_landmark, state_park, hiking_area, tourist_attraction, historical_place, park, sports_activity_location, museum, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+26. Pulgas Water Temple
+   Address:  56 Cañada Rd, Redwood City, CA 94062, USA
+   Rating:   4.6 (1301 reviews)
+   Types:    monument, tourist_attraction, historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+27. Bear Valley Visitor Center
+   Address:  1 Bear Valley Visitor Center Access Road, Point Reyes Station, CA 94956, USA
+   Rating:   4.8 (1282 reviews)
+   Types:    visitor_center, tourist_attraction, tourist_information_center, tour_agency, travel_agency, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+28. The Petrified Forest
+   Address:  4100 Petrified Forest Rd, Calistoga, CA 94515, USA
+   Rating:   4.4 (1280 reviews)
+   Types:    park, hiking_area, tourist_attraction, historical_landmark, gift_shop, historical_place, sports_activity_location, museum, point_of_interest, store, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+29. Caymus Vineyards
+   Address:  8700 Conn Creek Rd, Rutherford, CA 94573, USA
+   Rating:   4.7 (1123 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+30. Fort Ross State Historic Park
+   Address:  19005 Coast Hwy, Jenner, CA 95450, USA
+   Rating:   4.8 (1039 reviews)
+   Types:    state_park, tourist_attraction, historical_landmark, historical_place, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+31. Beringer Vineyards
+   Address:  2000 Main St, St Helena, CA 94574, USA
+   Rating:   4.3 (1011 reviews)
+   Types:    winery, tourist_attraction, liquor_store, historical_landmark, vineyard, historical_place, farm, point_of_interest, service, food, manufacturer, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+32. Mumm Napa
+   Address:  8445 Silverado Trail, Rutherford, CA 94573, USA
+   Rating:   4.5 (990 reviews)
+   Types:    winery, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+33. The Model Bakery
+   Address:  1357 Main St, St Helena, CA 94574, USA
+   Rating:   4.4 (949 reviews)
+   Types:    bakery, food_store, store, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+34. PRESS Restaurant
+   Address:  587 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.4 (935 reviews)
+   Types:    fine_dining_restaurant, californian_restaurant, american_restaurant, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+35. John Muir National Historic Site
+   Address:  4202 Alhambra Ave, Martinez, CA 94553, USA
+   Rating:   4.7 (912 reviews)
+   Types:    historical_place, tourist_attraction, historical_landmark, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+36. Bothe-Napa Valley State Park
+   Address:  3801 St Helena Hwy, Calistoga, CA 94515, USA
+   Rating:   4.6 (892 reviews)
+   Types:    state_park, hiking_area, tourist_attraction, picnic_ground, park, sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+37. Mount Diablo Summit Visitor Center
+   Address:  Summit Rd, Walnut Creek, CA 94598, USA
+   Rating:   4.7 (871 reviews)
+   Types:    museum, hiking_area, tourist_attraction, sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+38. Brasswood Bar + Kitchen
+   Address:  3111 St Helena Hwy North, St Helena, CA 94574, USA
+   Rating:   4.7 (866 reviews)
+   Types:    american_restaurant, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+39. Market Restaurant
+   Address:  1347 Main St, St Helena, CA 94574, USA
+   Rating:   4.6 (730 reviews)
+   Types:    american_restaurant, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+40. HALL Wines St. Helena
+   Address:  401 St Helena Hwy South, St Helena, CA 94574, USA
+   Rating:   4.5 (720 reviews)
+   Types:    winery, vineyard, wine_bar, farm, bar, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+41. Stanford Mansion
+   Address:  800 N St, Sacramento, CA 95814, USA
+   Rating:   4.7 (673 reviews)
+   Types:    tourist_attraction, museum, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+42. Brasswood Bar + Bakery
+   Address:  3111 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.6 (671 reviews)
+   Types:    bakery, food_store, food, store, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+43. Gillwoods Cafe
+   Address:  1313 Main St, St Helena, CA 94574, USA
+   Rating:   4.6 (660 reviews)
+   Types:    american_restaurant, family_restaurant, breakfast_restaurant, bakery, hamburger_restaurant, food_store, store, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+44. Frog's Leap Winery
+   Address:  8815 Conn Creek Rd, Rutherford, CA 94573, USA
+   Rating:   4.6 (651 reviews)
+   Types:    winery, vineyard, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+45. Folsom Powerhouse State Historic Park
+   Address:  9980 Greenback Ln, Folsom, CA 95630, USA
+   Rating:   4.7 (613 reviews)
+   Types:    state_park, tourist_attraction, historical_place, museum, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+46. Golden Gate Bridge North Vista Point
+   Address:  RGM9+4V, Golden Gate Brg, Sausalito, CA 94965, USA
+   Rating:   4.8 (611 reviews)
+   Types:    scenic_spot, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+47. Murphy Windmill
+   Address:  San Francisco, CA 94121, USA
+   Rating:   4.5 (569 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+48. Sonoma State Historic Park
+   Address:  20 E Spain St, Sonoma, CA 95476, USA
+   Rating:   4.7 (505 reviews)
+   Types:    state_park, tourist_attraction, park, history_museum, museum, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+49. Round Pond Estate Winery
+   Address:  875 Rutherford Rd, Rutherford, CA 94573, USA
+   Rating:   4.7 (483 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+50. Grgich Hills Estate
+   Address:  1829 St Helena Hwy, Rutherford, CA 94573, USA
+   Rating:   4.6 (461 reviews)
+   Types:    winery, historical_landmark, farm, historical_place, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+51. Rombauer Vineyards
+   Address:  3522 Silverado Trail N, St Helena, CA 94574, USA
+   Rating:   4.7 (457 reviews)
+   Types:    winery, vineyard, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+52. Alpha Omega Winery
+   Address:  1155 Mee Ln, St Helena, CA 94574, USA
+   Rating:   4.3 (454 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+53. Sausalito Boardwalk
+   Address:  525 Bridgeway, Sausalito, CA 94965, USA
+   Rating:   4.8 (451 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+54. Cook St. Helena
+   Address:  1310 Main St, St Helena, CA 94574, USA
+   Rating:   4.6 (448 reviews)
+   Types:    italian_restaurant, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+55. Ana's Cantina
+   Address:  1205 Main St, St Helena, CA 94574, USA
+   Rating:   4 (438 reviews)
+   Types:    bar, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+56. Himalayan Sherpa Kitchen
+   Address:  1148 Main St, St Helena, CA 94574, USA
+   Rating:   4.5 (435 reviews)
+   Types:    indian_restaurant, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+57. The Campanile
+   Address:  Sather Tower, Berkeley, CA 94720, USA
+   Rating:   4.7 (422 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+58. Joseph Phelps Vineyards
+   Address:  200 Taplin Rd, St Helena, CA 94574, USA
+   Rating:   4.6 (384 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+59. Duckhorn Vineyards
+   Address:  1000 Lodi Ln, St Helena, CA 94574, USA
+   Rating:   4.6 (375 reviews)
+   Types:    winery, vineyard, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+60. Salvia Terrace & Bar
+   Address:  1915 Main St, St Helena, CA 94574, USA
+   Rating:   4.5 (372 reviews)
+   Types:    californian_restaurant, american_restaurant, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+61. Taylor Mountain Regional Park
+   Address:  2080 Kawana Terrace, Santa Rosa, CA 95404, USA
+   Rating:   4.7 (370 reviews)
+   Types:    park, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+62. Charles Krug Winery
+   Address:  2800 Main St, St Helena, CA 94574, USA
+   Rating:   4.4 (365 reviews)
+   Types:    winery, liquor_store, wine_bar, wedding_venue, bar, farm, event_venue, point_of_interest, service, food, manufacturer, store, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+63. Del Dotto Estate Winery & Caves
+   Address:  1445 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.6 (352 reviews)
+   Types:    vineyard, winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+64. Raymond Vineyards
+   Address:  1584 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.6 (342 reviews)
+   Types:    winery, vineyard, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+65. Rutherford Hill Winery
+   Address:  200 Rutherford Hill Rd, Rutherford, CA 94573, USA
+   Rating:   4.3 (333 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+66. Guigni’s Deli
+   Address:  1227 Main St, St Helena, CA 94574, USA
+   Rating:   4.7 (328 reviews)
+   Types:    deli, food_store, store, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+67. The Restaurant
+   Address:  180 Rutherford Hill Rd, Rutherford, CA 94573, USA
+   Rating:   4.3 (313 reviews)
+   Types:    restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+68. The Prisoner Wine Company
+   Address:  1178 Galleron Rd, St Helena, CA 94574, USA
+   Rating:   4.2 (311 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+69. Villa Corona
+   Address:  1138 Main St, St Helena, CA 94574, USA
+   Rating:   4.6 (306 reviews)
+   Types:    mexican_restaurant, latin_american_restaurant, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+70. La Prima Pizza
+   Address:  1010 Adams St, St Helena, CA 94574, USA
+   Rating:   4 (295 reviews)
+   Types:    pizza_restaurant, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+71. Railroad Square Historic District
+   Address:  9 4th St, Santa Rosa, CA 95401, USA
+   Rating:   4.4 (292 reviews)
+   Types:    tourist_attraction, historical_landmark, historical_place, shopping_mall, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+72. Coon Joint Replacement Institute: Adventist Health St. Helena
+   Address:  6 Woodland Rd # 202, St Helena, CA 94574, USA
+   Rating:   4.8 (290 reviews)
+   Types:    doctor, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+73. Frank Family Vineyards
+   Address:  1091 Larkmead Ln, Calistoga, CA 94515, USA
+   Rating:   4.6 (290 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+74. Inglenook
+   Address:  1991 St Helena Hwy, Rutherford, CA 94573, USA
+   Rating:   4.6 (286 reviews)
+   Types:    winery, tourist_attraction, bistro, farm, manufacturer, service, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+75. Elmshaven
+   Address:  125 Glass Mountain Ln, St Helena, CA 94574, USA
+   Rating:   4.9 (281 reviews)
+   Types:    historical_landmark, historical_place, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search, GoogleMapsAPI_text_search
+
+76. Clif Family Winery
+   Address:  709 Main St, St Helena, CA 94574, USA
+   Rating:   4.8 (273 reviews)
+   Types:    winery, family_restaurant, tourist_attraction, liquor_store, wine_bar, bar, farm, manufacturer, store, service, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+77. Gatehouse Restaurant
+   Address:  2555 Main St, St Helena, CA 94574, USA
+   Rating:   4.7 (272 reviews)
+   Types:    american_restaurant, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+78. Jack London's Wolf House
+   Address:  Wolf House Service Rd, Glen Ellen, CA 95442, USA
+   Rating:   4.8 (266 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+79. Tenderloin Museum
+   Address:  398 Eddy St, San Francisco, CA 94102, USA
+   Rating:   4.5 (256 reviews)
+   Types:    museum, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+80. Ray Ray's Tacos
+   Address:  1304 Main St, St Helena, CA 94574, USA
+   Rating:   4.9 (252 reviews)
+   Types:    taco_restaurant, tex_mex_restaurant, breakfast_restaurant, american_restaurant, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+81. Fantesca Estate & Winery
+   Address:  2920 Spring Mountain Rd, St Helena, CA 94574, USA
+   Rating:   5 (250 reviews)
+   Types:    winery, vineyard, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+82. Louis M. Martini Winery
+   Address:  254 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.7 (247 reviews)
+   Types:    winery, farm, liquor_store, food, store, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+83. Harvest Table
+   Address:  1 Main St, St Helena, CA 94574, USA
+   Rating:   4.3 (244 reviews)
+   Types:    restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+84. Rutherford Ranch Winery
+   Address:  1680 Silverado Trail S, St Helena, CA 94574, USA
+   Rating:   4.6 (235 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+85. Sutter Home Winery
+   Address:  277 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.1 (224 reviews)
+   Types:    winery, wine_bar, farm, bar, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+86. St Helena Bistro California cuisine
+   Address:  1146 Main St, St Helena, CA 94574, USA
+   Rating:   4.3 (223 reviews)
+   Types:    californian_restaurant, taco_restaurant, american_restaurant, italian_restaurant, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+87. Vallejo Home
+   Address:  Sonoma, CA 95476, USA
+   Rating:   4.7 (221 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+88. Prager Winery & Port Works
+   Address:  1281 Lewelling Ln, St Helena, CA 94574, USA
+   Rating:   4.8 (218 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+89. Crane Park
+   Address:  360 S Crane Ave, St Helena, CA 94574, USA
+   Rating:   4.6 (215 reviews)
+   Types:    park, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+90. ZD Wines
+   Address:  8383 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.7 (214 reviews)
+   Types:    winery, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+91. Maidu Museum & Historic Site
+   Address:  1970 Johnson Ranch Dr, Roseville, CA 95661, USA
+   Rating:   4.7 (214 reviews)
+   Types:    museum, tourist_attraction, history_museum, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+92. Beaulieu Vineyard
+   Address:  1960 St Helena Hwy, Rutherford, CA 94573, USA
+   Rating:   4.3 (212 reviews)
+   Types:    winery, wine_bar, association_or_organization, bar, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+93. Station St. Helena
+   Address:  1153 Main St, St Helena, CA 94574, USA
+   Rating:   4.4 (211 reviews)
+   Types:    pizza_delivery, pizza_restaurant, meal_takeaway, bakery, coffee_shop, cafe, meal_delivery, food_delivery, american_restaurant, food_store, store, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+94. Top of Four Vista Points on Conzelman Rd
+   Address:  Conzelman Rd, Sausalito, CA 94965, USA
+   Rating:   4.9 (210 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+95. Charlie's Napa Valley
+   Address:  1327 Railroad Ave, St Helena, CA 94574, USA
+   Rating:   4.5 (207 reviews)
+   Types:    restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+96. The Culinary Institute of America at Greystone
+   Address:  2555 Main St, St Helena, CA 94574, USA
+   Rating:   4.5 (207 reviews)
+   Types:    tourist_attraction, wedding_venue, event_venue, university, educational_institution, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+97. Golden Gate Promenade
+   Address:  100 Yacht Rd, San Francisco, CA 94123, USA
+   Rating:   4.9 (202 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+98. Markham Vineyards
+   Address:  2812 St Helena Hwy North, St Helena, CA 94574, USA
+   Rating:   4.7 (199 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+99. Ehlers Estate
+   Address:  3222 Ehlers Ln, St Helena, CA 94574, USA
+   Rating:   4.9 (198 reviews)
+   Types:    winery, vineyard, farm, association_or_organization, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+100. Spring Mountain Vineyard
+   Address:  2805 Spring Mountain Rd, St Helena, CA 94574, USA
+   Rating:   4.8 (194 reviews)
+   Types:    vineyard, winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+101. Whitehall Lane Winery
+   Address:  1563 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.7 (191 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+102. The Restaurant at Meadowood
+   Address:  900 Meadowood Ln, St Helena, CA 94574, USA
+   Rating:   4.4 (185 reviews)
+   Types:    fine_dining_restaurant, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+103. Honig Vineyard & Winery
+   Address:  850 Rutherford Rd, Rutherford, CA 94573, USA
+   Rating:   4.6 (185 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+104. Bale Grist Mill State Historic Park
+   Address:  3369 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.7 (185 reviews)
+   Types:    state_park, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search, GoogleMapsAPI_text_search
+
+105. Quintessa
+   Address:  1601 Silverado Trail S, St Helena, CA 94574, USA
+   Rating:   4.5 (183 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+106. Chappell Hayes Observation Tower
+   Address:  2777 Middle Harbor Rd, Oakland, CA 94607, USA
+   Rating:   4.6 (182 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+107. Adventist Heart Institute: Adventist Health St. Helena
+   Address:  6 Woodland Rd #304, St Helena, CA 94574, USA
+   Rating:   4.7 (181 reviews)
+   Types:    doctor, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+108. The Bistro at Inglenook
+   Address:  1991 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.8 (172 reviews)
+   Types:    bistro, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+109. Tres Sabores
+   Address:  1620 S Whitehall Ln, St Helena, CA 94574, USA
+   Rating:   4.8 (166 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+110. Cameo Cinema
+   Address:  1340 Main St, St Helena, CA 94574, USA
+   Rating:   4.8 (158 reviews)
+   Types:    movie_theater, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+111. Bella Union Winery
+   Address:  1695 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.7 (158 reviews)
+   Types:    winery, vineyard, gift_shop, wine_bar, farm, liquor_store, event_venue, bar, tourist_attraction, association_or_organization, food, store, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+112. Merryvale Vineyards
+   Address:  1000 Main St, St Helena, CA 94574, USA
+   Rating:   4.6 (157 reviews)
+   Types:    winery, vineyard, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+113. Angwin Plaza Shopping Center
+   Address:  Angwin, CA 94508, USA
+   Rating:   4.2 (152 reviews)
+   Types:    shopping_mall, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+114. The Salon at Heitz Cellar
+   Address:  436 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.4 (150 reviews)
+   Types:    winery, farm, tourist_attraction, association_or_organization, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+115. Patrick Amiot
+   Address:  Florence Ave, Sebastopol, CA 95472, USA
+   Rating:   4.9 (139 reviews)
+   Types:    art_museum, tourist_attraction, museum, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+116. Napa Valley Olive Oil Manufacturing Co
+   Address:  835 Charter Oak Ave, St Helena, CA 94574, USA
+   Rating:   4.8 (137 reviews)
+   Types:    manufacturer, store, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+117. Aonair Winery & Caves
+   Address:  647 Greenfield Rd, St Helena, CA 94574, USA
+   Rating:   4.9 (133 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+118. Freemark Abbey Winery
+   Address:  N, 3022 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.5 (132 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+119. Faust
+   Address:  2867 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.8 (124 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+120. CADE Estate Winery
+   Address:  360 Howell Mountain Rd S, Angwin, CA 94508, USA
+   Rating:   4.4 (123 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+121. Jack London's Cabin
+   Address:  1-199 Webster Street Tube, Oakland, CA 94607, USA
+   Rating:   4.5 (123 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+122. Pestoni Family Estate Winery
+   Address:  1673 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.7 (118 reviews)
+   Types:    winery, vineyard, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+123. Eugene O'Neill National Historic Site
+   Address:  1000 Kuss Rd, Danville, CA 94526, USA
+   Rating:   4.7 (116 reviews)
+   Types:    historical_place, tourist_attraction, nature_preserve, historical_landmark, national_park, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+124. The Saint
+   Address:  1351 Main St, St Helena, CA 94574, USA
+   Rating:   4.5 (115 reviews)
+   Types:    cocktail_bar, wine_bar, bar, event_venue, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+125. Orin Swift Cellars
+   Address:  1321 Main St, St Helena, CA 94574, USA
+   Rating:   4.3 (114 reviews)
+   Types:    winery, tourist_attraction, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+126. AXR Napa Valley
+   Address:  3199 St Helena Hwy N, St Helena, CA 94574, USA
+   Rating:   4.9 (112 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+127. Brindare Napa Valley
+   Address:  641 Main St, St Helena, CA 94574, USA
+   Rating:   4.8 (111 reviews)
+   Types:    event_venue, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+128. Meadowood Golf Club
+   Address:  900 Meadowood Ln, St Helena, CA 94574, USA
+   Rating:   4.7 (110 reviews)
+   Types:    sports_club, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+129. Elizabeth Spencer Winery
+   Address:  1165 Rutherford Rd, Rutherford, CA 94573, USA
+   Rating:   4.6 (110 reviews)
+   Types:    winery, tourist_attraction, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+130. The Children's Bell Tower
+   Address:  2255 CA-1, Bodega Bay, CA 94923, USA
+   Rating:   4.7 (108 reviews)
+   Types:    sculpture, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+131. Benessere Vineyards
+   Address:  1010 Big Tree Rd, St Helena, CA 94574, USA
+   Rating:   4.8 (105 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+132. Trinchero Napa Valley
+   Address:  3070 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.8 (104 reviews)
+   Types:    winery, vineyard, farm, tourist_attraction, association_or_organization, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+133. Madrigal Family Winery
+   Address:  3718 St Helena Hwy, Calistoga, CA 94515, USA
+   Rating:   4.8 (104 reviews)
+   Types:    winery, tourist_attraction, liquor_store, vineyard, farm, point_of_interest, service, food, manufacturer, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+134. Lyman Park
+   Address:  1498 Main St, St Helena, CA 94574, USA
+   Rating:   4.6 (101 reviews)
+   Types:    park, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+135. Ballentine Vineyards
+   Address:  2820 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.8 (101 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+136. Forum at Meadowood
+   Address:  900 Meadowood Ln, St Helena, CA 94574, USA
+   Rating:   4.8 (97 reviews)
+   Types:    american_restaurant, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+137. Brasswood Cellars
+   Address:  3111 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.6 (97 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+138. Stony Hill
+   Address:  3331 St Helena Hwy North, St Helena, CA 94574, USA
+   Rating:   4.8 (97 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+139. Lime Point Historic Lighthouse
+   Address:  Moore Rd, Sausalito, CA, USA
+   Rating:   4.7 (97 reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+140. Saint Helena Catholic Church
+   Address:  1340 Tainter St, St Helena, CA 94574, USA
+   Rating:   4.9 (95 reviews)
+   Types:    tourist_attraction, church, place_of_worship, association_or_organization, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+141. Titus Vineyards
+   Address:  2971 Silverado Trail N, St Helena, CA 94574, USA
+   Rating:   4.7 (92 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+142. Locke Memorial Park
+   Address:  Walnut Grove, CA 95690, USA
+   Rating:   4.6 (92 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+143. Reverie Winery Estate
+   Address:  264 N Fork Crystal Springs Rd, St Helena, CA 94574, USA
+   Rating:   4.9 (91 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+144. Schweiger Vineyards & Winery
+   Address:  4015 Spring Mountain Rd, St Helena, CA 94574, USA
+   Rating:   4.9 (91 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+145. Bremer Family Winery
+   Address:  975 Deer Park Rd, St Helena, CA 94574, USA
+   Rating:   4.8 (88 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+146. Amizetta Vineyards
+   Address:  1099 Greenfield Rd, St Helena, CA 94574, USA
+   Rating:   4.9 (88 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+147. Secret Sidewalk
+   Address:  1430 Old Canyon Rd, Fremont, CA 94536, USA
+   Rating:   4.4 (85 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+148. Language of the Birds
+   Address:  320 Columbus Ave, San Francisco, CA 94133, USA
+   Rating:   4.1 (84 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+149. Under-Study
+   Address:  595 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.7 (82 reviews)
+   Types:    cafe, pastry_shop, butcher_shop, coffee_shop, liquor_store, dessert_shop, confectionery, bakery, restaurant, food_store, food, store, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+150. Linda Falls
+   Address:  Linda Falls Terrace, Angwin, CA 94508, USA
+   Rating:   4.7 (82 reviews)
+   Types:    nature_preserve, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+151. Mathew Bruno Rutherford Estate
+   Address:  1151 Rutherford Rd, Napa, CA 94558, USA
+   Rating:   5 (80 reviews)
+   Types:    winery, liquor_store, farm, manufacturer, store, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+152. Lyford's Stone Tower
+   Address:  2034 Paradise Dr, Tiburon, CA 94920, USA
+   Rating:   4.5 (80 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+153. Dakota Shy Winery
+   Address:  771 Sage Canyon Rd, St Helena, CA 94574, USA
+   Rating:   4.9 (74 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+154. Failla Wines
+   Address:  3530 Silverado Trail N, St Helena, CA 94574, USA
+   Rating:   4.7 (72 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+155. Upper Valley Animal Clinic
+   Address:  1161 Ehlers Ln, St Helena, CA 94574, USA
+   Rating:   4.6 (72 reviews)
+   Types:    veterinary_care, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+156. Central Valley
+   Address:  1100 Vintage Ave, St Helena, CA 94574, USA
+   Rating:   4 (70 reviews)
+   Types:    hardware_store, garden_center, building_materials_store, farm, wholesaler, supplier, food, store, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+157. Sinegal Estate Winery
+   Address:  2125 Inglewood Ave, St Helena, CA 94574, USA
+   Rating:   4.7 (70 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+158. Flora Springs
+   Address:  677 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.9 (69 reviews)
+   Types:    winery, vineyard, wine_bar, farm, liquor_store, bar, association_or_organization, food, store, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+159. HALL Rutherford
+   Address:  56 Auberge Rd, Rutherford, CA 94573, USA
+   Rating:   5 (69 reviews)
+   Types:    winery, tourist_attraction, wine_bar, vineyard, bar, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+160. Corison Winery
+   Address:  987 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.5 (68 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+161. Davies Vineyards
+   Address:  1210 Grayson Ave, St Helena, CA 94574, USA
+   Rating:   4.6 (66 reviews)
+   Types:    winery, tourist_attraction, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+162. William Perry Winery
+   Address:  1443 Silverado Trail S, St Helena, CA 94574, USA
+   Rating:   4.5 (66 reviews)
+   Types:    winery, vineyard, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+163. Violetto
+   Address:  1915 Main St, St Helena, CA 94574, USA
+   Rating:   4.6 (66 reviews)
+   Types:    american_restaurant, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+164. Pacific Union College
+   Address:  One Angwin Ave, Angwin, CA 94508, USA
+   Rating:   4.4 (64 reviews)
+   Types:    university, educational_institution, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+165. Anderson's Conn Valley Vineyards
+   Address:  680 Rossi Rd, St Helena, CA 94574, USA
+   Rating:   4.7 (62 reviews)
+   Types:    winery, vineyard, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+166. Lake Hennessey
+   Address:  Lake Hennessey, California 94574, USA
+   Rating:   4.5 (60 reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+167. VGS Chateau Potelle Winery
+   Address:  1200 Dowdell Ln, St Helena, CA 94574, USA
+   Rating:   4.9 (57 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+168. The Terraces
+   Address:  1450 Silverado Trail S, Rutherford, CA 94573, USA
+   Rating:   4.9 (56 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+169. Bougetz Cellars
+   Address:  1001 Silverado Trail S, St Helena, CA 94574, USA
+   Rating:   4.8 (56 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+170. Salvestrin Winery
+   Address:  397 Main St, St Helena, CA 94574, USA
+   Rating:   4.8 (55 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+171. Viader Vineyards & Winery
+   Address:  1120 Deer Park Rd, Deer Park, CA 94576, USA
+   Rating:   4.9 (55 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+172. Elephant Rock
+   Address:  63X4+R4, Tomales, CA 94971, USA
+   Rating:   4.8 (55 reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+173. Pardee Home Museum
+   Address:  672 11th St, Oakland, CA 94607, USA
+   Rating:   4.8 (53 reviews)
+   Types:    museum, tourist_attraction, historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+174. Canon Creek Services
+   Address:  515 Sanitarium Rd, St Helena, CA 94574, USA
+   Rating:   4.9 (52 reviews)
+   Types:    car_repair, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+175. Charter Oak Winery
+   Address:  831 Charter Oak Ave, St Helena, CA 94574, USA
+   Rating:   4.9 (51 reviews)
+   Types:    winery, art_studio, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+176. China Point Overlook
+   Address:  Soscol Ave, Napa, CA 94559, USA
+   Rating:   4.3 (50 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+177. Holy Assumption Monastery
+   Address:  1519 Washington St, Calistoga, CA 94515, USA
+   Rating:   5 (48 reviews)
+   Types:    tourist_attraction, church, place_of_worship, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+178. Jacob Meily Park
+   Address:  Pope St, St Helena, CA 94574, USA
+   Rating:   4.6 (46 reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+179. Las Posadas State Forest
+   Address:  Angwin, CA 94508, USA
+   Rating:   4.7 (46 reviews)
+   Types:    nature_preserve, tourist_attraction, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+180. Dana Estates
+   Address:  1500 Whitehall Ln, St Helena, CA 94574, USA
+   Rating:   4.6 (45 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+181. Martin O'Neill Cancer Center: Adventist Health St. Helena
+   Address:  10 Woodland Rd, St Helena, CA 94574, USA
+   Rating:   4.9 (45 reviews)
+   Types:    medical_clinic, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+182. Spanish Villa Inn
+   Address:  474 Glass Mountain Rd, St Helena, CA 94574, USA
+   Rating:   3.9 (45 reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+183. What Cheer House
+   Address:  California Historical Landmark #597, 102 K St, Sacramento, CA 95814, USA
+   Rating:   4.5 (45 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+184. Sam's General Store
+   Address:  1400 Oak Ave # A, St Helena, CA 94574, USA
+   Rating:   4.5 (44 reviews)
+   Types:    coffee_shop, sandwich_shop, breakfast_restaurant, ice_cream_shop, cafe, dessert_shop, confectionery, food_store, store, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+185. St. Helena Parks & Recreation
+   Address:  1574 Railroad Ave, St Helena, CA 94574, USA
+   Rating:   4.8 (44 reviews)
+   Types:    park, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+186. Keenan Winery Napa Valley
+   Address:  3660 Spring Mountain Rd, St Helena, CA 94574, USA
+   Rating:   4.8 (44 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+187. The Terrace Café at Meadowood Napa Valley. Seasonally open to Meadowood Guests and Meadowood Club Members
+   Address:  900 Meadowood Ln, St Helena, CA 94574, USA
+   Rating:   4.6 (43 reviews)
+   Types:    american_restaurant, californian_restaurant, bar, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+188. Tracy Historical Museum
+   Address:  1141 Adam St, Tracy, CA 95376, USA
+   Rating:   4.8 (43 reviews)
+   Types:    museum, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+189. Watermelon Rock
+   Address:  Doolittle Dr, Oakland, CA 94621, USA
+   Rating:   4.6 (43 reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+190. Allora Vineyards
+   Address:  3244 Ehlers Ln, St Helena, CA 94574, USA
+   Rating:   4.8 (42 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+191. Bothe Napa Valley State Park Visitor Center
+   Address:  Bothe Napa Valley State Park Visitor Center, 3801 St Helena Hwy, Calistoga, CA 94515, USA
+   Rating:   4.7 (40 reviews)
+   Types:    visitor_center, tourist_information_center, tour_agency, travel_agency, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+192. St Helena Public Library
+   Address:  1492 Library Ln #1143, St Helena, CA 94574, USA
+   Rating:   4.7 (38 reviews)
+   Types:    library, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+193. Pacific Union College Seventh-day Adventist Church
+   Address:  10 Angwin Ave, Angwin, CA 94508, USA
+   Rating:   4.7 (38 reviews)
+   Types:    church, place_of_worship, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+194. Mending Wall Winery
+   Address:  3730 Silverado Trl N, St Helena, CA 94574, USA
+   Rating:   4.8 (38 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+195. Sullivan Rutherford Estate
+   Address:  1090 Galleron Rd, St Helena, CA 94574, USA
+   Rating:   4.7 (36 reviews)
+   Types:    winery, vineyard, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+196. Seavey Vineyard
+   Address:  1310 Conn Valley Rd, St Helena, CA 94574, USA
+   Rating:   5 (36 reviews)
+   Types:    winery, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+197. Gonzales-Peralta Adobe & Fallon House Historic Site
+   Address:  175 Sharks Wy, San Jose, CA 95110, USA
+   Rating:   4.6 (36 reviews)
+   Types:    tourist_attraction, historical_landmark, historical_place, museum, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+198. Wappo Park & Dog Park
+   Address:  201 Pope St, St Helena, CA 94574, USA
+   Rating:   4 (35 reviews)
+   Types:    park, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+199. Wheeler Farms
+   Address:  588 Zinfandel Ln, St Helena, CA 94574, USA
+   Rating:   4.9 (35 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+200. Hunnicutt Wine Co
+   Address:  3524 Silverado Trail N, St Helena, CA 94574, USA
+   Rating:   4.8 (35 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+201. Arkenstone Vineyards
+   Address:  335 West Ln, Angwin, CA 94508, USA
+   Rating:   4.9 (35 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+202. Heart of San Francisco Series
+   Address:  225 Stockton St, San Francisco, CA 94108, USA
+   Rating:   4.4 (34 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+203. The Napa Valley Reserve
+   Address:  1000 Silverado Trail N, St Helena, CA 94574, USA
+   Rating:   4.8 (33 reviews)
+   Types:    point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+204. Buehler Vineyards
+   Address:  820 Greenfield Rd, St Helena, CA 94574, USA
+   Rating:   4.7 (33 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+205. Long Meadow Ranch - Rutherford Estate
+   Address:  1796 St Helena Hwy South, St Helena, CA 94574, USA
+   Rating:   4.6 (32 reviews)
+   Types:    winery, vineyard, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+206. Revana Family Vineyards
+   Address:  2930 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.9 (31 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+207. Fleury Estate Winery
+   Address:  950 Galleron Rd, Rutherford, CA 94573, USA
+   Rating:   4.7 (31 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+208. Smith-Madrone Vineyards
+   Address:  4022 Spring Mountain Rd, St Helena, CA 94574, USA
+   Rating:   5 (31 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+209. Valley Caffe
+   Address:  1142 Main St, St Helena, CA 94574, USA
+   Rating:   4.3 (30 reviews)
+   Types:    cafe, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+210. William Cole Vineyards
+   Address:  2849 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.9 (30 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+211. Angwin Dental - Family Dental Care: Peter Vandenhoven DDS
+   Address:  41 Angwin Plz, Angwin, CA 94508, USA
+   Rating:   4.6 (30 reviews)
+   Types:    dentist, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+212. Historic Courthouse Museum
+   Address:  255 N Main St, Lakeport, CA 95453, USA
+   Rating:   4.6 (30 reviews)
+   Types:    museum, tourist_attraction, library, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+213. Robert Louis Stevenson Museum
+   Address:  1490 Library Ln, St Helena, CA 94574, USA
+   Rating:   4.4 (29 reviews)
+   Types:    history_museum, museum, non_profit_organization, tourist_attraction, association_or_organization, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+214. Gastroenterology: Adventist Health Physicians Network
+   Address:  6 Woodland Rd 101 104, St Helena, CA 94574, USA
+   Rating:   4.7 (29 reviews)
+   Types:    doctor, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+215. Modesto Arch
+   Address:  875-857 I St, Modesto, CA 95354, USA
+   Rating:   3.7 (29 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, museum, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+216. St Helena Skate Park
+   Address:  360 S Crane Ave, St Helena, CA 94574, USA
+   Rating:   4.9 (28 reviews)
+   Types:    skateboard_park, sports_complex, sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+217. Vineyard 29
+   Address:  2929 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.8 (27 reviews)
+   Types:    winery, tourist_attraction, vineyard, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+218. Upper Valley Disposal and Recycling
+   Address:  1285 Whitehall Ln, St Helena, CA 94574, USA
+   Rating:   4.1 (27 reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+219. Neal Family Vineyards
+   Address:  716 Liparita Ave, Angwin, CA 94508, USA
+   Rating:   4.8 (27 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+220. Spottswoode Winery
+   Address:  1902 Madrona Ave, St Helena, CA 94574, USA
+   Rating:   4.9 (26 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+221. Beaulieu Garden
+   Address:  1901 St Helena Hwy, Rutherford, CA 94573, USA
+   Rating:   4.6 (25 reviews)
+   Types:    wedding_venue, event_venue, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+222. United States Postal Service
+   Address:  1190 Rutherford Rd, Rutherford, CA 94573, USA
+   Rating:   2.5 (24 reviews)
+   Types:    post_office, local_government_office, association_or_organization, government_office, finance, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+223. Anomaly Vineyards
+   Address:  455 Bella Vista Ct, St Helena, CA 94574, USA
+   Rating:   4.8 (23 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+224. Westwood Estate Wine
+   Address:  3111 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.8 (23 reviews)
+   Types:    winery, wine_bar, farm, bar, association_or_organization, restaurant, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+225. Amulet Estate
+   Address:  230 N Fork Crystal Springs Rd, St Helena, CA 94574, USA
+   Rating:   5 (22 reviews)
+   Types:    winery, tourist_attraction, vineyard, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+226. Bravante Vineyards
+   Address:  300 Stone Ridge Rd, Angwin, CA 94508, USA
+   Rating:   4.6 (21 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+227. Rancho Petaluma Adobe
+   Address:  3295 Old Adobe Rd, Petaluma, CA 94954, USA
+   Rating:   4.9 (21 reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+228. Hewitt Vineyard
+   Address:  1960 St Helena Hwy, Rutherford, CA 94573, USA
+   Rating:   4.3 (20 reviews)
+   Types:    winery, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+229. Lokoya Winery
+   Address:  3787 Spring Mountain Rd, St Helena, CA 94574, USA
+   Rating:   4.8 (19 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+230. Saint Helena Winery
+   Address:  100 Pratt Ave, St Helena, CA 94574, USA
+   Rating:   4.7 (18 reviews)
+   Types:    winery, night_club, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+231. Revelette Wines
+   Address:  1500 S Whitehall Ln, St Helena, CA 94574, USA
+   Rating:   4.8 (18 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+232. Theodore Judah Monument
+   Address:  Sacramento, CA 95814, USA
+   Rating:   4.4 (18 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+233. MEUSE Gallery
+   Address:  1331 Main St, St Helena, CA 94574, USA
+   Rating:   4.5 (17 reviews)
+   Types:    art_gallery, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+234. The Christopher Hill Gallery
+   Address:  1235 Main St, St Helena, CA 94574, USA
+   Rating:   4.7 (17 reviews)
+   Types:    art_gallery, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search, GoogleMapsAPI_text_search
+
+235. Walking Path
+   Address:  1356 Monte Vista Ave, St Helena, CA 94574, USA
+   Rating:   4.9 (17 reviews)
+   Types:    hiking_area, sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+236. Bunny Foo Foo by artist Lawrence Argent
+   Address:  401 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4 (17 reviews)
+   Types:    sculpture, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+237. Château Boswell Winery
+   Address:  3468 Silverado Trail N, St Helena, CA 94574, USA
+   Rating:   4.7 (17 reviews)
+   Types:    winery, vineyard, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+238. Holy Family Roman Catholic Mission Church
+   Address:  1241 Niebaum Ln, Rutherford, CA 94573, USA
+   Rating:   4.9 (16 reviews)
+   Types:    tourist_attraction, church, place_of_worship, association_or_organization, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+239. Infinity Hill
+   Address:  200 Stanly Crossroad, Napa, CA 94559, USA
+   Rating:   4.8 (16 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+240. St. Helena Seventh-day Adventist Church
+   Address:  1777 Main St, St Helena, CA 94574, USA
+   Rating:   4.9 (15 reviews)
+   Types:    church, place_of_worship, association_or_organization, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+241. The Bakery Café by Ghirardelli
+   Address:  2555 Main St, St Helena, CA 94574, USA
+   Rating:   3.6 (15 reviews)
+   Types:    cafe, coffee_shop, bakery, educational_institution, point_of_interest, food_store, food, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+242. El Molino Winery
+   Address:  3315 St Helena Hwy N, St Helena, CA 94574, USA
+   Rating:   4.5 (15 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+243. Founders Rock
+   Address:  Berkeley, CA 94709, USA
+   Rating:   4.6 (15 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+244. Caldwell Snyder Gallery
+   Address:  1328 Main St, St Helena, CA 94574, USA
+   Rating:   4.6 (14 reviews)
+   Types:    art_gallery, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+245. Vineyard Valley MHP
+   Address:  290 Pope St, St Helena, CA 94574, USA
+   Rating:   4.6 (14 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+246. The Ranch Winery
+   Address:  105 Zinfandel Ln, St Helena, CA 94574, USA
+   Rating:   4.8 (14 reviews)
+   Types:    winery, storage, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+247. Morlet Family Vineyards
+   Address:  2825 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.7 (14 reviews)
+   Types:    winery, vineyard, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+248. Cathiard Vineyard
+   Address:  1978 Zinfandel Ln, St Helena, CA 94574, USA
+   Rating:   5 (14 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+249. School House Vineyard
+   Address:  3549 Langtry Rd, St Helena, CA 94574, USA
+   Rating:   5 (14 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+250. Murphys (California Historical Landmark No. 275)
+   Address:  Jones St &, Main St, Murphys, CA 95247, USA
+   Rating:   4.3 (14 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+251. Grace Episcopal Church
+   Address:  1314 Spring St, St Helena, CA 94574, USA
+   Rating:   5 (13 reviews)
+   Types:    church, place_of_worship, association_or_organization, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+252. Rutherford Hall
+   Address:  8550 St Helena Hwy, Rutherford, CA 94573, USA
+   Rating:   4.8 (13 reviews)
+   Types:    event_venue, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+253. Merus Wines
+   Address:  424 Crystal Springs Rd, St Helena, CA 94574, USA
+   Rating:   4.2 (13 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+254. Tucker Farm Center
+   Address:  1201 Tucker Rd, Calistoga, CA 94515, USA
+   Rating:   4.9 (13 reviews)
+   Types:    event_venue, community_center, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+255. Forman Vineyard
+   Address:  1501 Big Rock Rd, St Helena, CA 94574, USA
+   Rating:   5 (12 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+256. ChandlerWorkshop Architects
+   Address:  1731 Pine St, St Helena, CA 94574, USA
+   Rating:   5 (12 reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+257. Niebaum-Pennino
+   Address:  1991 St Helena Hwy, Rutherford, CA 94573, USA
+   Rating:   5 (12 reviews)
+   Types:    winery, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+258. Trailhead for Redwood Trail in Bothe-Napa Valley State Park
+   Address:  HF2J+FJ, Calistoga, CA 94515, USA
+   Rating:   4.8 (12 reviews)
+   Types:    hiking_area, sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+259. Domaine Charbay Winery
+   Address:  4001 Spring Mountain Rd, St Helena, CA 94574, USA
+   Rating:   4.2 (12 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+260. Alibi Clock
+   Address:  316 Georgia St, Vallejo, CA 94590, USA
+   Rating:   4.5 (12 reviews)
+   Types:    landmark, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+261. Macauley Vineyard
+   Address:  1309 Main St Suite D, St Helena, CA 94574, USA
+   Rating:   5 (11 reviews)
+   Types:    vineyard, winery, farm, clothing_store, food, store, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+262. Spa Alila
+   Address:  1915 Main St, St Helena, CA 94574, USA
+   Rating:   4.8 (11 reviews)
+   Types:    restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+263. The White Barn
+   Address:  2727 Sulphur Springs Ave, St Helena, CA 94574, USA
+   Rating:   4.6 (11 reviews)
+   Types:    performing_arts_theater, event_venue, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+264. Ink Grade
+   Address:  500 Taplin Rd, St Helena, CA 94574, USA
+   Rating:   4.7 (11 reviews)
+   Types:    winery, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+265. Haber Family Vineyards
+   Address:  345 Pine Breeze Dr, Angwin, CA 94508, USA
+   Rating:   4.5 (11 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+266. Boeschen Vineyards
+   Address:  3242 Silverado Trail N, St Helena, CA 94574, USA
+   Rating:   4.7 (11 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+267. The Haven Seventh-day Adventist Church
+   Address:  15 Woodland Rd, St Helena, CA 94574, USA
+   Rating:   4.6 (11 reviews)
+   Types:    church, place_of_worship, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+268. Moone-Tsai Wines
+   Address:  3111 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   5 (11 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+269. 13th Vineyard
+   Address:  150 White Cottage Rd S, Angwin, CA 94508, USA
+   Rating:   4.6 (11 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+270. Ancient Redwood in Jack London State Historic Park
+   Address:  Fern Lake Trail, Glen Ellen, CA 95442, USA
+   Rating:   5 (11 reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+271. Napa Valley College
+   Address:  1088 College Ave, St Helena, CA 94574, USA
+   Rating:   4.8 (10 reviews)
+   Types:    university, point_of_interest, educational_institution, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+272. The Home Ranch at Lawrence Wine Estates
+   Address:  500 Taplin Rd, St Helena, CA 94574, USA
+   Rating:   4.8 (10 reviews)
+   Types:    winery, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+273. Kristodd Vineyards
+   Address:  5 Angwin Plz #446, Angwin, CA 94508, USA
+   Rating:   5 (10 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+274. Cain Vineyard & Winery
+   Address:  3800 Langtry Rd, St Helena, CA 94574, USA
+   Rating:   4.9 (10 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+275. St. Helena Hispanic Adventist Church
+   Address:  957 Brown St, St Helena, CA 94574, USA
+   Rating:   5 (9 reviews)
+   Types:    church, place_of_worship, association_or_organization, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+276. Native Sons Hall
+   Address:  1313 Spring St, St Helena, CA 94574, USA
+   Rating:   4.6 (9 reviews)
+   Types:    event_venue, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+277. The Magnolia Room: Napa Valley
+   Address:  1299 Pine St, St Helena, CA 94574, USA
+   Rating:   4.7 (9 reviews)
+   Types:    event_venue, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+278. Seven Stones Estate
+   Address:  840 Meadowood Ln, St Helena, CA 94574, USA
+   Rating:   4.4 (9 reviews)
+   Types:    winery, scenic_spot, farm, art_museum, museum, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+279. Elmshaven Church Community Services
+   Address:  651 Deer Park Rd, St Helena, CA 94574, USA
+   Rating:   4.3 (9 reviews)
+   Types:    non_profit_organization, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+280. Melka Estates & Winery
+   Address:  2900 Silverado Trail N, St Helena, CA 94574, USA
+   Rating:   5 (9 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+281. The MAC - Napa Valley Museum of Art & Culture
+   Address:  607 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.7 (9 reviews)
+   Types:    art_museum, museum, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+282. Orthopedics: Adventist Health Physicians Network
+   Address:  6 Woodland Rd, St Helena, CA 94574, USA
+   Rating:   4.4 (9 reviews)
+   Types:    doctor, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+283. Susan Eisenberg, MD
+   Address:  6 Woodland Rd #304, St Helena, CA 94574, USA
+   Rating:   5 (9 reviews)
+   Types:    doctor, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+284. Sabina Vineyards
+   Address:  3291 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   5 (9 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+285. Shibumi Knoll Vineyards
+   Address:  3480 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.8 (9 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+286. Site of Haraszthy Villa (California Historical Landmark #392-1)
+   Address:  1695 Castle Rd, Sonoma, CA 95476, USA
+   Rating:   4.7 (9 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+287. Saint Helena Public Cemetery
+   Address:  2461 Spring St, St Helena, CA 94574, USA
+   Rating:   4 (8 reviews)
+   Types:    cemetery, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+288. Speedway Express
+   Address:  800 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   3.4 (8 reviews)
+   Types:    gas_station, convenience_store, food_store, food, store, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+289. Morisoli Vineyard
+   Address:  1341 Niebaum Ln, Rutherford, CA 94573, USA
+   Rating:   5 (8 reviews)
+   Types:    vineyard, farm, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+290. Linda Falls Trail Parking
+   Address:  2 Cold Springs Rd, Angwin, CA 94508, USA
+   Rating:   3.9 (8 reviews)
+   Types:    hiking_area, sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+291. Turley Wine Cellars--Private Facility
+   Address:  3358 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.9 (8 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+292. Trespass Vineyard
+   Address:  1859 Hillview Pl, St Helena, CA 94574, USA
+   Rating:   4.4 (7 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+293. Marston Family Vineyard
+   Address:  3600 White Sulphur Spring Rd, St Helena, CA 94574, USA
+   Rating:   4.9 (7 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+294. St Helena Co-Op Nursery
+   Address:  1201 Niebaum Ln, Rutherford, CA 94573, USA
+   Rating:   5 (7 reviews)
+   Types:    preschool, child_care_agency, school, educational_institution, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+295. Sacrashe Vineyard
+   Address:  60 Auberge Rd, St Helena, CA 94574, USA
+   Rating:   4.9 (7 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+296. Bald Mountain
+   Address:  Bald Mountain, California 94574, USA
+   Rating:   4.7 (7 reviews)
+   Types:    mountain_peak, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+297. Presbyterian Church-St Helena
+   Address:  1428 Spring St, St Helena, CA 94574, USA
+   Rating:   5 (6 reviews)
+   Types:    church, place_of_worship, association_or_organization, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+298. Encounter Church
+   Address:  2322 Spring St, St Helena, CA 94574, USA
+   Rating:   5 (6 reviews)
+   Types:    church, place_of_worship, association_or_organization, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+299. V Madrone Cellars
+   Address:  3199 St Helena Hwy N, St Helena, CA 94574, USA
+   Rating:   5 (6 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+300. Caspar Estate
+   Address:  1780 Whitehall Ln, St Helena, CA 94574, USA
+   Rating:   5 (6 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+301. Rutherford Wine Vault
+   Address:  1901 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   5 (6 reviews)
+   Types:    storage, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+302. Chevron
+   Address:  111 Howell Mountain Rd, Angwin, CA 94508, USA
+   Rating:   2.5 (6 reviews)
+   Types:    gas_station, convenience_store, car_repair, point_of_interest, service, food_store, food, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+303. CAL FIRE Sonoma-Lake-Napa Unit Headquarters
+   Address:  1199 Big Tree Rd, St Helena, CA 94574, USA
+   Rating:   4.5 (6 reviews)
+   Types:    fire_station, government_office, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+304. Flying Lady Winery
+   Address:  3747 Langtry Rd, St Helena, CA 94574, USA
+   Rating:   5 (6 reviews)
+   Types:    winery, farm, corporate_office, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+305. Partridge Cellars, LLC
+   Address:  451 Sanitarium Rd, St Helena, CA 94574, USA
+   Rating:   4.8 (5 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+306. Rhine House
+   Address:  2000 Main St, St Helena, CA 94574, USA
+   Rating:   3.4 (5 reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+307. Lewelling Wine Co
+   Address:  1951 Olive Ave, St Helena, CA 94574, USA
+   Rating:   5 (5 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+308. VASO Cellars
+   Address:  1500 Whitehall Ln, St Helena, CA 94574, USA
+   Rating:   5 (5 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+309. St. Helena Hospital Foundation
+   Address:  10 Woodland Rd, St Helena, CA 94574, USA
+   Rating:   5 (5 reviews)
+   Types:    non_profit_organization, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+310. Silverado Trail
+   Address:  8136 Silverado Trail, Napa, CA 94558, USA
+   Rating:   5 (5 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+311. United States Postal Service
+   Address:  5 Angwin Plz, Angwin, CA 94508, USA
+   Rating:   4 (5 reviews)
+   Types:    post_office, finance, local_government_office, government_office, point_of_interest, service, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+312. Pacific Auditorium
+   Address:  1 Angwin Ave, Angwin, CA 94508, USA
+   Rating:   3.4 (5 reviews)
+   Types:    gym, sports_activity_location, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+313. Napa de Oro Vineyard and Estate Winery
+   Address:  1015 Big Tree Rd, St Helena, CA 94574, USA
+   Rating:   5 (5 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+314. Site of Blossom Rock Navigation Trees
+   Address:  085 000100201, Oakland, CA 94619, USA
+   Rating:   4.6 (5 reviews)
+   Types:    historical_landmark, historical_place, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+315. St. Helena Library Friends & Foundation
+   Address:  1492 Library Ln, St Helena, CA 94574, USA
+   Rating:   4.8 (4 reviews)
+   Types:    library, non_profit_organization, association_or_organization, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+316. St Helena United Methodist Church
+   Address:  1310 Adams St, St Helena, CA 94574, USA
+   Rating:   5 (4 reviews)
+   Types:    church, place_of_worship, association_or_organization, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+317. Arader Galleries
+   Address:  1380 Main St #103, St Helena, CA 94574, USA
+   Rating:   4 (4 reviews)
+   Types:    art_gallery, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+318. Zinfandel Lane Historic Stone Bridge
+   Address:  11 Zinfandel Ln, St Helena, CA 94574, USA
+   Rating:   4.3 (4 reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+319. Tesla Destination Charger
+   Address:  200 Taplin Rd, St Helena, CA 94574, USA
+   Rating:   4.8 (4 reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+320. The Church of Jesus Christ of Latter-day Saints
+   Address:  2222 Spring St, St Helena, CA 94574, USA
+   Rating:   5 (4 reviews)
+   Types:    church, place_of_worship, association_or_organization, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+321. The St. Helena House
+   Address:  2150 Spring Mountain Rd, St Helena, CA 94574, USA
+   Rating:   5 (4 reviews)
+   Types:    real_estate_agency, travel_agency, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+322. Boisset Family Estates
+   Address:  849 Zinfandel Ln, St Helena, CA 94574, USA
+   Rating:   4 (4 reviews)
+   Types:    winery, farm, bar, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+323. Dr. Edward Stump, MD
+   Address:  10 Woodland Rd, St Helena, CA 94574, USA
+   Rating:   3 (4 reviews)
+   Types:    doctor, health, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+324. Grand Napa Vineyards
+   Address:  8461 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   5 (4 reviews)
+   Types:    winery, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+325. Colinas Farming Company
+   Address:  990 Rutherford Rd, Rutherford, CA 94573, USA
+   Rating:   4.8 (4 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+326. Lake Hennessey Spillway
+   Address:  St Helena, CA 94574, USA
+   Rating:   4.8 (4 reviews)
+   Types:    local_government_office, government_office, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+327. Newton Hall
+   Address:  1 Angwin Ave, Angwin, CA 94508, USA
+   Rating:   3.5 (4 reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+328. Angwin Indian Acorn Grinding Rock
+   Address:  Cold Springs Rd, Angwin, CA 94508, USA
+   Rating:   4.8 (4 reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+329. Howell Mountain Vineyards
+   Address:  150 Olive Ave, Angwin, CA 94508, USA
+   Rating:   4 (4 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+330. Litto's Hubcap Ranch Historical Marker
+   Address:  California Registered Historical Landmark No. 939, Pope Valley Rd, St Helena, CA 94574, USA
+   Rating:   4.5 (4 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+331. Napa County Landmarks, Inc.
+   Address:  1416 Brown St, Napa, CA 94559, USA
+   Rating:   5 (4 reviews)
+   Types:    non_profit_organization, tourist_attraction, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+332. Walters Ranch Hop Kiln (California Historical Landmark #893)
+   Address:  6050 Westside Rd, Healdsburg, CA 95448, USA
+   Rating:   4.8 (4 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+333. The Crane Assembly G.B. Crane Vineyard
+   Address:  357 Main St, St Helena, CA 94574, USA
+   Rating:   5 (3 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+334. UpStage Napa Valley
+   Address:  1314 Spring St, St Helena, CA 94574, USA
+   Rating:   5 (3 reviews)
+   Types:    performing_arts_theater, event_venue, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+335. Vineyard Fitch R
+   Address:  3 Zinfandel Ln, St Helena, CA 94574, USA
+   Rating:   5 (3 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+336. Mitchell Vineyards LLC
+   Address:  1831 Sarah's Wy, St Helena, CA 94574, USA
+   Rating:   5 (3 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+337. Prism Vineyards
+   Address:  102 Lilac Ln, St Helena, CA 94574, USA
+   Rating:   5 (3 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+338. CIA Saint Helena CA
+   Address:  2555 Main St, St Helena, CA 94574, USA
+   Rating:   5 (3 reviews)
+   Types:    university, educational_institution, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+339. Beckstoffer - Las Piedras Vineyard (TO KALON)
+   Address:  455 Bella Vista Ct, St Helena, CA 94574, USA
+   Rating:   5 (3 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+340. Hayne Vineyard
+   Address:  1832 Sulphur Springs Ave, St Helena, CA 94574, USA
+   Rating:   5 (3 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+341. Hall Rutherford Alarm Line
+   Address:  60 Auberge Rd, St Helena, CA 94574, USA
+   Rating:   5 (3 reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+342. Deer Park Pharmacy
+   Address:  6 Woodland Rd Suite 100, St Helena, CA 94574, USA
+   Rating:   5 (3 reviews)
+   Types:    medical_clinic, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+343. Coastal Viticultural Consultants
+   Address:  1575 Deer Park Rd, Angwin, CA 94508, USA
+   Rating:   5 (3 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+344. Korte Ranch
+   Address:  1105 Ehlers Ln, St Helena, CA 94574, USA
+   Rating:   4.3 (3 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+345. Emmolo Wines
+   Address:  Rutherford, CA 94573, USA
+   Rating:   4.7 (3 reviews)
+   Types:    liquor_store, bar, point_of_interest, food, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+346. Forestry & Fire Protection
+   Address:  755 Las Posadas Rd, Angwin, CA 94508, USA
+   Rating:   5 (3 reviews)
+   Types:    courthouse, local_government_office, government_office, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+347. Paulin Hall
+   Address:  1 Angwin Ave, Angwin, CA 94508, USA
+   Rating:   4.7 (3 reviews)
+   Types:    auditorium, event_venue, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+348. PUC Track And Field
+   Address:  Angwin, CA 94508, USA
+   Rating:   5 (3 reviews)
+   Types:    sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+349. Rasmussen Art Gallery
+   Address:  5 Graf Cir, Angwin, CA 94508, USA
+   Rating:   4.7 (3 reviews)
+   Types:    art_gallery, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+350. Dauphinee Chapel
+   Address:  1 Angwin Ave, Angwin, CA 94508, USA
+   Rating:   4.3 (3 reviews)
+   Types:    church, place_of_worship, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+351. Great Panes Architectural
+   Address:  3764 Silverado Trl N, Calistoga, CA 94515, USA
+   Rating:   5 (3 reviews)
+   Types:    point_of_interest, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+352. ST HELENA MAIN PHOTO
+   Address:  1308 Main St Suite 116, St Helena, CA 94574, USA
+   Rating:   4 (2 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+353. Nissen Vineyard Services Inc
+   Address:  William Tell HOTEL BUILDING, 1226 Spring St, St Helena, CA 94574, USA
+   Rating:   5 (2 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+354. Wight Vineyard Management, Inc.
+   Address:  1226 Spring St, St Helena, CA 94574, USA
+   Rating:   5 (2 reviews)
+   Types:    vineyard, farm, government_office, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+355. Accendo Cellars
+   Address:  588 Zinfandel Ln, St Helena, CA 94574, USA
+   Rating:   5 (2 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+356. P & J
+   Address:  11 Zinfandel Ln, St Helena, CA 94574, USA
+   Rating:   3 (2 reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+357. Rose Haven
+   Address:  520 Sanitarium Rd, St Helena, CA 94574, USA
+   Rating:   4 (2 reviews)
+   Types:    health, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+358. Palladian Estate
+   Address:  690 Meadowood Ln, St Helena, CA 94574, USA
+   Rating:   5 (2 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+359. Juslyn Vineyards
+   Address:  2900 Spring Mountain Rd, St Helena, CA 94574, USA
+   Rating:   5 (2 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+360. Bressler Vineyards
+   Address:  1891 Vallejo St, St Helena, CA 94574, USA
+   Rating:   3 (2 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+361. Sloan Estate
+   Address:  88 Auberge Rd, St Helena, CA 94574, USA
+   Rating:   4.5 (2 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+362. Usibelli Grape Ranch
+   Address:  8951 Conn Creek Rd, St Helena, CA 94574, USA
+   Rating:   5 (2 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+363. VIP Mexican Cuisine & Catering services
+   Address:  8700 Silverado Trail, St Helena, CA 94574, USA
+   Rating:   5 (2 reviews)
+   Types:    catering_service, food_delivery, point_of_interest, service, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+364. Deer Park Volunteer Fire Department
+   Address:  680 Sanitarium Rd, Deer Park, CA 94576, USA
+   Rating:   4 (2 reviews)
+   Types:    fire_station, government_office, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+365. Tegpal Atwal, MD
+   Address:  6 Woodland Rd # 101, St Helena, CA 94574, USA
+   Rating:   5 (2 reviews)
+   Types:    doctor, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+366. Glass Mountain
+   Address:  Glass Mountain, Deer Park, CA 94574, USA
+   Rating:   5 (2 reviews)
+   Types:    mountain_peak, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+367. Brasswood Bottle Shop + Boutique
+   Address:  3111 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   3 (2 reviews)
+   Types:    clothing_store, store, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+368. Chateau Chevalier Winery
+   Address:  3101 Spring Mountain Rd, St Helena, CA 94574, USA
+   Rating:   5 (2 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+369. SODHANI VINEYARDS
+   Address:  St Helena, CA 94574, USA
+   Rating:   5 (2 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+370. Dalecio Family Wines
+   Address:  3125 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   5 (2 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+371. Napa Valley Restaurant Group
+   Address:  4110 Street Helena Hwy, Napa, CA 94558, USA
+   Rating:   5 (2 reviews)
+   Types:    restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+372. Red Barn Ranch
+   Address:  830 Rutherford Rd, Napa, CA 94558, USA
+   Rating:   4.5 (2 reviews)
+   Types:    ranch, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+373. Conn Ranch
+   Address:  1730 Conn Valley Rd, St Helena, CA 94574, USA
+   Rating:   5 (2 reviews)
+   Types:    ranch, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+374. La Jota Vineyard Co
+   Address:  1102 Las Posadas Rd, Angwin, CA 94508, USA
+   Rating:   3.5 (2 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+375. Winning Hall
+   Address:  Angwin, CA 94508, USA
+   Rating:   5 (2 reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+376. TOBIAS Vineyards
+   Address:  750 Bell Canyon Rd, Angwin, CA 94508, USA
+   Rating:   5 (2 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+377. Star gazers Point
+   Address:  281-213 White Cottage Rd S, Angwin, CA 94508, USA
+   Rating:   3.5 (2 reviews)
+   Types:    parking_lot, parking, transportation_service, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+378. St Helena Water Treatment Plant
+   Address:  410 Crystal Springs Rd, St Helena, CA 94574, USA
+   Rating:   4.5 (2 reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+379. Collins Family Vineyards LLC
+   Address:  3486 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   5 (2 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+380. Coyote Peak
+   Address:  Coyote Peak, California 94515, USA
+   Rating:   4.5 (2 reviews)
+   Types:    mountain_peak, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+381. John Medica Gardens (California Historical Landmark #939)
+   Address:  973 Stone Castle Ln, Santa Rosa, CA 95405, USA
+   Rating:   5 (2 reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+382. St Helena Historical Society
+   Address:  1255 Oak Ave, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    museum, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+383. INSPIRé Pilates Studio
+   Address:  1461 Railroad Ave #202, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    sports_complex, fitness_center, gym, sports_activity_location, sports_school, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+384. Stephen C. McCullagh Park
+   Address:  St Helena, CA 94574, USA
+   Rating:   3 (1 reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+385. E. & J. Gallo
+   Address:  105 Zinfandel Ln, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+386. Sunnyside Farm Stand
+   Address:  712 Sunnyside Rd, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    florist, point_of_interest, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+387. St Helena Lighting & Design
+   Address:  550 Deer Park Rd, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    electrician, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+388. Wine Bar at Greystone
+   Address:  2555 Main St, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    wine_bar, bar, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+389. Holy Cross Catholic Cemetery
+   Address:  2121 Spring St, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    cemetery, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+390. Ruston Family Vineyards
+   Address:  2798 Spring St, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+391. Del Britton Memorial Grove
+   Address:  360 S Crane Ave, St Helena, CA 94574, USA
+   Rating:   4 (1 reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+392. Iyengar Yoga In the Napa
+   Address:  1350 Community Dr, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    yoga_studio, fitness_center, gym, sports_complex, sports_activity_location, health, point_of_interest, sports_school, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+393. The Ink House
+   Address:  1575 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    store, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+394. ONDA Wines By DANA Estates
+   Address:  1500 Whitehall Ln, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+395. Long meadow mountain estate
+   Address:  Whitehall lane &, S Whitehall Ln, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+396. MTGA Wines
+   Address:  680 Rossi Rd, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    winery, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+397. La Herradura Vineyards
+   Address:  970 Conn Valley Rd, St Helena, CA 94574, USA
+   Rating:   4 (1 reviews)
+   Types:    winery, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+398. Profile vineyard
+   Address:  St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    garden, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+399. Custom Concrete Concepts
+   Address:  29 Hillcrest Rd, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    general_contractor, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+400. Yewell Family Vineyards
+   Address:  1119 Ehlers Ln, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    vineyard, winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+401. Parallel Wines
+   Address:  3125 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+402. Dark Matter Wines
+   Address:  3125 St Helena Hwy N, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+403. Tesla Destination Charger
+   Address:  3070 North St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+404. Napa County
+   Address:  California 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+405. BLR Photography - Napa Valley Wedding Photographer
+   Address:  1459 S Whitehall Ln, St Helena, CA 94574, USA
+   Rating:   1 (1 reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+406. Martin Estate
+   Address:  FJG2+55, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+407. Facilities Management
+   Address:  205 Highland Oaks Dr, Angwin, CA 94508, USA
+   Rating:   5 (1 reviews)
+   Types:    university, educational_institution, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+408. Pacific Union College Window Tree Valley
+   Address:  13 Mobile Manor, Angwin, CA 94508, USA
+   Rating:   5 (1 reviews)
+   Types:    university, educational_institution, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+409. Prayer Chapel
+   Address:  Angwin, CA 94508, USA
+   Rating:   5 (1 reviews)
+   Types:    garden, association_or_organization, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+410. O'Shaughnessy Estate Vineyards
+   Address:  1005-949 Friesen Dr, Angwin, CA 94508, USA
+   Rating:   5 (1 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+411. Pont Neuf Wines
+   Address:  535 Pine Hill Rd, Angwin, CA 94508, USA
+   Rating:   5 (1 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+412. Autumn Skies Landscapes
+   Address:  430 Madia Ln, Angwin, CA 94508, USA
+   Rating:   5 (1 reviews)
+   Types:    general_contractor, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+413. Beringer Bale Lane Vinyard
+   Address:  Calistoga, CA 94515, USA
+   Rating:   5 (1 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+414. Pioneer Cemetery On History Trail
+   Address:  3801 St Helena Hwy, Calistoga, CA 94515, USA
+   Rating:   5 (1 reviews)
+   Types:    cemetery, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+415. Aadland Moody Vineyards
+   Address:  3505 Spring Mountain Rd, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    winery, vineyard, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+416. Eeden Vineyards
+   Address:  3505 Spring Mountain Rd, St Helena, CA 94574, USA
+   Rating:   5 (1 reviews)
+   Types:    winery, vineyard, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+417. St Helena High School
+   Address:  1401 Grayson Ave, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    secondary_school, school, educational_institution, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+418. St. Helena City Hall
+   Address:  1088 College Ave, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    city_hall, local_government_office, government_office, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+419. St. Helena Performing Arts Center
+   Address:  1401 Grayson Ave, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    auditorium, event_venue, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+420. Gott”s Ferris Wheel
+   Address:  933 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    ferris_wheel, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+421. Trail walk
+   Address:  999 Adams St, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+422. St Helena Recreation Department
+   Address:  Carnegie Building, 1360 Oak Ave, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+423. sonido optimus
+   Address:  1095 Crinella Ct, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    live_music_venue, event_venue, bar, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+424. St. Helena Wastewater Treatment Facility
+   Address:  1 Chaix Ln, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+425. Denali Estate Vineyards
+   Address:  360 Taplin Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+426. T & M Agricultural Services
+   Address:  493 Dowdell Ln, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+427. Kinsman Eades
+   Address:  588 Zinfandel Ln, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+428. Impensata
+   Address:  588 Zinfandel Ln, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+429. Tesla Destination Charger
+   Address:  588 Zinfandel Ln, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+430. Oakham Estate Winery
+   Address:  360 Zinfandel Ln, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+431. Jack Quinn Cabernet
+   Address:  493 Zinfandel Ln, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+432. St. Helena
+   Address:  St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+433. St. Helena
+   Address:  St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+434. St. Helena
+   Address:  St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+435. St. Helena
+   Address:  St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+436. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+437. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+438. St. Helena
+   Address:  St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+439. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+440. McGee's Mead
+   Address:  800 Conn Valley Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+441. Rossi Wallace Wines
+   Address:  1501 Big Rock Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+442. Panthera Games
+   Address:  785 Conn Valley Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+443. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+444. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+445. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+446. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+447. Foothills Elementary School: K-8th Grade
+   Address:  711 Sunnyside Rd #9742, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    primary_school, preschool, child_care_agency, school, educational_institution, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+448. Meadowood Lane Winery LLC
+   Address:  690 Meadowood Ln, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+449. Jason L. Lee, DC
+   Address:  515 Sanitarium Rd # A, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    chiropractor, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+450. Tesla Destination Charger
+   Address:  900 Meadowood Ln, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+451. Foothills Infant Care and Preschool
+   Address:  711 Sunnyside Rd #9742, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    primary_school, preschool, child_care_agency, school, educational_institution, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+452. Deer Park Chiropractic
+   Address:  515 Sanitarium Rd # A, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    chiropractor, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+453. Andrew Lane Winery
+   Address:  742 Sunnyside Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+454. Deer Park
+   Address:  Deer Park, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+455. Deer Park
+   Address:  Deer Park, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+456. St. Helena
+   Address:  St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+457. Deer Park
+   Address:  Deer Park, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+458. Greystone Cellars
+   Address:  2555 Main St, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+459. Peacock Family Vineyards
+   Address:  3100 Spring Mountain Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+460. Predecessor Estate
+   Address:  2849 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+461. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+462. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+463. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+464. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+465. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+466. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+467. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+468. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+469. Depiction Wines
+   Address:  1414 Hudson Ave, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+470. Trespass Vineyard
+   Address:  2624 Colombard Ct, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+471. Barry J. Shotts
+   Address:  1715 Tainter St, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    lawyer, consultant, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+472. Dancing Crow Wine Club
+   Address:  2790 Spring St, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    association_or_organization, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+473. Fantasy Vineyards LLC
+   Address:  1838 Madrona Ave, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+474. Blue Oasis Wines
+   Address:  Chablis Ct, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    corporate_office, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+475. Pastor Burke Owens
+   Address:  1835 Vineyard Ave, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+476. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+477. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+478. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+479. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+480. Beckstoffer Dr. Crane Vineyard
+   Address:  1644 Grayson Ave, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+481. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+482. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+483. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+484. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+485. ChargePoint Charging Station
+   Address:  200 Rutherford Hill Rd, Rutherford, CA 94573, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+486. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+487. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+488. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+489. Ghost Horse Vineyards
+   Address:  680 Rossi Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, vineyard, farm, manufacturer, service, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+490. Trailside Vineyard
+   Address:  500 Taplin Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+491. Haynes Vineyard
+   Address:  500 Taplin Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+492. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+493. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+494. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+495. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+496. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+497. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+498. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+499. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+500. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+501. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+502. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+503. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+504. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+505. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+506. St Helena Hospital Center-Behavioral: Ho John L MD
+   Address:  10 Woodland Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    doctor, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+507. Bob Bolan Wines
+   Address:  975 Deer Park Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    liquor_store, point_of_interest, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+508. Rahn Estate
+   Address:  1575 Deer Park Rd, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    winery, vineyard, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+509. Rutherford Bench LLC
+   Address:  1350 Staples Ridge Rd, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+510. Sunset Point
+   Address:  1129 Deer Park Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+511. PB Hein Vineyards
+   Address:  140 Pine Pl, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+512. Hundred Acre Winery
+   Address:  565 Crystal Springs Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+513. MOWE Napa Valley
+   Address:  3424 Silverado Trail N, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+514. Hundred Acre Ark Vineyard
+   Address:  563 Crystal Springs Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+515. Cross Creek Vineyard
+   Address:  St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+516. Deer Park
+   Address:  Deer Park, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+517. Deer Park
+   Address:  Deer Park, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+518. Deer Park
+   Address:  Deer Park, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+519. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+520. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+521. Deer Park
+   Address:  Deer Park, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+522. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+523. Strala Vineyards
+   Address:  3125 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+524. Strala Vineyards
+   Address:  at Brasswood Estate, 3111 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+525. Montagu Wines
+   Address:  3111 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+526. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+527. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+528. Tesla Destination Charger
+   Address:  2555 Madrona Ave, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+529. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+530. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+531. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+532. Far Cider
+   Address:  1620 S Whitehall Ln, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+533. Calder Wine Company
+   Address:  1620 S Whitehall Ln, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+534. Rutherford Fire Department
+   Address:  1989 CA-29, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    fire_station, government_office, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+535. Big scope Towtrucks
+   Address:  1190 Rutherford Rd, Rutherford, CA 94573, USA
+   Rating:   None (None reviews)
+   Types:    car_repair, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+536. Rutherford
+   Address:  Rutherford, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+537. Rutherford
+   Address:  Rutherford, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+538. Godward Vineyard
+   Address:  1450 Manley Ln, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+539. Bv 10
+   Address:  1076 Rutherford Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    coworking_space, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+540. Mirror Napa Valley
+   Address:  PO Box 402, Rutherford, CA 94573, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+541. Tesla Destination Charger
+   Address:  875 Rutherford Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+542. Cultivar Napa Valley
+   Address:  Rutherford, CA 94573, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+543. Rutherford
+   Address:  Rutherford, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+544. Fire Station 215 - Rutherford Fire Department
+   Address:  8140 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    fire_station, government_office, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+545. Napa Lake Hennessey Caretaker
+   Address:  1000 Sage Canyon Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    local_government_office, government_office, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+546. Tesla Destination Charger
+   Address:  8383 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+547. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+548. Shoreline Trailhead
+   Address:  St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    hiking_area, sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+549. Northwest Shoreline Trail
+   Address:  St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    hiking_area, sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+550. Moore Ranch
+   Address:  1740 Conn Valley Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    ranch, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+551. reverie
+   Address:  647 Greenfield Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+552. Moshkelani Family vineyards
+   Address:  805 Greenfield Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+553. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+554. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+555. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+556. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+557. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+558. Tesla Destination Charger
+   Address:  1099 Greenfield Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+559. Qtr LLC
+   Address:  989 Greenfield Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+560. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+561. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+562. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+563. Almacerro
+   Address:  1181 Las Posadas Rd, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+564. Las Posadas Fire Station
+   Address:  755 Las Posadas Rd, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    fire_station, government_office, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+565. Morris Cemetery
+   Address:  Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    cemetery, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+566. 94508
+   Address:  California 94508, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+567. Lake Ellen
+   Address:  Lake Ellen, California 94508, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+568. PUC Elementary School
+   Address:  135 Neilsen Ct, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    primary_school, school, educational_institution, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+569. PUC Prep
+   Address:  1 Angwin Ave, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    secondary_school, church, place_of_worship, school, educational_institution, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+570. Davidian Hall
+   Address:  1 Angwin Ave, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    educational_institution, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+571. Nelson Memorial Library
+   Address:  1 Angwin Ave, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    library, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+572. Pacific Union College Admissions & Enrollment Services
+   Address:  Grainger Hall, Graf Hall, 1 Angwin Ave, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    association_or_organization, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+573. Public Safety
+   Address:  1 Angwin Ave, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    university, educational_institution, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+574. Historical Howell Mountain Plaque
+   Address:  Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+575. West Hall Annex
+   Address:  1 Angwin Ave, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    university, educational_institution, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+576. 94508
+   Address:  Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+577. 94508
+   Address:  Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+578. 94508
+   Address:  California 94508, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+579. Coyoacan Vineyards
+   Address:  5 Angwin Plz #52, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+580. Sentinel Hill
+   Address:  Sentinel Hill, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    mountain_peak, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+581. 94508
+   Address:  Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+582. 94508
+   Address:  California 94508, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+583. Soul-in-Green Kitchen
+   Address:  62 Brookside Park, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    thai_restaurant, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+584. Love a Meow
+   Address:  619 Liparita Ave, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    pet_care, point_of_interest, service, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+585. RnR wines
+   Address:  11 White Cottage Rd N, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    garden, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+586. Hitch Cinch
+   Address:  415 Madia Ln, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+587. The Flashing Card Holder
+   Address:  440 Sky Oaks Dr, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+588. Save Napa Valley Foundation
+   Address:  282 White Cottage Rd S, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    association_or_organization, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+589. QuakePrepare
+   Address:  243 Washburn Ave, Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    association_or_organization, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+590. 94508
+   Address:  Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+591. 94508
+   Address:  Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+592. 94508
+   Address:  Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+593. 94508
+   Address:  Angwin, CA 94508, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+594. 94508
+   Address:  California 94508, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+595. 94508
+   Address:  California 94508, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+596. 94508
+   Address:  California 94508, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+597. 94508
+   Address:  California 94508, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+598. Pulido Walker Winery
+   Address:  3730 Silverado Trl N, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+599. Tesla Destination Charger
+   Address:  3730 Silverado Trl N, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+600. A Better Moving & Storage Co
+   Address:  391 Crystal Springs Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    moving_company, transportation_service, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+601. Kochana Wines
+   Address:  3730 Silverado Trl N, Calistoga, CA 94515, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+602. Bell Canyon Reservoir
+   Address:  Bell Canyon Reservoir, California 94576, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+603. Napa County
+   Address:  California 94576, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+604. Napa County
+   Address:  California 94576, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+605. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+606. Bale Grist Mill State Historic Park Parking Lot
+   Address:  3315 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    parking_lot, parking, transportation_service, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+607. Napa County Fire Department
+   Address:  3535 St Helena Hwy, Calistoga, CA 94515, USA
+   Rating:   None (None reviews)
+   Types:    fire_station, government_office, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+608. Bothe State Park (SB)
+   Address:  California 94515, USA
+   Rating:   None (None reviews)
+   Types:    bus_stop, transit_stop, transit_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+609. Tristant Vineyards
+   Address:  1012 Bale Ln, Calistoga, CA 94515, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, liquor_store, winery, farm, point_of_interest, service, food, manufacturer, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+610. Engel Family Vineyards
+   Address:  3397 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+611. Napa County
+   Address:  California 94515, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+612. Napa County
+   Address:  California 94515, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+613. Napa County
+   Address:  California 94515, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+614. Napa County
+   Address:  California 94515, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+615. Napa County
+   Address:  California 94515, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+616. Napa County
+   Address:  California 94515, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+617. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+618. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+619. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+620. Philip Togni Vineyard
+   Address:  3780 Spring Mountain Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+621. York Creek Vineyards
+   Address:  3601 Langtry Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+622. Andesite Vineyard
+   Address:  4011 Spring Mountain Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+623. Gantner Vineyards
+   Address:  3549 Langtry Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+624. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+625. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+626. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+627. California
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+628. California
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+629. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+630. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+631. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+632. Sonoma County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+633. Sonoma County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+634. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+635. Sugarloaf Ridge State Park
+   Address:  Bald Mountain Trail, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    hiking_area, sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+636. Red Mountain
+   Address:  Red Mountain, California 94574, USA
+   Rating:   None (None reviews)
+   Types:    mountain_peak, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+637. Brushy Peaks
+   Address:  Brushy Peaks, California 95452, USA
+   Rating:   None (None reviews)
+   Types:    mountain_peak, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+638. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+639. Mount Saint John
+   Address:  Mt St John, California 94558, USA
+   Rating:   None (None reviews)
+   Types:    mountain_peak, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search

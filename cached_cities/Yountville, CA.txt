@@ -1,0 +1,3385 @@
+Found 564 places in Yountville, CA within 4000 meters:
+
+1. PIER 39
+   Address:  The Embarcadero, San Francisco, CA 94133, USA
+   Rating:   4.6 (136841 reviews)
+   Types:    tourist_attraction, fishing_pier, historical_landmark, marina, historical_place, shopping_mall, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+2. Golden Gate Bridge
+   Address:  Golden Gate Brg, San Francisco, CA, USA
+   Rating:   4.8 (85454 reviews)
+   Types:    bridge, tourist_attraction, historical_landmark, historical_place, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+3. Golden Gate Park
+   Address:  San Francisco, CA, USA
+   Rating:   4.8 (44393 reviews)
+   Types:    park, tourist_attraction, garden, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+4. Old Sacramento Waterfront
+   Address:  1014 2nd St #200, Sacramento, CA 95814, USA
+   Rating:   4.6 (28971 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, shopping_mall, museum, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+5. The Painted Ladies
+   Address:  San Francisco, CA 94117, USA
+   Rating:   4.4 (27795 reviews)
+   Types:    historical_landmark, historical_place, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+6. Coit Tower
+   Address:  1 Telegraph Hill Blvd, San Francisco, CA 94133, USA
+   Rating:   4.6 (15754 reviews)
+   Types:    historical_landmark, tourist_attraction, landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+7. Twin Peaks
+   Address:  501 Twin Peaks Blvd, San Francisco, CA 94114, USA
+   Rating:   4.7 (13700 reviews)
+   Types:    park, scenic_spot, landmark, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+8. The Mystery Spot
+   Address:  465 Mystery Spot Rd, Santa Cruz, CA 95065, USA
+   Rating:   4.5 (8607 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+9. William Land Regional Park
+   Address:  3800 W Land Park Dr, Sacramento, CA 95822, USA
+   Rating:   4.6 (6751 reviews)
+   Types:    park, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+10. Pioneer Park
+   Address:  1 Telegraph Hill Blvd, San Francisco, CA 94133, USA
+   Rating:   4.6 (6191 reviews)
+   Types:    city_park, tourist_attraction, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+11. California State Capitol Museum
+   Address:  1315 10th St, Sacramento, CA 95814, USA
+   Rating:   4.7 (5984 reviews)
+   Types:    history_museum, botanical_garden, tourist_attraction, museum, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+12. San Francisco Maritime National Historical Park
+   Address:  San Francisco, CA 94109, USA
+   Rating:   4.6 (5022 reviews)
+   Types:    historical_place, tourist_attraction, museum, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+13. Bouchon Bistro
+   Address:  6534 Washington St, Yountville, CA 94599, USA
+   Rating:   4.5 (4683 reviews)
+   Types:    french_restaurant, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+14. Yerba Buena Gardens
+   Address:  750 Howard St, San Francisco, CA 94103, USA
+   Rating:   4.6 (4462 reviews)
+   Types:    city_park, tourist_attraction, garden, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+15. Sonoma Plaza
+   Address:  453 1st St E, Sonoma, CA 95476, USA
+   Rating:   4.7 (4424 reviews)
+   Types:    plaza, tourist_attraction, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+16. Bistro Don Giovanni
+   Address:  4110 Howard Ln, Napa, CA 94558, USA
+   Rating:   4.6 (3121 reviews)
+   Types:    italian_restaurant, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+17. Rosie the Riveter WWII Home Front National Historical Park
+   Address:  1414 Harbour Way S #3000, Richmond, CA 94804, USA
+   Rating:   4.7 (2727 reviews)
+   Types:    historical_place, tourist_attraction, historical_landmark, national_park, park, museum, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+18. Mustards Grill
+   Address:  7399 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   4.7 (2618 reviews)
+   Types:    californian_restaurant, bar_and_grill, bar, american_restaurant, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+19. R+D Kitchen
+   Address:  6795 Washington St, Yountville, CA 94599, USA
+   Rating:   4.4 (2407 reviews)
+   Types:    american_restaurant, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+20. Bottega Napa Valley
+   Address:  V Marketplace, 6525 Washington St, Yountville, CA 94599, USA
+   Rating:   4.4 (2270 reviews)
+   Types:    italian_restaurant, fine_dining_restaurant, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+21. Bistro Jeanty
+   Address:  6510 Washington St, Yountville, CA 94599, USA
+   Rating:   4.6 (2254 reviews)
+   Types:    french_restaurant, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+22. Sutter's Fort State Historic Park
+   Address:  2701 L St, Sacramento, CA 95816, USA
+   Rating:   4.5 (2233 reviews)
+   Types:    state_park, tourist_attraction, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+23. The French Laundry
+   Address:  6640 Washington St, Yountville, CA 94599, USA
+   Rating:   4.6 (2219 reviews)
+   Types:    fine_dining_restaurant, french_restaurant, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+24. Ad Hoc
+   Address:  6476 Washington St, Yountville, CA 94599, USA
+   Rating:   4.4 (2110 reviews)
+   Types:    american_restaurant, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+25. Brix
+   Address:  7377 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   4.4 (1702 reviews)
+   Types:    american_restaurant, bar, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+26. Tilden Nature Area
+   Address:  1500 Central Park Dr, Berkeley, CA 94708, USA
+   Rating:   4.8 (1601 reviews)
+   Types:    nature_preserve, tourist_attraction, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+27. Tower Bridge
+   Address:  Sacramento, CA 95814, USA
+   Rating:   4.6 (1580 reviews)
+   Types:    bridge, historical_landmark, historical_place, transportation_service, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+28. Napa Valley Aloft Hot Air Balloon Rides
+   Address:  6525 Washington St, Yountville, CA 94599, USA
+   Rating:   4.8 (1540 reviews)
+   Types:    tour_agency, travel_agency, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+29. Welcome to Napa Valley Sign (South)
+   Address:  7598-, 7602 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   4.7 (1372 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+30. Jack London State Historic Park
+   Address:  2400 London Ranch Rd, Glen Ellen, CA 95442, USA
+   Rating:   4.8 (1327 reviews)
+   Types:    historical_landmark, state_park, hiking_area, tourist_attraction, historical_place, park, sports_activity_location, museum, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+31. Pulgas Water Temple
+   Address:  56 Cañada Rd, Redwood City, CA 94062, USA
+   Rating:   4.6 (1301 reviews)
+   Types:    monument, tourist_attraction, historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+32. The Petrified Forest
+   Address:  4100 Petrified Forest Rd, Calistoga, CA 94515, USA
+   Rating:   4.4 (1280 reviews)
+   Types:    park, hiking_area, tourist_attraction, historical_landmark, gift_shop, historical_place, sports_activity_location, museum, point_of_interest, store, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+33. RH Restaurant at RH Yountville
+   Address:  6725 Washington St, Yountville, CA 94599, USA
+   Rating:   4.5 (1135 reviews)
+   Types:    restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+34. Fort Ross State Historic Park
+   Address:  19005 Coast Hwy, Jenner, CA 95450, USA
+   Rating:   4.8 (1039 reviews)
+   Types:    state_park, tourist_attraction, historical_landmark, historical_place, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+35. Sequoia Grove Winery
+   Address:  8338 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   4.8 (920 reviews)
+   Types:    winery, liquor_store, wine_bar, vineyard, bar, farm, point_of_interest, service, food, manufacturer, store, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+36. John Muir National Historic Site
+   Address:  4202 Alhambra Ave, Martinez, CA 94553, USA
+   Rating:   4.7 (912 reviews)
+   Types:    historical_place, tourist_attraction, historical_landmark, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+37. Trefethen Family Vineyards
+   Address:  1160 Oak Knoll Ave, Napa, CA 94558, USA
+   Rating:   4.9 (890 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+38. Mount Diablo Summit Visitor Center
+   Address:  Summit Rd, Walnut Creek, CA 94598, USA
+   Rating:   4.7 (871 reviews)
+   Types:    museum, hiking_area, tourist_attraction, sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+39. Monticello Vineyards
+   Address:  4242 Big Ranch Rd, Napa, CA 94558, USA
+   Rating:   4.8 (809 reviews)
+   Types:    winery, vineyard, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+40. Opus One Winery
+   Address:  7900 St Helena Hwy, Oakville, CA 94562, USA
+   Rating:   4.5 (714 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+41. Baldacci Family Vineyards
+   Address:  6236 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.9 (713 reviews)
+   Types:    winery, tourist_attraction, vineyard, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+42. James Cole Winery
+   Address:  5014 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.9 (709 reviews)
+   Types:    winery, vineyard, wine_bar, farm, bar, association_or_organization, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+43. V Marketplace
+   Address:  6525 Washington St, Yountville, CA 94599, USA
+   Rating:   4.4 (700 reviews)
+   Types:    shopping_mall, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+44. Cakebread Cellars
+   Address:  8300 St Helena Hwy, Rutherford, CA 94573, USA
+   Rating:   4.7 (685 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+45. Stanford Mansion
+   Address:  800 N St, Sacramento, CA 95814, USA
+   Rating:   4.7 (673 reviews)
+   Types:    museum, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+46. Chandon
+   Address:  1 California Dr, Yountville, CA 94599, USA
+   Rating:   4.1 (672 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+47. Far Niente Winery
+   Address:  1350 Acacia Dr, Oakville, CA 94562, USA
+   Rating:   4.6 (663 reviews)
+   Types:    winery, tourist_attraction, liquor_store, vineyard, gift_shop, farm, event_venue, point_of_interest, service, food, manufacturer, store, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+48. Darioush Winery
+   Address:  4240 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.6 (654 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+49. Golden Gate Bridge North Vista Point
+   Address:  RGM9+4V, Golden Gate Brg, Sausalito, CA 94965, USA
+   Rating:   4.8 (611 reviews)
+   Types:    scenic_spot, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+50. Murphy Windmill
+   Address:  San Francisco, CA 94121, USA
+   Rating:   4.5 (569 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+51. Filbert Steps
+   Address:  202 Filbert St, San Francisco, CA 94133, USA
+   Rating:   4.7 (547 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+52. Sonoma State Historic Park
+   Address:  20 E Spain St, Sonoma, CA 95476, USA
+   Rating:   4.7 (505 reviews)
+   Types:    state_park, tourist_attraction, park, history_museum, museum, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+53. Stag's Leap Wine Cellars
+   Address:  5766 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.5 (486 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+54. Yountville Park
+   Address:  2900 Lincoln Ave, Yountville, CA 94599, USA
+   Rating:   4.8 (483 reviews)
+   Types:    city_park, tourist_attraction, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+55. Silver Oak Napa Valley
+   Address:  915 Oakville Cross Rd, Oakville, CA 94562, USA
+   Rating:   4.6 (459 reviews)
+   Types:    winery, vineyard, liquor_store, farm, manufacturer, store, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+56. Cosentino Winery & Tasting Room
+   Address:  7415 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   4.7 (458 reviews)
+   Types:    winery, liquor_store, wine_bar, vineyard, bar, farm, point_of_interest, service, food, manufacturer, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+57. Nickel & Nickel
+   Address:  8164 St Helena Hwy, Oakville, CA 94562, USA
+   Rating:   4.8 (457 reviews)
+   Types:    winery, tourist_attraction, liquor_store, vineyard, gift_shop, farm, event_venue, point_of_interest, service, food, manufacturer, store, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+58. Sausalito Boardwalk
+   Address:  525 Bridgeway, Sausalito, CA 94965, USA
+   Rating:   4.8 (451 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+59. Ciccio
+   Address:  6770 Washington St, Yountville, CA 94599, USA
+   Rating:   4.5 (443 reviews)
+   Types:    italian_restaurant, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+60. The Campanile
+   Address:  Sather Tower, Berkeley, CA 94720, USA
+   Rating:   4.7 (422 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+61. O'Brien Estate Winery
+   Address:  1200 Orchard Ave, Napa, CA 94558, USA
+   Rating:   4.9 (407 reviews)
+   Types:    winery, tourist_attraction, wedding_venue, farm, event_venue, point_of_interest, service, food, manufacturer, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+62. Black Stallion Estate Winery
+   Address:  4089 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.5 (381 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+63. Sonoma State Historic Park
+   Address:  114 E Spain St, Sonoma, CA 95476, USA
+   Rating:   4.6 (359 reviews)
+   Types:    state_park, tourist_attraction, historical_landmark, historical_place, park, museum, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+64. Chimney Rock Winery
+   Address:  5350 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.6 (347 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+65. Lucy Restaurant & Bar
+   Address:  6526 Yount St, Yountville, CA 94599, USA
+   Rating:   4.3 (339 reviews)
+   Types:    restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+66. Jessup Cellars
+   Address:  6740 Washington St, Yountville, CA 94599, USA
+   Rating:   4.9 (321 reviews)
+   Types:    winery, art_gallery, farm, event_venue, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+67. Addendum
+   Address:  behind Ad Hoc, 6476 Washington St, Yountville, CA 94599, USA
+   Rating:   4.5 (315 reviews)
+   Types:    american_restaurant, restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+68. Clos du Val
+   Address:  5330 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.6 (314 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+69. Pine Ridge Vineyards
+   Address:  5901 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.5 (299 reviews)
+   Types:    winery, tourist_attraction, liquor_store, vineyard, farm, point_of_interest, service, food, manufacturer, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+70. Stags' Leap Winery
+   Address:  6150 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.4 (299 reviews)
+   Types:    winery, tourist_attraction, historical_landmark, historical_place, farm, point_of_interest, service, food, manufacturer, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+71. Hess Persson Estates
+   Address:  4411 Redwood Rd, Napa, CA 94558, USA
+   Rating:   4.6 (292 reviews)
+   Types:    winery, farm, art_museum, museum, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+72. Railroad Square Historic District
+   Address:  9 4th St, Santa Rosa, CA 95401, USA
+   Rating:   4.4 (292 reviews)
+   Types:    tourist_attraction, historical_landmark, historical_place, shopping_mall, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+73. Ashes & Diamonds Winery
+   Address:  4130 Howard Ln, Napa, CA 94558, USA
+   Rating:   4.3 (286 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+74. Elmshaven
+   Address:  125 Glass Mountain Ln, St Helena, CA 94574, USA
+   Rating:   4.9 (281 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+75. Jack London's Wolf House
+   Address:  Wolf House Service Rd, Glen Ellen, CA 95442, USA
+   Rating:   4.8 (266 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+76. Tenderloin Museum
+   Address:  398 Eddy St, San Francisco, CA 94102, USA
+   Rating:   4.5 (256 reviews)
+   Types:    museum, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+77. St. Supéry Estate Vineyards & Winery
+   Address:  8440 St Helena Hwy, Rutherford, CA 94573, USA
+   Rating:   4.6 (250 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+78. Odette Estate Winery
+   Address:  5998 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.8 (248 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+79. Vintners Golf Club
+   Address:  7901 Solano Ave, Yountville, CA 94599, USA
+   Rating:   4.5 (247 reviews)
+   Types:    golf_course, athletic_field, sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+80. Napa Valley Performing Arts Center
+   Address:  100 California Dr, Yountville, CA 94599, USA
+   Rating:   4.7 (242 reviews)
+   Types:    performing_arts_theater, event_venue, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+81. Silverado Vineyards
+   Address:  6121 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.3 (233 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+82. Vallejo Home
+   Address:  Sonoma, CA 95476, USA
+   Rating:   4.7 (221 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+83. Laird Family Estate
+   Address:  5055 Solano Ave, Napa, CA 94558, USA
+   Rating:   4.6 (219 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+84. Maidu Museum & Historic Site
+   Address:  1970 Johnson Ranch Dr, Roseville, CA 95661, USA
+   Rating:   4.7 (214 reviews)
+   Types:    museum, history_museum, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+85. PlumpJack Estate Winery
+   Address:  620 Oakville Cross Rd, Napa, CA 94558, USA
+   Rating:   3.6 (212 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+86. The Duckhorn Collection at Paraduxx
+   Address:  7257 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.6 (211 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+87. Top of Four Vista Points on Conzelman Rd
+   Address:  Conzelman Rd, Sausalito, CA 94965, USA
+   Rating:   4.9 (210 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+88. Golden Gate Promenade
+   Address:  100 Yacht Rd, San Francisco, CA 94123, USA
+   Rating:   4.9 (202 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+89. Honor Market
+   Address:  6795 Washington St, Yountville, CA 94599, USA
+   Rating:   4.5 (198 reviews)
+   Types:    gas_station, liquor_store, food, store, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+90. Cliff Lede Vineyards
+   Address:  1473 Yountville Cross Rd, Yountville, CA 94599, USA
+   Rating:   4.6 (194 reviews)
+   Types:    winery, art_gallery, vineyard, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+91. Robert Mondavi Winery
+   Address:  7801 St Helena Hwy, Oakville, CA 94562, USA
+   Rating:   4.3 (190 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+92. Piazza Del Dotto Winery & Caves
+   Address:  7466 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   4.6 (186 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+93. Bale Grist Mill State Historic Park
+   Address:  3369 St Helena Hwy, St Helena, CA 94574, USA
+   Rating:   4.7 (185 reviews)
+   Types:    state_park, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+94. RH Yountville Wine Vault
+   Address:  6725 Washington St, Yountville, CA 94599, USA
+   Rating:   4.4 (183 reviews)
+   Types:    wine_bar, bar, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+95. Napa Cellars
+   Address:  7481 St Helena Hwy, Oakville, CA 94562, USA
+   Rating:   4.6 (183 reviews)
+   Types:    winery, tourist_attraction, vineyard, farm, point_of_interest, service, food, manufacturer, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+96. Chappell Hayes Observation Tower
+   Address:  2777 Middle Harbor Rd, Oakland, CA 94607, USA
+   Rating:   4.6 (182 reviews)
+   Types:    historical_landmark, historical_place, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+97. Turnbull Wine Cellars
+   Address:  8210 St Helena Hwy, Oakville, CA 94562, USA
+   Rating:   4.6 (175 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+98. Regusci Winery
+   Address:  5584 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.7 (165 reviews)
+   Types:    winery, liquor_store, wine_bar, bar, farm, point_of_interest, service, food, manufacturer, store, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+99. The Restaurant at North Block
+   Address:  6757 Washington St, Yountville, CA 94599, USA
+   Rating:   4.3 (162 reviews)
+   Types:    restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+100. RO Restaurant & Lounge
+   Address:  6480 Washington St, Yountville, CA 94599, USA
+   Rating:   4.7 (161 reviews)
+   Types:    lounge_bar, seafood_restaurant, wine_bar, night_club, bar, restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+101. Hagafen Cellars
+   Address:  4160 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.7 (161 reviews)
+   Types:    winery, farm, liquor_store, food, store, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+102. Napa Valley Museum Yountville
+   Address:  55 Presidents Cir, Yountville, CA 94599, USA
+   Rating:   4.2 (160 reviews)
+   Types:    art_museum, tourist_attraction, museum, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+103. B Cellars
+   Address:  703 Oakville Cross Rd, Napa, CA 94558, USA
+   Rating:   4.9 (160 reviews)
+   Types:    winery, vineyard, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+104. Miner Family Winery
+   Address:  7850 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.5 (151 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+105. Ghost Block Estate Wines
+   Address:  1189 Oakville Cross Rd, Oakville, CA 94562, USA
+   Rating:   4.9 (149 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+106. Buoncristiani Family Winery
+   Address:  2275 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   5 (147 reviews)
+   Types:    winery, tourist_attraction, liquor_store, wine_bar, bar, farm, point_of_interest, service, food, manufacturer, store, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+107. Backstage Winery
+   Address:  4162 Big Ranch Rd, Napa, CA 94558, USA
+   Rating:   4.7 (131 reviews)
+   Types:    winery, wine_bar, farm, bar, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+108. Priest Ranch Tasting Room
+   Address:  6490 Washington St, Yountville, CA 94599, USA
+   Rating:   4.7 (128 reviews)
+   Types:    winery, wine_bar, farm, liquor_store, bar, tourist_attraction, association_or_organization, food, store, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+109. Goosecross Cellars
+   Address:  1119 State Ln, Yountville, CA 94599, USA
+   Rating:   4.6 (128 reviews)
+   Types:    winery, farm, liquor_store, food, store, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+110. Jack London's Cabin
+   Address:  1-199 Webster Street Tube, Oakland, CA 94607, USA
+   Rating:   4.5 (123 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+111. Hill Family Estate
+   Address:  6512 Washington St, Yountville, CA 94599, USA
+   Rating:   4.9 (118 reviews)
+   Types:    winery, tourist_attraction, wine_bar, bar, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+112. Eugene O'Neill National Historic Site
+   Address:  1000 Kuss Rd, Danville, CA 94526, USA
+   Rating:   4.7 (116 reviews)
+   Types:    historical_place, tourist_attraction, nature_preserve, historical_landmark, national_park, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+113. The Kitchen at Priest Ranch
+   Address:  6488 Washington St, Yountville, CA 94599, USA
+   Rating:   4.6 (115 reviews)
+   Types:    restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+114. Napa Native Tours
+   Address:  3112 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   5 (109 reviews)
+   Types:    winery, farm, transportation_service, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+115. Stewart Cellars
+   Address:  6752 Washington St building b, Yountville, CA 94599, USA
+   Rating:   4.9 (108 reviews)
+   Types:    winery, tourist_attraction, wine_bar, bar, farm, point_of_interest, service, food, manufacturer, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+116. Saddleback Cellars
+   Address:  7802 Money Rd, Oakville, CA 94562, USA
+   Rating:   4.8 (103 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+117. The French Laundry Culinary Garden
+   Address:  6639 Washington St, Yountville, CA 94599, USA
+   Rating:   4.6 (101 reviews)
+   Types:    garden, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+118. Bell Wine Cellars
+   Address:  6200 Washington St, Napa, CA 94558, USA
+   Rating:   4.8 (101 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+119. Promontory Winery
+   Address:  1601 Oakville Grade Rd, Oakville, CA 94562, USA
+   Rating:   5 (99 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+120. Lime Point Historic Lighthouse
+   Address:  Moore Rd, Sausalito, CA, USA
+   Rating:   4.7 (97 reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+121. Materra | Cunat Family Vineyards
+   Address:  4326 Big Ranch Rd, Napa, CA 94558, USA
+   Rating:   4.9 (93 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+122. Locke Memorial Park
+   Address:  Walnut Grove, CA 95690, USA
+   Rating:   4.6 (92 reviews)
+   Types:    historical_landmark, historical_place, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+123. Foley Johnson Winery
+   Address:  8350 St Helena Hwy, Rutherford, CA 94573, USA
+   Rating:   4.4 (91 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+124. Antioch Historical Society Museum
+   Address:  1500 W 4th St, Antioch, CA 94509, USA
+   Rating:   4.7 (90 reviews)
+   Types:    museum, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+125. Veterans Park
+   Address:  6465 Washington St, Yountville, CA 94599, USA
+   Rating:   4.8 (86 reviews)
+   Types:    city_park, tourist_attraction, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+126. Madeleine's Macarons & Crepes
+   Address:  6752 Washington St building b, Yountville, CA 94599, USA
+   Rating:   4.7 (85 reviews)
+   Types:    coffee_shop, pastry_shop, ice_cream_shop, catering_service, cafe, breakfast_restaurant, dessert_shop, food_delivery, confectionery, bakery, wholesaler, restaurant, point_of_interest, service, food_store, food, manufacturer, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+127. Secret Sidewalk
+   Address:  1430 Old Canyon Rd, Fremont, CA 94536, USA
+   Rating:   4.4 (85 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+128. Language of the Birds
+   Address:  320 Columbus Ave, San Francisco, CA 94133, USA
+   Rating:   4.1 (84 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+129. Burgers & Half Bottles
+   Address:  6518 Washington St, Yountville, CA 94599, USA
+   Rating:   4 (82 reviews)
+   Types:    restaurant, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+130. Matthiasson Winery
+   Address:  3175 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   4.9 (81 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+131. Quixote Winery
+   Address:  6126 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.8 (80 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+132. Lyford's Stone Tower
+   Address:  2034 Paradise Dr, Tiburon, CA 94920, USA
+   Rating:   4.5 (80 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+133. Elyse Winery
+   Address:  2100 Hoffman Ln, Napa, CA 94558, USA
+   Rating:   4.8 (77 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+134. Clementine Yountville
+   Address:  6525 Washington St, Yountville, CA 94599, USA
+   Rating:   4.2 (71 reviews)
+   Types:    restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+135. Mayacamas Vineyards & Winery
+   Address:  1155 Lokoya Rd, Napa, CA 94558, USA
+   Rating:   4.5 (70 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+136. Veterans Home of California, Yountville
+   Address:  260 California Dr, Yountville, CA 94599, USA
+   Rating:   4.3 (69 reviews)
+   Types:    local_government_office, government_office, point_of_interest, service, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+137. Groth Vineyards & Winery
+   Address:  750 Oakville Cross Rd, Napa, CA 94558, USA
+   Rating:   4.6 (69 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+138. Mark Herold Wines
+   Address:  7415 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   4.6 (66 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+139. ONEHOPE Winery
+   Address:  8301 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   4.9 (66 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+140. Paradigm Winery
+   Address:  1277 Dwyer Rd, Oakville, CA 94562, USA
+   Rating:   4.8 (64 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+141. Lake Hennessey
+   Address:  Lake Hennessey, California 94574, USA
+   Rating:   4.5 (60 reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+142. Shafer Vineyards
+   Address:  6154 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.8 (56 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+143. St Joan of Arc Catholic Church
+   Address:  6404 Washington St, Yountville, CA 94599, USA
+   Rating:   4.9 (55 reviews)
+   Types:    church, place_of_worship, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+144. Elephant Rock
+   Address:  63X4+R4, Tomales, CA 94971, USA
+   Rating:   4.8 (55 reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+145. Pardee Home Museum
+   Address:  672 11th St, Oakland, CA 94607, USA
+   Rating:   4.8 (53 reviews)
+   Types:    museum, historical_landmark, historical_place, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+146. Pina Napa Valley
+   Address:  8060 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.9 (51 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+147. Cleve Borman Field
+   Address:  100 California Dr, Yountville, CA 94599, USA
+   Rating:   4.8 (50 reviews)
+   Types:    athletic_field, sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+148. China Point Overlook
+   Address:  Soscol Ave, Napa, CA 94559, USA
+   Rating:   4.3 (50 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+149. Napa Valley Computer Geek
+   Address:  203 Alchemy Way, Napa, CA 94558, USA
+   Rating:   5 (49 reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+150. Sonoma Valley Visitors Bureau
+   Address:  IN HISTORIC TOSCANO HOTEL, 24 E Spain St, Sonoma, CA 95476, USA
+   Rating:   4.6 (48 reviews)
+   Types:    tourist_information_center, visitor_center, tour_agency, travel_agency, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+151. Yountville Community Center
+   Address:  6516 Washington St, Yountville, CA 94599, USA
+   Rating:   4.4 (46 reviews)
+   Types:    community_center, banquet_hall, event_venue, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+152. The Caves At Soda Canyon
+   Address:  2275 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   4.9 (46 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+153. David Arthur Vineyards
+   Address:  210 Long Ranch Rd, St Helena, CA 94574, USA
+   Rating:   4.9 (46 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+154. What Cheer House
+   Address:  California Historical Landmark #597, 102 K St, Sacramento, CA 95814, USA
+   Rating:   4.5 (45 reviews)
+   Types:    historical_landmark, historical_place, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+155. Staglin Family Vineyard
+   Address:  1570 Bella Oaks Ln, Rutherford, CA 94573, USA
+   Rating:   4.6 (44 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+156. Tracy Historical Museum
+   Address:  1141 Adam St, Tracy, CA 95376, USA
+   Rating:   4.8 (43 reviews)
+   Types:    museum, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+157. Watermelon Rock
+   Address:  Doolittle Dr, Oakland, CA 94621, USA
+   Rating:   4.6 (43 reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+158. Gargiulo Vineyards
+   Address:  575 Oakville Cross Rd, Napa, CA 94558, USA
+   Rating:   4.8 (42 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+159. Cardinale Estate
+   Address:  7600 St Helena Hwy, Oakville, CA 94562, USA
+   Rating:   4.7 (41 reviews)
+   Types:    winery, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+160. Napa River Trail
+   Address:  Napa, CA 94558, USA
+   Rating:   4.4 (40 reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+161. Wyatt Irrigation Supply Inc
+   Address:  4407 Solano Ave, Napa, CA 94558, USA
+   Rating:   4.8 (38 reviews)
+   Types:    general_contractor, point_of_interest, service, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+162. Robinson Family Vineyard
+   Address:  5880 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.9 (37 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+163. Signorello Estate
+   Address:  4500 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.4 (36 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+164. White Rock Vineyards
+   Address:  1112 Loma Vista Dr, Napa, CA 94558, USA
+   Rating:   4.9 (36 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+165. Gonzales-Peralta Adobe & Fallon House Historic Site
+   Address:  175 Sharks Wy, San Jose, CA 95110, USA
+   Rating:   4.6 (36 reviews)
+   Types:    tourist_attraction, historical_landmark, museum, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+166. Keever Vineyards & Winery
+   Address:  26 Vineyard View Dr, Napa, CA 94558, USA
+   Rating:   4.9 (35 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+167. Heart of San Francisco Series
+   Address:  225 Stockton St, San Francisco, CA 94108, USA
+   Rating:   4.4 (34 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+168. Animal Kingdom Veterinary Services
+   Address:  3164 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   4.5 (33 reviews)
+   Types:    veterinary_care, pet_care, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+169. Lewis Cellars
+   Address:  6320 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.6 (32 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+170. Antinori Napa Valley
+   Address:  3700 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   4.7 (32 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+171. Relic Wine Cellars
+   Address:  2400 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   4.9 (31 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+172. Napa Valley Vine Trail Trailhead at Veterans Home
+   Address:  California Dr, Yountville, CA 94599, USA
+   Rating:   4.6 (29 reviews)
+   Types:    hiking_area, rest_stop, sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+173. Modesto Arch
+   Address:  875-857 I St, Modesto, CA 95354, USA
+   Rating:   3.7 (29 reviews)
+   Types:    historical_landmark, museum, historical_place, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+174. Progeny Winery
+   Address:  1032 Mt Veeder Rd, Napa, CA 94558, USA
+   Rating:   4.9 (28 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+175. Vermont St
+   Address:  807 Vermont St, San Francisco, CA 94107, USA
+   Rating:   4.4 (28 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+176. The Estate Yountville Pavilion and Barrel Room
+   Address:  6481 Washington St, Yountville, CA 94599, USA
+   Rating:   4.4 (27 reviews)
+   Types:    wedding_venue, event_venue, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+177. Rudd Estate
+   Address:  500 Oakville Cross Rd, Oakville, CA 94562, USA
+   Rating:   4.8 (26 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+178. OVID Napa Valley
+   Address:  255 Long Ranch Rd, St Helena, CA 94574, USA
+   Rating:   4.8 (26 reviews)
+   Types:    winery, vineyard, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+179. Continuum Estate
+   Address:  1677 Sage Canyon Rd, St Helena, CA 94574, USA
+   Rating:   5 (26 reviews)
+   Types:    winery, farm, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+180. Salvador Chevron
+   Address:  1895 Salvador Ave W, Napa, CA 94558, USA
+   Rating:   4.4 (25 reviews)
+   Types:    gas_station, convenience_store, point_of_interest, supplier, service, food_store, food, manufacturer, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+181. A Drive for Wine Co.
+   Address:  3185 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   5 (24 reviews)
+   Types:    point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+182. Sonoma Barracks
+   Address:  36 E Spain St, Sonoma, CA 95476, USA
+   Rating:   4.7 (23 reviews)
+   Types:    historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+183. The Oasis by Hoopes
+   Address:  6204 Washington St, Napa, CA 94558, USA
+   Rating:   4.7 (22 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+184. McKahn Wines
+   Address:  2275 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   5 (22 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+185. Gamble Estates
+   Address:  7554 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   4.8 (22 reviews)
+   Types:    winery, tourist_attraction, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+186. Rector Reservoir Wildlife Area Trailhead
+   Address:  Napa, CA 94558, USA
+   Rating:   4 (21 reviews)
+   Types:    hiking_area, sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+187. Vine Cliff Winery
+   Address:  7400 Silverado Trail, Napa, CA 94558, USA
+   Rating:   5 (21 reviews)
+   Types:    winery, vineyard, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+188. Rancho Petaluma Adobe
+   Address:  3295 Old Adobe Rd, Petaluma, CA 94954, USA
+   Rating:   4.9 (21 reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+189. Kelleher Family Vineyard
+   Address:  7377 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   4.5 (20 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+190. Patland Estate Vineyards
+   Address:  2275 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   4.8 (20 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+191. Napa Wine Company
+   Address:  7830 St Helena Hwy, Oakville, CA 94562, USA
+   Rating:   4.6 (20 reviews)
+   Types:    winery, vineyard, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+192. Padis Vineyards
+   Address:  3025 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   5 (20 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+193. FUTO Estate
+   Address:  1575 Oakville Grade Rd, Oakville, CA 94562, USA
+   Rating:   4.1 (19 reviews)
+   Types:    winery, vineyard, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+194. The Vineyard House Wine Estate
+   Address:  1581 & 1583, Oakville Grade Rd, Oakville, CA 94562, USA
+   Rating:   5 (19 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+195. Reliable Heating and Air
+   Address:  4405 Solano Ave, Napa, CA 94558, USA
+   Rating:   4 (19 reviews)
+   Types:    general_contractor, point_of_interest, supplier, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+196. Lake Hennesy beach
+   Address:  930-700, CA-128, St Helena, CA 94574, USA
+   Rating:   4.6 (19 reviews)
+   Types:    sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+197. Oakville Wine Merchant
+   Address:  7856 St Helena Hwy, Oakville, CA 94562, USA
+   Rating:   4.4 (18 reviews)
+   Types:    wine_bar, bar, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+198. Theodore Judah Monument
+   Address:  Sacramento, CA 95814, USA
+   Rating:   4.4 (18 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+199. Yountville Community Church
+   Address:  6621 Yount St, Yountville, CA 94599, USA
+   Rating:   4.8 (17 reviews)
+   Types:    church, place_of_worship, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+200. Realm Moonracer Estate
+   Address:  5795 Silverado Trail, Napa, CA 94558, USA
+   Rating:   5 (17 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+201. The Christopher Hill Gallery
+   Address:  1235 Main St, St Helena, CA 94574, USA
+   Rating:   4.7 (17 reviews)
+   Types:    art_gallery, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+202. Kapcsándy Family Winery
+   Address:  1001 State Ln, Yountville, CA 94599, USA
+   Rating:   4.3 (16 reviews)
+   Types:    winery, farm, wholesaler, tourist_attraction, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+203. Blankiet Estate
+   Address:  2358 California Drive, Yountville, CA 94599, USA
+   Rating:   5 (16 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+204. Hill Family Winery
+   Address:  6155 Solano Ave, Napa, CA 94558, USA
+   Rating:   4.9 (16 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+205. Infinity Hill
+   Address:  200 Stanly Crossroad, Napa, CA 94559, USA
+   Rating:   4.8 (16 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+206. Vineyard Park Yountville
+   Address:  1800 Oak Cir, Yountville, CA 94599, USA
+   Rating:   4.7 (15 reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+207. Founders Rock
+   Address:  Berkeley, CA 94709, USA
+   Rating:   4.6 (15 reviews)
+   Types:    historical_landmark, historical_place, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+208. Springwood Park
+   Address:  1516 Mosswood Dr, Napa, CA 94558, USA
+   Rating:   4.7 (14 reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+209. Napa Valley Unitarian Universalists
+   Address:  1625 Salvador Ave, Napa, CA 94558, USA
+   Rating:   4.6 (14 reviews)
+   Types:    church, place_of_worship, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+210. Boyd Family Vineyard Napa
+   Address:  4042 Big Ranch Rd, Napa, CA 94558, USA
+   Rating:   4.9 (14 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+211. Wineries of Napa Valley
+   Address:  1119 State Ln, Yountville, CA 94599, USA
+   Rating:   4.6 (13 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+212. Gandona Estate
+   Address:  1533 Sage Canyon Rd, St Helena, CA 94574, USA
+   Rating:   4.7 (13 reviews)
+   Types:    winery, vineyard, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+213. Tom Scott Vineyard
+   Address:  1465 Yountville Cross Rd, Yountville, CA 94599, USA
+   Rating:   4.9 (12 reviews)
+   Types:    vineyard, farm, liquor_store, food, store, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+214. A Wine & Dine Event
+   Address:  3240 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   4.4 (12 reviews)
+   Types:    point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+215. Realm Houyi Estate
+   Address:  200 Long Ranch Rd, St Helena, CA 94574, USA
+   Rating:   4.9 (12 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+216. Alibi Clock
+   Address:  316 Georgia St, Vallejo, CA 94590, USA
+   Rating:   4.5 (12 reviews)
+   Types:    landmark, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+217. Tench Vineyards
+   Address:  7633 Silverado Trail, Napa, CA 94558, USA
+   Rating:   5 (11 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+218. Oakville Ranch Vineyards
+   Address:  7781 Silverado Trail, Napa, CA 94558, USA
+   Rating:   5 (11 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+219. Arrow&Branch Winery
+   Address:  5215 Solano Ave, Napa, CA 94558, USA
+   Rating:   4.5 (11 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+220. Brand Napa Valley
+   Address:  90 Long Ranch Rd, St Helena, CA 94574, USA
+   Rating:   4.7 (11 reviews)
+   Types:    winery, vineyard, farm, tourist_attraction, association_or_organization, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+221. Frisinger Winery
+   Address:  2275 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   5 (11 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+222. Yountville Library
+   Address:  6516 Washington St, Yountville, CA 94599, USA
+   Rating:   4.8 (10 reviews)
+   Types:    library, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+223. Hertelendy Vineyards
+   Address:  2275 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   4.9 (10 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+224. Roy Estate
+   Address:  1220 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   5 (10 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+225. Beckstoffer Vineyards
+   Address:  8550 Conn Creek Rd, Rutherford, CA 94573, USA
+   Rating:   4 (10 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+226. Yountville Seventh-day Adventist Church
+   Address:  1920 Finnell Rd, Yountville, CA 94599, USA
+   Rating:   4.7 (9 reviews)
+   Types:    church, place_of_worship, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+227. Wendee and Friends
+   Address:  Mt Veeder Rd, Napa, CA 94558, USA
+   Rating:   5 (9 reviews)
+   Types:    point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+228. Site of Haraszthy Villa (California Historical Landmark #392-1)
+   Address:  1695 Castle Rd, Sonoma, CA 95476, USA
+   Rating:   4.7 (9 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+229. Taylor Family Vineyards
+   Address:  5991 Silverado Trail, Napa, CA 94558, USA
+   Rating:   5 (8 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+230. Ilsley Vineyards
+   Address:  6275 Silverado Trail, Napa, CA 94558, USA
+   Rating:   5 (8 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+231. Carmelite House of Prayer
+   Address:  20 Mt Carmel Dr, Oakville, CA 94562, USA
+   Rating:   4.9 (8 reviews)
+   Types:    church, place_of_worship, health, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+232. Shifflett Ranch & Vineyard
+   Address:  1201 Darms Ln, Napa, CA 94558, USA
+   Rating:   5 (8 reviews)
+   Types:    winery, tourist_attraction, vineyard, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+233. The Vice Wines
+   Address:  2275 Old Soda Springs Rd, Napa, CA 94558, USA
+   Rating:   4.9 (8 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+234. Bear Flag Monument (California Historical Landmark #7)
+   Address:  018 214-001, Sonoma, CA 95476, USA
+   Rating:   4.4 (8 reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+235. Veterans Home Cemetery
+   Address:  California Dr, Yountville, CA 94599, USA
+   Rating:   4.7 (7 reviews)
+   Types:    cemetery, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+236. Sleeping Lady Vineyard
+   Address:  5537 Solano Ave, Napa, CA 94558, USA
+   Rating:   5 (7 reviews)
+   Types:    corporate_office, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+237. Bella Oaks Vineyard
+   Address:  1350 Bella Oaks Ln, Napa, CA 94558, USA
+   Rating:   5 (7 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+238. Forrester Park
+   Address:  Yountville, CA 94599, USA
+   Rating:   4.5 (6 reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+239. Rock Mushroom Garden
+   Address:  1910-1998 Mulberry St, Yountville, CA 94599, USA
+   Rating:   4 (6 reviews)
+   Types:    garden, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+240. Malk Family Vineyards
+   Address:  5850 Silverado Trail, Napa, CA 94558, USA
+   Rating:   5 (6 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+241. Lindstrom Vineyards
+   Address:  5994 Silverado Trail, Napa, CA 94558, USA
+   Rating:   5 (6 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+242. Site of George Yount's Blockhouse
+   Address:  1801 Cook Rd, Yountville, CA 94599, USA
+   Rating:   4.3 (6 reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+243. Joel Gott Wines
+   Address:  2055 Hoffman Ln, Napa, CA 94558, USA
+   Rating:   5 (6 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+244. Ideology Cellars Estate
+   Address:  5225 Solano Ave, Napa, CA 94558, USA
+   Rating:   5 (6 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+245. 4 Winds Winery
+   Address:  5870 Silverado Trail, Napa, CA 94558, USA
+   Rating:   5 (6 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+246. V12 Vineyards
+   Address:  2001 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   5 (6 reviews)
+   Types:    winery, liquor_store, vineyard, farm, wholesaler, point_of_interest, service, food, manufacturer, store, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+247. Pina Vineyard Management LLC
+   Address:  7960 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4.8 (6 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+248. Historical Borreo Building
+   Address:  930 3rd St, Napa, CA 94559, USA
+   Rating:   5 (6 reviews)
+   Types:    historical_place, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+249. Presidio of Sonoma (Sonoma Barracks) (California Historical Landmark #316)
+   Address:  018 162-014, Sonoma, CA 95476, USA
+   Rating:   4.8 (6 reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+250. Van De Leur Park
+   Address:  6562-6598 Washington St, Yountville, CA 94599, USA
+   Rating:   5 (5 reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+251. Gemstone Vineyard
+   Address:  7153 Silverado Trail, Yountville, CA 94599, USA
+   Rating:   5 (5 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+252. Dominus Winery
+   Address:  2570 Napa Nook Rd, Yountville, CA 94599, USA
+   Rating:   4.4 (5 reviews)
+   Types:    farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+253. Yount Mill Rd Bike Trail
+   Address:  2163-2197 Yount St, Napa, CA 94558, USA
+   Rating:   4.8 (5 reviews)
+   Types:    sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+254. Bettinelli Vineyards
+   Address:  5430 Washington St, Napa, CA 94558, USA
+   Rating:   4.2 (5 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+255. Aum Cellars
+   Address:  2275 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   5 (5 reviews)
+   Types:    winery, tourist_attraction, liquor_store, farm, point_of_interest, service, food, manufacturer, store, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+256. Tierra Roja Vineyard
+   Address:  Yountville, CA 94599, USA
+   Rating:   4.6 (5 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+257. Ashe Vineyards
+   Address:  7688 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   4.6 (5 reviews)
+   Types:    liquor_store, store, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+258. Dolce Winery
+   Address:  1350 Acacia Dr, Oakville, CA 94562, USA
+   Rating:   4.8 (5 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+259. Bengier Family Vineyards
+   Address:  4204 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   4.8 (5 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+260. Silverado Trail
+   Address:  8136 Silverado Trail, Napa, CA 94558, USA
+   Rating:   5 (5 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+261. Black Cordon Vineyards
+   Address:  4155 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   5 (5 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+262. Site of Blossom Rock Navigation Trees
+   Address:  085 000100201, Oakland, CA 94619, USA
+   Rating:   4.6 (5 reviews)
+   Types:    historical_landmark, historical_place, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+263. Crimson Wine Group
+   Address:  5901 Silverado Trail, Napa, CA 94558, USA
+   Rating:   3 (4 reviews)
+   Types:    corporate_office, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+264. FEL Wine
+   Address:  1473 Yountville Cross Rd, Yountville, CA 94599, USA
+   Rating:   4.8 (4 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+265. Armistice Chapel
+   Address:  100 California Dr, Yountville, CA 94599, USA
+   Rating:   4 (4 reviews)
+   Types:    historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+266. Main Dining Room
+   Address:  100 California Dr, Yountville, CA 94599, USA
+   Rating:   4 (4 reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+267. Chanticleer Estate Wines
+   Address:  4 Vineyard View Dr, Yountville, CA 94599, USA
+   Rating:   4.5 (4 reviews)
+   Types:    winery, liquor_store, farm, point_of_interest, service, food, manufacturer, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+268. Trubody Ranch
+   Address:  5444 Trubody Ln, Napa, CA 94558, USA
+   Rating:   4.5 (4 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+269. Hossfeld Vineyards
+   Address:  1250 Loma Vista Dr, Napa, CA 94558, USA
+   Rating:   5 (4 reviews)
+   Types:    winery, vineyard, farm, point_of_interest, service, food, manufacturer, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+270. Husic Vineyards LLC
+   Address:  189 Ridge Dr, Napa, CA 94558, USA
+   Rating:   5 (4 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+271. St. Stephen's Anglican Church
+   Address:  1250 Oakville Grade Rd, Oakville, CA 94562, USA
+   Rating:   4.8 (4 reviews)
+   Types:    church, place_of_worship, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+272. Jaeger Vineyard
+   Address:  2180 Oak Knoll Ave, Napa, CA 94558, USA
+   Rating:   5 (4 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+273. Odyssey Vineyards
+   Address:  3030 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   5 (4 reviews)
+   Types:    vineyard, farm, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+274. Villa Ragazzi Winery
+   Address:  7878 Money Rd, Napa, CA 94558, USA
+   Rating:   4.8 (4 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+275. Enchanted Hills Camp for the Blind
+   Address:  3410 Mt Veeder Rd, Napa, CA 94558, USA
+   Rating:   5 (4 reviews)
+   Types:    non_profit_organization, summer_camp_organizer, health, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+276. Classic Photography LLC
+   Address:  1148 Lokoya Rd, Napa, CA 94558, USA
+   Rating:   4 (4 reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+277. Moulds Family Vineyard
+   Address:  3075 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   5 (4 reviews)
+   Types:    winery, ranch, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+278. Napa County Landmarks, Inc.
+   Address:  1416 Brown St, Napa, CA 94559, USA
+   Rating:   5 (4 reviews)
+   Types:    non_profit_organization, tourist_attraction, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+279. Litto's Hubcap Ranch Historical Marker
+   Address:  California Registered Historical Landmark No. 939, Pope Valley Rd, St Helena, CA 94574, USA
+   Rating:   4.5 (4 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+280. Walters Ranch Hop Kiln (California Historical Landmark #893)
+   Address:  6050 Westside Rd, Healdsburg, CA 95448, USA
+   Rating:   4.8 (4 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+281. Sam Spade's Office
+   Address:  305 1st St, Winters, CA 95694, USA
+   Rating:   4.8 (4 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+282. The Chef statue
+   Address:  6481 Washington St, Yountville, CA 94599, USA
+   Rating:   5 (3 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+283. Sidewalk Judge
+   Address:  6516 Washington St, Yountville, CA 94599, USA
+   Rating:   5 (3 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+284. The Two of Us
+   Address:  6516 Washington St, Yountville, CA 94599, USA
+   Rating:   5 (3 reviews)
+   Types:    sculpture, tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+285. Napa River Bridge
+   Address:  1707 Yountville Cross Rd, Yountville, CA 94599, USA
+   Rating:   5 (3 reviews)
+   Types:    bridge, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+286. Gulrajani Family Estate
+   Address:  10 Vineyard View Dr, Napa, CA 94558, USA
+   Rating:   5 (3 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+287. Regusci Vineyard Management
+   Address:  5584 Silverado Trail, Napa, CA 94558, USA
+   Rating:   5 (3 reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+288. Kathi Cook Photography
+   Address:  7600 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   5 (3 reviews)
+   Types:    service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+289. BOND Winery
+   Address:  1551 Oakville Grade Rd, Napa, CA 94558, USA
+   Rating:   5 (3 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+290. Detert Vineyard
+   Address:  1500 Walnut Ln, Oakville, CA 94562, USA
+   Rating:   5 (3 reviews)
+   Types:    vineyard, winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+291. The Wine RayZyn Company, LLC
+   Address:  3390 Mt Veeder Rd, Napa, CA 94558, USA
+   Rating:   3.3 (3 reviews)
+   Types:    health_food_store, health, point_of_interest, food_store, food, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+292. Love Wine Too
+   Address:  6481 Washington St, Yountville, CA 94599, USA
+   Rating:   5 (2 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+293. California Historical Landmark 828: Veterans Home of California
+   Address:  9JWR+V2, Yountville, CA 94599, USA
+   Rating:   4.5 (2 reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+294. Mushroom Rocks
+   Address:  6514 Washington St, Yountville, CA 94599, USA
+   Rating:   5 (2 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+295. The Pilates Reserve
+   Address:  6540 Washington St, Yountville, CA 94599, USA
+   Rating:   5 (2 reviews)
+   Types:    sports_complex, gym, sports_activity_location, sports_school, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+296. Chiarello Vineyards
+   Address:  6525 Washington St A-2, Yountville, CA 94599, USA
+   Rating:   5 (2 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+297. San Savino Vineyards
+   Address:  7131 Silverado Trail, Napa, CA 94558, USA
+   Rating:   5 (2 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+298. One Acre Napa - Yountville
+   Address:  Napa, CA 94558, USA
+   Rating:   4 (2 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+299. Restroom
+   Address:  1170 Lincoln Ave, Yountville, CA 94599, USA
+   Rating:   5 (2 reviews)
+   Types:    public_bathroom, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+300. Public Parking Lot
+   Address:  Lincoln Ave, Yountville, CA 94599, USA
+   Rating:   5 (2 reviews)
+   Types:    parking_lot, parking, transportation_service, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+301. Taddel Vineyards
+   Address:  7391 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   5 (2 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+302. George C Yount Cemetery
+   Address:  Jackson St, Yountville, CA 94599, USA
+   Rating:   4 (2 reviews)
+   Types:    cemetery, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+303. United States Postal Service
+   Address:  260 California Dr, Yountville, CA 94599, USA
+   Rating:   3 (2 reviews)
+   Types:    post_office, finance, government_office, point_of_interest, service, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+304. Attelas Vineyard
+   Address:  3265 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   5 (2 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+305. Napa County Fire Department Training Ground
+   Address:  CMR2+VR, Napa, CA 94558, USA
+   Rating:   5 (2 reviews)
+   Types:    playground, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+306. Dalla Valle Vineyards
+   Address:  7776 Silverado Trail, Napa, CA 94558, USA
+   Rating:   3 (2 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+307. Napa Redwoods Cemetery
+   Address:  Napa, CA 94558, USA
+   Rating:   5 (2 reviews)
+   Types:    cemetery, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+308. Wing Canyon Vineyard
+   Address:  3100 Mt Veeder Rd, Napa, CA 94558, USA
+   Rating:   5 (2 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+309. Nord Vineyard Services
+   Address:  1326 Hillview Ln, Napa, CA 94558, USA
+   Rating:   5 (2 reviews)
+   Types:    vineyard, winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+310. Darms Lane Vineyard
+   Address:  1150 Darms Ln, Napa, CA 94558, USA
+   Rating:   5 (2 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+311. FLINT KNOLL Napa Valley
+   Address:  4181 Big Ranch Rd, Napa, CA 94558, USA
+   Rating:   5 (2 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+312. Soda Springs Ranch
+   Address:  2100 Old Soda Springs Rd, Napa, CA 94558, USA
+   Rating:   5 (2 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+313. Edcora Vineyard
+   Address:  3565 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   5 (2 reviews)
+   Types:    vineyard, farm, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+314. Stagecoach Vineyards
+   Address:  3555 Soda Cyn Rd, Napa, CA 94558, USA
+   Rating:   5 (2 reviews)
+   Types:    vineyard, farm, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+315. Colgin Cellars
+   Address:  St Helena, CA 94574, USA
+   Rating:   5 (2 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+316. Winegrowers Farming Co
+   Address:  8550 Conn Creek Rd, Rutherford, CA 94573, USA
+   Rating:   4.5 (2 reviews)
+   Types:    farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+317. Napa Valley Restaurant Group
+   Address:  4110 Street Helena Hwy, Napa, CA 94558, USA
+   Rating:   5 (2 reviews)
+   Types:    restaurant, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+318. Oakville AVA
+   Address:  7855 St Helena Hwy Box 101, Oakville, CA 94562, USA
+   Rating:   4.5 (2 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+319. Yount Mill Vineyards
+   Address:  7830 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   4.5 (2 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+320. Dry Creek-Lokoya Volunteer Fire Department
+   Address:  5900 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   5 (2 reviews)
+   Types:    fire_station, government_office, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+321. Wombat Bay
+   Address:  Landfill Loop Trail, American Canyon, CA 94503, USA
+   Rating:   5 (2 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+322. Faces of Freedom
+   Address:  6465 Washington St, Yountville, CA 94599, USA
+   Rating:   5 (1 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+323. Slice of Life
+   Address:  6484 Washington St # F, Yountville, CA 94599, USA
+   Rating:   5 (1 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+324. Bardessono Family Park
+   Address:  6516 Washington St, Yountville, CA 94599, USA
+   Rating:   5 (1 reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+325. Yountville Shared Use Trail
+   Address:  Champagne Dr, Yountville, CA 94599, USA
+   Rating:   4 (1 reviews)
+   Types:    hiking_area, sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+326. Villa Encinal Partners LP
+   Address:  5998 Silverado Trail, Napa, CA 94558, USA
+   Rating:   1 (1 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+327. Pine Ridge: Circle Hill
+   Address:  Silverado Trail, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+328. Napa River Ecological Reserve
+   Address:  Napa, CA 94558, USA
+   Rating:   2 (1 reviews)
+   Types:    nature_preserve, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+329. George C Yount Pioneer Cemetery and Ancient Indian Burial Grounds
+   Address:  Lincoln Ave, Yountville, CA 94599, USA
+   Rating:   5 (1 reviews)
+   Types:    cemetery, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+330. Thomas Jefferson Hall
+   Address:  California Dr, Yountville, CA 94599, USA
+   Rating:   5 (1 reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+331. Ulysses S. Grant Hall Recreation Center
+   Address:  100 California Dr, Yountville, CA 94599, USA
+   Rating:   5 (1 reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+332. Theodore Roosevelt Hall
+   Address:  310 California Dr, Yountville, CA 94599, USA
+   Rating:   5 (1 reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+333. Veterans Peak
+   Address:  Veterans Peak, California 94599, USA
+   Rating:   5 (1 reviews)
+   Types:    mountain_peak, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+334. Keith Rosenthal Photography
+   Address:  1015 Elmo Ct, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+335. Soda Canyon Volunteer Fire Department Station 13
+   Address:  2368 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    fire_station, government_office, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+336. Muscatine Vineyard
+   Address:  2410 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   1 (1 reviews)
+   Types:    winery, vineyard, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+337. Guarachi Fine Wines
+   Address:  3148 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   4 (1 reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+338. Rector Reservoir
+   Address:  Rector Reservoir, California 94558, USA
+   Rating:   3 (1 reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+339. Oakville Experimental Vineyard
+   Address:  1380 Oakville Grade Rd, Oakville, CA 94562, USA
+   Rating:   5 (1 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+340. Napa tree walk
+   Address:  1551 Oakville Grade Rd, Oakville, CA 94562, USA
+   Rating:   1 (1 reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+341. Harlan Estate Winery
+   Address:  1567 Oakville Grade Rd, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+342. Kanpai Wines
+   Address:  4120 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+343. Sixteen by Twenty
+   Address:  4155 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+344. ExtraMile
+   Address:  1895 Salvador Ave, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    convenience_store, coffee_shop, cafe, gas_station, point_of_interest, service, food_store, food, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+345. Abruzzini Park
+   Address:  55 Haven Way, Napa, CA 94558, USA
+   Rating:   3 (1 reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+346. ChargePoint Charging Station
+   Address:  1895 Salvador Ave, Napa, CA 94558, USA
+   Rating:   1 (1 reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+347. Okapi
+   Address:  4193 Big Ranch Rd, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    vineyard, winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+348. Bayview vineyard
+   Address:  4606 Oak Knoll Ave, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+349. Kasten Family Wines
+   Address:  4179 Big Ranch Rd, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+350. Cafaro Vineyard
+   Address:  5100 Silverado Trail, Napa, CA 94558, USA
+   Rating:   4 (1 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+351. Memo
+   Address:  Napa, CA 94558, USA
+   Rating:   4 (1 reviews)
+   Types:    night_club, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+352. Innovatus
+   Address:  2275 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+353. Stone Cottage Vineyards
+   Address:  3500 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    farm, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+354. Elizabeth Rose @Ghost Block Estate Wines
+   Address:  7830 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    winery, tourist_attraction, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+355. Tesla Destination Charger
+   Address:  7900 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+356. Beckstoffer - To Kalon
+   Address:  Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+357. Bulldog Vineyards
+   Address:  2290 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+358. Napa Valley Land Brokers
+   Address:  2297 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    real_estate_agency, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+359. Muir-Hanna Vineyards
+   Address:  1240 Orchard Ave, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+360. Salvador Vallejo Adobe (California Historical Landmark #501)
+   Address:  421 1st St W, Sonoma, CA 95476, USA
+   Rating:   5 (1 reviews)
+   Types:    historical_landmark, tourist_attraction, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+361. Yellow Art statue
+   Address:  145 Gasser Dr, Napa, CA 94559, USA
+   Rating:   5 (1 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+362. Bear Statue in Napa
+   Address:  221 Devlin Rd, Napa, CA 94558, USA
+   Rating:   5 (1 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+363. Sonoma Guided History Tour with George Webber
+   Address:  1 The Plaza, Sonoma, CA 95476, USA
+   Rating:   5 (1 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+364. Sonoma Mural
+   Address:  Petaluma, CA 94952, USA
+   Rating:   4 (1 reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
+
+365. Town Of Yountville
+   Address:  6550 Yount St, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    city_hall, local_government_office, government_office, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+366. Napa Valley Art Festival
+   Address:  6516 Washington St, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    art_gallery, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+367. Who Rescued Who statue
+   Address:  6523 Washington St, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+368. Dancing Butterflies art
+   Address:  6518 Washington St, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    tourist_attraction, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+369. Folwell Studios, monument and sports sculptures
+   Address:  6711 Washington St, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    art_gallery, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+370. Veterans Home of California Information and Security
+   Address:  California Dr, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    visitor_center, tourist_information_center, tour_agency, travel_agency, local_government_office, government_office, point_of_interest, service, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+371. Yountville Commons
+   Address:  6554 Yount St, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    community_center, event_venue, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+372. Bardessono Vineyards
+   Address:  1901 Finnell Rd, Yountville, CA 94559, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+373. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+374. Stag's Leap Wine Cellars
+   Address:  5766 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+375. Pina Napa Valley
+   Address:  5697-5733 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+376. Wappo Hill Estate
+   Address:  5681 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+377. The Abernathy Group
+   Address:  5585 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    spa, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+378. 29 LUXURY GOODS, INC.
+   Address:  5585 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    spa, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+379. Tesla Destination Charger
+   Address:  5998 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+380. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+381. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+382. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+383. Cliff Lede - Poetry Vineyard
+   Address:  6330 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+384. Como No Wines
+   Address:  6139 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+385. Tesla Destination Charger
+   Address:  6126 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+386. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+387. Gamble Ranch
+   Address:  1299 State Ln, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+388. Cannatelli Wines
+   Address:  7035 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+389. Jitner Painting, Inc
+   Address:  1122 State Ln, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+390. ChargePoint Charging Station
+   Address:  1473 Yountville Cross Rd, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+391. TrueStormRaven Gaming
+   Address:  7174 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+392. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+393. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+394. Vine Hill Ranch
+   Address:  7353 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+395. Vintage Wine Estates
+   Address:  7415 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+396. Blink Charging Station
+   Address:  2900 Lincoln Ave, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+397. Ulysses Vineyard
+   Address:  Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+398. Yountville Hills
+   Address:  Yountville Hills, California 94558, USA
+   Rating:   None (None reviews)
+   Types:    mountain_peak, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+399. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+400. Borman Baseball stadium
+   Address:  100 California Dr, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    sports_club, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+401. VETERANS HOME - Golden 1 Credit Union ATM
+   Address:  VETERANS HOME, 190 California Dr, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    atm, finance, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+402. Picnic Grounds
+   Address:  Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    picnic_ground, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+403. Veterans Home Cemetery Parking
+   Address:  Cemetery Rd, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    parking_lot, parking, transportation_service, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+404. Truman Hall
+   Address:  The Alameda, 300 California Dr, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    apartment_building, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+405. LINCOLN THEATER - Golden 1 Credit Union ATM
+   Address:  190 CALIFORNIA DRIVE LINCOLN THEATER, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    atm, finance, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+406. Parda Sharon A
+   Address:  190 California Dr, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    health, consultant, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+407. Ambulatory Care Clinic
+   Address:  220 California Dr, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    doctor, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+408. Community Garden
+   Address:  Presidents Cir, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    garden, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+409. Lake Hinman
+   Address:  Lake Hinman, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+410. Yountville Community center
+   Address:  Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    wedding_venue, event_venue, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+411. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+412. The Alameda
+   Address:  Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+413. Memorial Grove
+   Address:  California Dr, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+414. HQ Winery
+   Address:  2100 Hoffman Ln, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+415. Golf Driving Range
+   Address:  St Helena Hwy, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    sports_activity_location, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+416. Dillon Vineyards
+   Address:  6206 Washington St, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+417. Standard Deviation Wines -
+   Address:  2100 Hoffman Ln, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+418. Morgado Cellars
+   Address:  2100 Hoffman Ln, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+419. Persis M. Hamilton, RN
+   Address:  21 Vineyard View Dr, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    doctor, health, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+420. Cortina Vineyard Management Llc
+   Address:  5537 Solano Ave, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+421. Kobus Estate Wines
+   Address:  2100 Hoffman Ln, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+422. Franklin D. Roosevelt Annex
+   Address:  140 California Dr, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+423. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+424. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+425. 94599
+   Address:  Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+426. 94599
+   Address:  Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+427. Valley View Pond
+   Address:  Valley View Pond, Yountville, CA 94599, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+428. Rodgers Vineyards
+   Address:  5340 Washington St, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+429. Dakata Ranch
+   Address:  5241 Big Ranch Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+430. Double Eagle Ranch
+   Address:  5390 Washington St, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+431. 1154ragatzln
+   Address:  1154 RAGATZ LANE, NAPA/YOUNTVILLE, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    apartment_complex, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+432. Yountville Vineyard Estate
+   Address:  Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+433. Just Real Country
+   Address:  5296 Washington St, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+434. The Setting Wines
+   Address:  1205 Hillview Ln, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+435. The Setting Wines
+   Address:  1205 Hillview Ln, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+436. smokescreen wine
+   Address:  5225 Solano Ave, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    store, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+437. Artium Designs
+   Address:  1294 Carrell Ln, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    jewelry_store, point_of_interest, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+438. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+439. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+440. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+441. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+442. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+443. John's Custom Mobile Detail
+   Address:  5142 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+444. Red wheel coffee roasters
+   Address:  5119 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    coffee_roastery, point_of_interest, food, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+445. cafferysdanceandgymnastics
+   Address:  5256 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+446. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+447. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+448. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+449. Forthright Winery
+   Address:  2275 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+450. Stepping Stone Farm
+   Address:  Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+451. Ona Vineyards
+   Address:  2410 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+452. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+453. Rector Reservoir Wildlife Area
+   Address:  Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    wildlife_refuge, park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+454. Napa County Weights & Measures
+   Address:  7292 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    local_government_office, government_office, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+455. Tesla Destination Charger
+   Address:  6380 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+456. Acierno Family Vineyard
+   Address:  7070 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+457. Oakville East Wine Company
+   Address:  7730 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+458. Shay Family Vineyard
+   Address:  7760 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+459. Tesla Destination Charger
+   Address:  500 Oakville Cross Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+460. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+461. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+462. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+463. Mountain Wine Club
+   Address:  7600 St Helena Hwy, Oakville, CA 94562, USA
+   Rating:   None (None reviews)
+   Types:    association_or_organization, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+464. Tesla Destination Charger
+   Address:  Cardinale Estate ~ Tasting Room ~, 7600 St Helena Hwy, Oakville, CA 94562, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+465. Barbara Colvin & Co.
+   Address:  1350 Yount Mill Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    general_contractor, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+466. Tesla Destination Charger
+   Address:  915 Oakville Cross Rd, Oakville, CA 94562, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+467. Sloan Estates
+   Address:  Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    farm, service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+468. Fundraising Gala
+   Address:  Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+469. Oakville
+   Address:  Oakville, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+470. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+471. 94599
+   Address:  California 94599, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+472. Pott Art! Vineyard
+   Address:  2272 Mt Veeder Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+473. Paras Vineyard
+   Address:  2340 Mt Veeder Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+474. My circle vision
+   Address:  2340 Mt Veeder Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+475. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+476. Lagier Meredith Vineyard
+   Address:  4967 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, winery, farm, manufacturer, service, food, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+477. Napa Wellness 1
+   Address:  4717 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    consultant, service, point_of_interest, health, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+478. OnSite Exhibitor Service
+   Address:  4598 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+479. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+480. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+481. Rentals Plus LLC
+   Address:  1300 Darms Ln, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    real_estate_agency, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+482. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+483. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+484. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+485. Unidos Middle School
+   Address:  1850 Salvador Ave, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    school, educational_institution, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+486. Faustini Wines
+   Address:  5055 Solano Ave, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+487. Lieber Lawyers
+   Address:  157 Luke Dr, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    consultant, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+488. Tesla Destination Charger
+   Address:  4066 Howard Ln, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+489. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+490. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+491. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+492. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+493. Silver Spur Vineyards
+   Address:  4223 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+494. Barrel Associates International
+   Address:  2180 Oak Knoll Ave, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    supplier, point_of_interest, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+495. Heritage Barrels
+   Address:  2180 Oak Knoll Ave, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    supplier, point_of_interest, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+496. Fuse Wines
+   Address:  4500 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, food, point_of_interest, service, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+497. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+498. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+499. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+500. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+501. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+502. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+503. Hemorrhage Occluder Pin
+   Address:  1174 Loma Vista Dr, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    medical_clinic, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+504. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+505. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+506. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+507. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+508. Roccia Viva
+   Address:  2140 Soda Canyon Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+509. Castle Peak
+   Address:  Castle Peak, California 94558, USA
+   Rating:   None (None reviews)
+   Types:    mountain_peak, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+510. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+511. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+512. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+513. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+514. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+515. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+516. Haystack
+   Address:  Haystack, California 94558, USA
+   Rating:   None (None reviews)
+   Types:    mountain_peak, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+517. Tesla Destination Charger
+   Address:  255 Long Ranch Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+518. Napa County
+   Address:  California 94574, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+519. Tesla Destination Charger
+   Address:  200 Long Ranch Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+520. David Arthur Vineyards tunnels and Park
+   Address:  FJ8Q+68, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+521. Martinez Vineyard
+   Address:  181 Long Ranch Rd, St Helena, CA 94574, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+522. Oakville Farms of Napa Valley
+   Address:  7810 Silverado Trail, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    stable, pet_boarding_service, pet_care, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+523. Tesla Destination Charger
+   Address:  750 Oakville Cross Rd, Oakville, CA 94562, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+524. Olive Branch Landscaping
+   Address:  7867 Money Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+525. Teaderman Vineyards
+   Address:  751 Oakville Cross Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+526. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+527. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+528. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+529. Onehope Foundation
+   Address:  8305 St Helena Hwy, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    non_profit_organization, point_of_interest, association_or_organization, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+530. Oakville
+   Address:  Oakville, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+531. Rutherford
+   Address:  Rutherford, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+532. Napa Regional Parks
+   Address:  5757 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    park, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+533. SEGASSIA VINEYARD
+   Address:  3390 Mount Veeder Rd Mt. Veeder, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+534. ChargePoint Charging Station
+   Address:  3410 Mt Veeder Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    electric_vehicle_charging_station, transportation_service, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+535. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+536. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+537. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+538. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+539. Bismark Knob
+   Address:  Bismark Knob, California 95476, USA
+   Rating:   None (None reviews)
+   Types:    mountain_peak, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+540. Fields of Grace Farms
+   Address:  2211 Mt Veeder Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    food, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+541. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+542. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+543. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+544. Veeder Hills Vineyard
+   Address:  1445 Mt Veeder Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    vineyard, farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+545. Family Philanthropy Advisors
+   Address:  4444 Redwood Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    consultant, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+546. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+547. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+548. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+549. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+550. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+551. Anthem Winery and Vineyards
+   Address:  3454 Redwood Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    winery, farm, point_of_interest, service, food, manufacturer, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+552. Bakery La Mejor
+   Address:  1275 Orchard Ave, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    bakery, point_of_interest, food_store, food, store, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+553. Left Bank Farms
+   Address:  3260 Redwood Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    farm, point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+554. Marshall Architecture & Design
+   Address:  3123 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    point_of_interest, service, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+555. Dr. Russell H. Lee, DDS
+   Address:  3277 Dry Creek Rd, Napa, CA 94558, USA
+   Rating:   None (None reviews)
+   Types:    dentist, health, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+556. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+557. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+558. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+559. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+560. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+561. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+562. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+563. Napa County
+   Address:  California 94558, USA
+   Rating:   None (None reviews)
+   Types:    lake, natural_feature, establishment
+   Sources:  GoogleMapsAPI_nearby_search
+
+564. Vineyard and Winery (San Francisco Solano Mission Vineyard) (California Historical Landmark #739)
+   Address:  394 4th St E, Sonoma, CA 95476, USA
+   Rating:   None (None reviews)
+   Types:    historical_landmark, historical_place, point_of_interest, establishment
+   Sources:  GoogleMapsAPI_text_search
