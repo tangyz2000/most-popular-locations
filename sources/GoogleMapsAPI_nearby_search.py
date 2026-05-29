@@ -124,7 +124,7 @@ def _search_nearby(lat: float, lng: float, radius_meters: float, type_filter: di
                 "radius": min(radius_meters, MAX_RADIUS_METERS),
             }
         },
-        "excludedTypes": list(EXCLUDED_TYPES),
+        "excludedPrimaryTypes": list(EXCLUDED_TYPES),
         "rankPreference": "POPULARITY",
         "maxResultCount": 20,
     }

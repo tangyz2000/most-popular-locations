@@ -7,6 +7,7 @@ def normalize(place: dict) -> dict:
         "rating": place.get("rating"),
         "rating_count": place.get("userRatingCount"),
         "types": place.get("types", []),
+        "primary_type": place.get("primaryType", ""),
         "lat": location.get("latitude"),
         "lng": location.get("longitude"),
     }

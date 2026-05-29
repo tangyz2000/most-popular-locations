@@ -424,7 +424,7 @@ def render_explorer():
     all_types = sorted({t for p in places for t in (p.get("types") or [])})
 
     search_query = st.text_input("Search by name", placeholder="e.g. park, museum, cafe...")
-    col_min, col_inc, col_exc = st.columns([1, 2, 2])
+    col_min, col_rating, col_inc, col_exc = st.columns([1, 1, 2, 2])
     with col_min:
         log_options = [0] + sorted(set(int(v) for v in np.geomspace(1, all_review_max, num=300)))
         default_min = min(log_options, key=lambda x: abs(x - median_reviews))
@@ -432,6 +432,8 @@ def render_explorer():
             "Min reviews", options=log_options, value=default_min,
             format_func=lambda x: f"{x:,}",
         )
+    with col_rating:
+        min_rating = st.slider("Min rating", min_value=3.0, max_value=5.0, value=3.0, step=0.1)
     selected_types = col_inc.multiselect("Filter by type", all_types, placeholder="All types")
     excluded_types = col_exc.multiselect("Exclude type", all_types, placeholder="None excluded")
     only_in_boundary = st.checkbox("Within boundary only", value=False)
@@ -448,6 +450,8 @@ def render_explorer():
         exclude_set = set(excluded_types)
         filtered = [p for p in filtered if not exclude_set.intersection(p.get("types") or [])]
     filtered = [p for p in filtered if (p.get("rating_count") or 0) >= min_reviews]
+    if min_rating > 3.0:
+        filtered = [p for p in filtered if (p.get("rating") or 0) >= min_rating]
     if only_in_boundary and h3_boundary_poly is not None:
         filtered = [
             p for p in filtered
@@ -461,6 +465,7 @@ def render_explorer():
     # ── Data-change detection ──
     filter_key = (
         min_reviews,
+        min_rating,
         tuple(sorted(selected_types)),
         tuple(sorted(excluded_types)),
         search_query,

@@ -23,7 +23,7 @@ def fetch(lat: float, lng: float, radius_meters: float) -> list[dict]:
         city_name = city.get("displayName", {}).get("text", "unknown")
         print(f"[TextSearch] {city_name} ({loc['latitude']:.4f}, {loc['longitude']:.4f})")
         results = _search_text(loc["latitude"], loc["longitude"], radius_meters)
-        places.extend(p for p in results if not EXCLUDED_TYPES.intersection(p.get("types", [])))
+        places.extend(p for p in results if p.get("primary_type") not in EXCLUDED_TYPES)
     return places
 
 

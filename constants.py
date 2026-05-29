@@ -46,7 +46,7 @@ DENSE_AREA_MIN_RATING_COUNT = 500  # minimum review count at that rank
 MAX_SUBDIVISION_DEPTH = 2
 
 # Shared field mask for place results returned by both sources.
-PLACE_FIELD_MASK = "places.id,places.displayName,places.formattedAddress,places.rating,places.userRatingCount,places.types,places.location"
+PLACE_FIELD_MASK = "places.id,places.displayName,places.formattedAddress,places.rating,places.userRatingCount,places.types,places.primaryType,places.location"
 
 # Type-specific sweep groups run at base H3 resolution alongside the generic search.
 # Splitting into cohesive groups keeps the popularity ranking meaningful within
