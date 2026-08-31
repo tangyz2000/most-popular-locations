@@ -1,11 +1,9 @@
 import math
-import time
 
 import h3
-import httpx
 
 import api_stats
-from sources.utils import normalize
+from sources.utils import normalize, post_with_retry
 from constants import (
     API_KEY,
     CULTURE_AND_LANDMARK_TYPES,
@@ -135,11 +133,6 @@ def _search_nearby(lat: float, lng: float, radius_meters: float, type_filter: di
         "X-Goog-Api-Key": API_KEY,
         "X-Goog-FieldMask": PLACE_FIELD_MASK,
     }
-    for attempt in range(3):
-        response = httpx.post(NEARBY_SEARCH_URL, json=payload, headers=headers)
-        if response.status_code < 500:
-            break
-        print(f"[NearbySearch] {response.status_code} error (attempt {attempt + 1}): {response.text}")
-        time.sleep(2 ** attempt)
+    response = post_with_retry(NEARBY_SEARCH_URL, json=payload, headers=headers, label="NearbySearch")
     response.raise_for_status()
     return [normalize(p) for p in response.json().get("places", [])]

@@ -85,6 +85,16 @@ def star_rating(r: float | None) -> str:
     return f"★ {r:.1f}"
 
 
+def haversine_m(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
+    """Great-circle distance in meters between two (lat, lng) points."""
+    R = 6_371_000
+    lat1_r, lat2_r = math.radians(lat1), math.radians(lat2)
+    dlat = math.radians(lat2 - lat1)
+    dlng = math.radians(lng2 - lng1)
+    a = math.sin(dlat / 2) ** 2 + math.cos(lat1_r) * math.cos(lat2_r) * math.sin(dlng / 2) ** 2
+    return 2 * R * math.asin(math.sqrt(a))
+
+
 def h3_grid_boundary(center_lat: float, center_lng: float, radius_m: int) -> Polygon:
     """Return a Shapely polygon of the actual H3 grid used for searching."""
     center_cell = h3.latlng_to_cell(center_lat, center_lng, H3_RESOLUTION)
@@ -423,8 +433,13 @@ def render_explorer():
     median_reviews = all_review_counts[len(all_review_counts) // 2] if all_review_counts else 0
     all_types = sorted({t for p in places for t in (p.get("types") or [])})
 
+    max_radius = max(
+        (m["radius_meters"] for m in city_metas if isinstance(m["radius_meters"], int)),
+        default=0,
+    )
+
     search_query = st.text_input("Search by name", placeholder="e.g. park, museum, cafe...")
-    col_min, col_rating, col_inc, col_exc = st.columns([1, 1, 2, 2])
+    col_min, col_rating, col_dist, col_inc, col_exc = st.columns([1, 1, 1, 2, 2])
     with col_min:
         log_options = [0] + sorted(set(int(v) for v in np.geomspace(1, all_review_max, num=300)))
         default_min = min(log_options, key=lambda x: abs(x - median_reviews))
@@ -434,6 +449,14 @@ def render_explorer():
         )
     with col_rating:
         min_rating = st.slider("Min rating", min_value=3.0, max_value=5.0, value=3.0, step=0.1)
+    with col_dist:
+        if max_radius > 0:
+            max_distance = st.slider(
+                "Max distance (m)", min_value=0, max_value=max_radius,
+                value=max_radius, step=100,
+            )
+        else:
+            max_distance = 0
     selected_types = col_inc.multiselect("Filter by type", all_types, placeholder="All types")
     excluded_types = col_exc.multiselect("Exclude type", all_types, placeholder="None excluded")
     only_in_boundary = st.checkbox("Within boundary only", value=False)
@@ -452,6 +475,17 @@ def render_explorer():
     filtered = [p for p in filtered if (p.get("rating_count") or 0) >= min_reviews]
     if min_rating > 3.0:
         filtered = [p for p in filtered if (p.get("rating") or 0) >= min_rating]
+    if max_radius > 0 and max_distance < max_radius:
+        centers = [
+            (m["center_lat"], m["center_lng"]) for m in city_metas
+            if m["center_lat"] is not None and m["center_lng"] is not None
+        ]
+        if centers:
+            filtered = [
+                p for p in filtered
+                if p.get("lat") is not None and p.get("lng") is not None
+                and min(haversine_m(p["lat"], p["lng"], c_lat, c_lng) for c_lat, c_lng in centers) <= max_distance
+            ]
     if only_in_boundary and h3_boundary_poly is not None:
         filtered = [
             p for p in filtered
@@ -466,6 +500,7 @@ def render_explorer():
     filter_key = (
         min_reviews,
         min_rating,
+        max_distance,
         tuple(sorted(selected_types)),
         tuple(sorted(excluded_types)),
         search_query,
@@ -527,10 +562,12 @@ def render_explorer():
         rows = []
         for rank, p in enumerate(filtered, 1):
             rc = p.get("rating_count") or 0
+            name = p.get("name") or "—"
             rows.append({
-                "__name": p.get("name", "—"),
+                "__name": name,
+                "__query": ", ".join(filter(None, [p.get("name"), p.get("address")])),
                 "Rank": rank,
-                "Name": p.get("name", "—"),
+                "Name": name,
                 "Rating": star_rating(p.get("rating")),
                 "Reviews": f"{rc:,}" if rc else "—",
                 "Types": ", ".join((p.get("types") or [])[:MAX_TYPES_SHOWN]),

@@ -86,6 +86,12 @@
         th:nth-child(4), td:nth-child(4) { text-align: right; }
         td:nth-child(5) { color: var(--text-muted); font-size: 13px; }
 
+        /* Name column anchor — middle-click opens Google Maps in a
+           background tab (native browser gesture). Left-click is
+           intercepted in JS and only toggles the row. */
+        a.name-link { color: inherit; text-decoration: none; }
+        a.name-link:hover { color: var(--indicator); text-decoration: underline; }
+
         /* Empty state */
         .empty { padding: 32px 16px; text-align: center; color: var(--text-muted); }
 
@@ -190,14 +196,25 @@
             }
             h += "</tr></thead><tbody>";
 
+            var nameColIdx = columns.indexOf("Name");
             for (var ri = 0; ri < sorted.length; ri++) {
                 var row = sorted[ri];
                 var name = row.__name || "";
+                var query = row.__query || "";
                 var cls = selectedSet[name] ? "sel" : "";
-                h += '<tr class="' + cls + '" data-n="' + escAttr(name) + '">';
+                h += '<tr class="' + cls + '" data-n="' + escAttr(name)
+                   + '" data-q="' + escAttr(query) + '">';
                 for (var ci = 0; ci < columns.length; ci++) {
                     var v = row[columns[ci]];
-                    h += "<td>" + esc(v != null ? String(v) : "") + "</td>";
+                    var cellText = esc(v != null ? String(v) : "");
+                    if (ci === nameColIdx && query) {
+                        var mapsUrl = "https://www.google.com/maps/search/?api=1&query="
+                                    + encodeURIComponent(query);
+                        cellText = '<a class="name-link" href="' + escAttr(mapsUrl)
+                                 + '" target="_blank" rel="noopener noreferrer">'
+                                 + cellText + '</a>';
+                    }
+                    h += "<td>" + cellText + "</td>";
                 }
                 h += "</tr>";
             }
@@ -214,6 +231,15 @@
                     if (!tr) return;
                     var n = tr.getAttribute("data-n");
                     if (!n) return;
+
+                    /* Left-click on the Name anchor: suppress navigation so the
+                       row-select behavior takes over. Middle-click doesn't fire
+                       "click" (only "auxclick"), so this doesn't affect the
+                       middle-click background-tab open. */
+                    if (e.target.closest("a.name-link")) {
+                        e.preventDefault();
+                    }
+
                     if (selectedSet[n]) {
                         delete selectedSet[n];
                         tr.classList.remove("sel");

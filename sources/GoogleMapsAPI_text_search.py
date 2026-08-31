@@ -1,7 +1,5 @@
-import httpx
-
 import api_stats
-from sources.utils import normalize
+from sources.utils import normalize, post_with_retry
 from constants import (
     API_KEY,
     CITY_DISCOVERY_RADIUS_M,
@@ -45,7 +43,7 @@ def _get_nearby_cities(lat: float, lng: float, radius_meters: float = CITY_DISCO
         "X-Goog-Api-Key": API_KEY,
         "X-Goog-FieldMask": "places.id,places.displayName,places.location",
     }
-    response = httpx.post(NEARBY_SEARCH_URL, json=payload, headers=headers)
+    response = post_with_retry(NEARBY_SEARCH_URL, json=payload, headers=headers, label="TextSearch/cities")
     response.raise_for_status()
     places = response.json().get("places", [])
     print(f"[TextSearch] Found {len(places)} nearby cities")
@@ -85,7 +83,7 @@ def _search_text(lat: float, lng: float, radius_meters: float) -> list[dict]:
         if page_token:
             payload["pageToken"] = page_token
 
-        response = httpx.post(TEXT_SEARCH_URL, json=payload, headers=headers)
+        response = post_with_retry(TEXT_SEARCH_URL, json=payload, headers=headers, label="TextSearch")
         response.raise_for_status()
         data = response.json()
         raw_places.extend(data.get("places", []))

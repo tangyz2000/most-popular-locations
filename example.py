@@ -1,3 +1,8 @@
+import sys
+
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 import json
 import shutil
 from pathlib import Path
@@ -61,8 +66,8 @@ def get_popular_places(lat: float, lng: float, radius_meters: float) -> list[dic
 
 
 def main():
-    city = "San Jose"
-    radius_meters = 8000
+    city = "Tokyo"
+    radius_meters = 15000
     output_file = "results.txt"
 
     center_lat, center_lng = get_coordinates(city)

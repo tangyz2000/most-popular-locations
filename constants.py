@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = os.getenv("YIFAN_GOOGLE_PLACES_API_KEY")
+API_KEY = os.getenv("GOOGLE_PLACES_API_KEY")
 
 GEOCODING_URL = "https://maps.googleapis.com/maps/api/geocode/json"
 NEARBY_SEARCH_URL = "https://places.googleapis.com/v1/places:searchNearby"
